@@ -1,0 +1,989 @@
+D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS3
+
+Top level modules:
+	RealTankSoCBusDecS3
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_controller.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_controller.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_controller
+
+Top level modules:
+	spi_master_controller
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_clkgen.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_clkgen.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_clkgen
+
+Top level modules:
+	spi_master_clkgen
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/LCD_ini.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/LCD_ini.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module LCD_ini
+
+Top level modules:
+	LCD_ini
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Tube/DigSel.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Tube/DigSel.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module DigSel
+
+Top level modules:
+	DigSel
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/cortexm0ds_logic.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/cortexm0ds_logic.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cortexm0ds_logic
+
+Top level modules:
+	cortexm0ds_logic
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/differentiator01.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/differentiator01.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module differentiator
+
+Top level modules:
+	differentiator
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM3
+
+Top level modules:
+	RealTankSoCBusArbM3
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_reader.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_reader.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module SNR_reader
+
+Top level modules:
+	SNR_reader
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/Block_ROM_init_data.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/Block_ROM_init_data.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Block_ROM_init_data
+
+Top level modules:
+	Block_ROM_init_data
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusMtx_default_slave
+
+Top level modules:
+	RealTankSoCBusMtx_default_slave
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/TunePWM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/TunePWM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module TunePWM
+
+Top level modules:
+	TunePWM
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS0
+
+Top level modules:
+	RealTankSoCBusDecS0
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Printer
+
+Top level modules:
+	Printer
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TunePWM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TunePWM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module TunePWM
+
+Top level modules:
+	TunePWM
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Tube/APBTube.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Tube/APBTube.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module APBTube
+
+Top level modules:
+	APBTube
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM3
+
+Top level modules:
+	RealTankSoCBusOutM3
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_apb_if.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_apb_if.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_apb_if
+
+Top level modules:
+	spi_master_apb_if
+
+} {} {}} D:/Project/anlogic/SDR_transmit/td/al_ip/PLL.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/td/al_ip/PLL.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module PLL
+
+Top level modules:
+	PLL
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Block_RAM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Block_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Block_RAM
+
+Top level modules:
+	Block_RAM
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/TuneDecoder.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/TuneDecoder.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module TuneDecoder
+
+Top level modules:
+	TuneDecoder
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/AHB_FIFO_Interface.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/AHB_FIFO_Interface.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module AHB_FIFO_Interface
+
+Top level modules:
+	AHB_FIFO_Interface
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/AHB_FIFO_Interface.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/AHB_FIFO_Interface.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module AHB_FIFO_Interface
+
+Top level modules:
+	AHB_FIFO_Interface
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Tube/ClkDiv.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Tube/ClkDiv.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module ClkDiv
+
+Top level modules:
+	ClkDiv
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_interface.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_interface.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RSSI_APB_interface
+
+Top level modules:
+	RSSI_APB_interface
+
+} {} {}} D:/Project/anlogic/SDR/rtl/filter.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/filter.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module filter
+
+Top level modules:
+	filter
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/filter.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/filter.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module filter
+
+Top level modules:
+	filter
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM3
+
+Top level modules:
+	RealTankSoCBusArbM3
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM0
+
+Top level modules:
+	RealTankSoCBusOutM0
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/Block_ROM_init_sign.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/Block_ROM_init_sign.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Block_ROM_init_sign
+
+Top level modules:
+	Block_ROM_init_sign
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/I2C/apb.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/I2C/apb.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module apb
+
+Top level modules:
+	apb
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Tube/SSeg.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Tube/SSeg.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module SSeg
+
+Top level modules:
+	SSeg
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS0
+
+Top level modules:
+	RealTankSoCBusDecS0
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusIn
+
+Top level modules:
+	RealTankSoCBusIn
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_data.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_data.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Block_ROM_init_data
+
+Top level modules:
+	Block_ROM_init_data
+
+} {} {}} D:/Project/anlogic/SDR/rtl/AHBlite_Block_RAM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/AHBlite_Block_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module AHBlite_Block_RAM
+
+Top level modules:
+	AHBlite_Block_RAM
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB/cmsdk_ahb_to_apb.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/APB/cmsdk_ahb_to_apb.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cmsdk_ahb_to_apb
+
+Top level modules:
+	cmsdk_ahb_to_apb
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Keyboard/KeyToCol.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Keyboard/KeyToCol.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module KeyToCol
+
+Top level modules:
+	KeyToCol
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/BeatDecoder.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/BeatDecoder.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BeatDecoder
+
+Top level modules:
+	BeatDecoder
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusMtx
+
+Top level modules:
+	RealTankSoCBusMtx
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/BuzzerCtr.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/BuzzerCtr.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BuzzerCtr
+
+Top level modules:
+	BuzzerCtr
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM0
+
+Top level modules:
+	RealTankSoCBusArbM0
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/BDMA.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/BDMA.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BDMA
+
+Top level modules:
+	BDMA
+
+} {} {}} D:/Project/anlogic/SDR/rtl/FIFO_synq.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/FIFO_synq.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module FIFO_synq
+
+Top level modules:
+	FIFO_synq
+
+} {} {}} D:/Project/anlogic/SDR/rtl/testbench/testbench.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/testbench/testbench.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM0
+
+Top level modules:
+	RealTankSoCBusOutM0
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_reader.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_reader.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RSSI_reader
+
+Top level modules:
+	RSSI_reader
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_sign.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_sign.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Block_ROM_init_sign
+
+Top level modules:
+	Block_ROM_init_sign
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/APB_BDMAC.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/APB_BDMAC.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module APB_BDMAC
+
+Top level modules:
+	APB_BDMAC
+
+} {} {}} D:/Project/anlogic/SDR/rtl/UART/cmsdk_apb_uart.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/UART/cmsdk_apb_uart.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cmsdk_apb_uart
+
+Top level modules:
+	cmsdk_apb_uart
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS1
+
+Top level modules:
+	RealTankSoCBusDecS1
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM0
+
+Top level modules:
+	RealTankSoCBusArbM0
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/I2C/i2c.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/I2C/i2c.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module i2c
+
+Top level modules:
+	i2c
+
+} {} {}} D:/Project/anlogic/SDR/rtl/SDR_Pad.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/SDR_Pad.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module SDR_Pad
+
+Top level modules:
+	SDR_Pad
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Interface_9341.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Interface_9341.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Interface_9341
+
+Top level modules:
+	Interface_9341
+
+} {} {}} D:/TD/arch/eagle_macro.v {1 {vlog -work work -vopt -stats=none D:/TD/arch/eagle_macro.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module EG_LOGIC_BUF
+-- Compiling module EG_LOGIC_BUFG
+-- Compiling module EG_LOGIC_BUFIO
+-- Compiling module EG_LOGIC_BUFGMUX
+-- Compiling module EG_LOGIC_MBOOT
+-- Compiling module EG_LOGIC_DNA
+-- Compiling module EG_LOGIC_GSRN
+-- Compiling module EG_LOGIC_CCLK
+-- Compiling module EG_LOGIC_IDELAY
+-- Compiling module EG_LOGIC_IDDR
+-- Compiling module EG_LOGIC_ODDR
+-- Compiling module EG_LOGIC_IDDRx2
+-- Compiling module EG_LOGIC_ODELAY
+-- Compiling module EG_LOGIC_ODDRx2
+-- Compiling module EG_LOGIC_ODDRx2l
+-- Compiling module EG_LOGIC_FIFO
+-- Compiling module EG_LOGIC_DRAM
+-- Compiling module EG_LOGIC_DRAM16X4
+-- Compiling module EG_LOGIC_MULT
+-- Compiling module EG_LOGIC_SEQ_DIV
+-- Compiling module EG_PHY_BRAM
+-- Compiling module EG_PHY_BRAM32K
+-- Compiling module EG_PHY_FIFO
+-- Compiling module EG_PHY_MULT18
+-- Compiling module EG_PHY_GCLK
+-- Compiling module EG_PHY_IOCLK
+-- Compiling module EG_PHY_CLKDIV
+-- Compiling module EG_PHY_CONFIG
+-- Compiling module EG_PHY_OSC
+-- Compiling module EG_PHY_PWRMNT
+-- Compiling module EG_PHY_DDR_8M_16
+-- Compiling module EG_PHY_SDRAM_2M_32
+-- Compiling module EG_PHY_PAD
+-- Compiling module EG_LOGIC_RAMFIFO
+-- Compiling module EG_PHY_MSLICE
+-- Compiling module EG_PHY_LSLICE
+-- Compiling module EG_PHY_PLL
+-- Compiling module EG_PHY_CSB
+-- Compiling module EG_LOGIC_BRAM
+-- Compiling module EG_PHY_ADC
+
+Top level modules:
+	EG_LOGIC_BUF
+	EG_LOGIC_BUFG
+	EG_LOGIC_BUFIO
+	EG_LOGIC_BUFGMUX
+	EG_LOGIC_MBOOT
+	EG_LOGIC_DNA
+	EG_LOGIC_GSRN
+	EG_LOGIC_CCLK
+	EG_LOGIC_IDELAY
+	EG_LOGIC_IDDR
+	EG_LOGIC_ODDR
+	EG_LOGIC_IDDRx2
+	EG_LOGIC_ODELAY
+	EG_LOGIC_ODDRx2
+	EG_LOGIC_ODDRx2l
+	EG_LOGIC_FIFO
+	EG_LOGIC_DRAM
+	EG_LOGIC_DRAM16X4
+	EG_LOGIC_MULT
+	EG_LOGIC_SEQ_DIV
+	EG_PHY_BRAM
+	EG_PHY_BRAM32K
+	EG_PHY_FIFO
+	EG_PHY_MULT18
+	EG_PHY_GCLK
+	EG_PHY_IOCLK
+	EG_PHY_CLKDIV
+	EG_PHY_CONFIG
+	EG_PHY_OSC
+	EG_PHY_PWRMNT
+	EG_PHY_DDR_8M_16
+	EG_PHY_SDRAM_2M_32
+	EG_PHY_PAD
+	EG_LOGIC_RAMFIFO
+	EG_PHY_MSLICE
+	EG_PHY_LSLICE
+	EG_PHY_PLL
+	EG_PHY_CSB
+	EG_LOGIC_BRAM
+	EG_PHY_ADC
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/Printer_ctr.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/Printer_ctr.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Printer_ctr
+
+Top level modules:
+	Printer_ctr
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/Printer.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/Printer.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Printer
+
+Top level modules:
+	Printer
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMAC.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMAC.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BDMAC
+
+Top level modules:
+	BDMAC
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM1
+
+Top level modules:
+	RealTankSoCBusOutM1
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS1
+
+Top level modules:
+	RealTankSoCBusDecS1
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusMtx_default_slave
+
+Top level modules:
+	RealTankSoCBusMtx_default_slave
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_apb_if.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_apb_if.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_apb_if
+
+Top level modules:
+	spi_master_apb_if
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Tube/ClkDiv.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Tube/ClkDiv.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module ClkDiv
+
+Top level modules:
+	ClkDiv
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_rx.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_rx.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_rx
+
+Top level modules:
+	spi_master_rx
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/PWM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/PWM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module pwm
+
+Top level modules:
+	pwm
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BuzzerCtr.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BuzzerCtr.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BuzzerCtr
+
+Top level modules:
+	BuzzerCtr
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_tx.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_tx.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_tx
+
+Top level modules:
+	spi_master_tx
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM1
+
+Top level modules:
+	RealTankSoCBusArbM1
+
+} {} {}} D:/Project/anlogic/SDR/ANLOGIC/al_ip/ADC.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/ANLOGIC/al_ip/ADC.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module ADC
+
+Top level modules:
+	ADC
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM1
+
+Top level modules:
+	RealTankSoCBusOutM1
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB/cmsdk_apb_slave_mux.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/APB/cmsdk_apb_slave_mux.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cmsdk_apb_slave_mux
+
+Top level modules:
+	cmsdk_apb_slave_mux
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Timer.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Timer.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Timer
+
+Top level modules:
+	Timer
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer_ctr.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer_ctr.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Printer_ctr
+
+Top level modules:
+	Printer_ctr
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Tube/SSeg.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Tube/SSeg.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module SSeg
+
+Top level modules:
+	SSeg
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_rx.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_rx.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_rx
+
+Top level modules:
+	spi_master_rx
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusMtx
+
+Top level modules:
+	RealTankSoCBusMtx
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/AHBlite_Block_RAM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/AHBlite_Block_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module AHBlite_Block_RAM
+
+Top level modules:
+	AHBlite_Block_RAM
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/APB_BDMAC.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/APB_BDMAC.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module APB_BDMAC
+
+Top level modules:
+	APB_BDMAC
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module apb_spi_master
+
+Top level modules:
+	apb_spi_master
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TuneDecoder.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TuneDecoder.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module TuneDecoder
+
+Top level modules:
+	TuneDecoder
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS2
+
+Top level modules:
+	RealTankSoCBusDecS2
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_tx.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_tx.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_tx
+
+Top level modules:
+	spi_master_tx
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_clkgen.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_clkgen.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_clkgen
+
+Top level modules:
+	spi_master_clkgen
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM1
+
+Top level modules:
+	RealTankSoCBusArbM1
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/apb_spi_master.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/apb_spi_master.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module apb_spi_master
+
+Top level modules:
+	apb_spi_master
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/FIFO_synq.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/FIFO_synq.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module FIFO_synq
+
+Top level modules:
+	FIFO_synq
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusMtx_lite
+
+Top level modules:
+	RealTankSoCBusMtx_lite
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/BDMAC.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/BDMAC.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BDMAC
+
+Top level modules:
+	BDMAC
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/LCD_ini.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/LCD_ini.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module LCD_ini
+
+Top level modules:
+	LCD_ini
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Tube/DigSel.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Tube/DigSel.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module DigSel
+
+Top level modules:
+	DigSel
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Timer.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Timer.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Timer
+
+Top level modules:
+	Timer
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Block_RAM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Block_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Block_RAM
+
+Top level modules:
+	Block_RAM
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_apb_slave_mux.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_apb_slave_mux.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cmsdk_apb_slave_mux
+
+Top level modules:
+	cmsdk_apb_slave_mux
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusIn
+
+Top level modules:
+	RealTankSoCBusIn
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM2
+
+Top level modules:
+	RealTankSoCBusOutM2
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS2
+
+Top level modules:
+	RealTankSoCBusDecS2
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatDecoder.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatDecoder.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BeatDecoder
+
+Top level modules:
+	BeatDecoder
+
+} {} {}} D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_fifo.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR/rtl/APB_SPI_MASTER/spi_master_fifo.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_fifo
+
+Top level modules:
+	spi_master_fifo
+
+} {} {}} D:/Project/anlogic/SDR/rtl/cortexm0ds_logic.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/cortexm0ds_logic.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cortexm0ds_logic
+
+Top level modules:
+	cortexm0ds_logic
+
+} {} {}} D:/Project/anlogic/SDR/rtl/differentiator01.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/differentiator01.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module differentiator
+
+Top level modules:
+	differentiator
+
+} {} {}} D:/Project/anlogic/SDR/ANLOGIC/al_ip/PLL.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/ANLOGIC/al_ip/PLL.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module PLL
+
+Top level modules:
+	PLL
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM2
+
+Top level modules:
+	RealTankSoCBusArbM2
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM2
+
+Top level modules:
+	RealTankSoCBusOutM2
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Keyboard/KeyToCol.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Keyboard/KeyToCol.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module KeyToCol
+
+Top level modules:
+	KeyToCol
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/BeatCnt.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/BeatCnt.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BeatCnt
+
+Top level modules:
+	BeatCnt
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatCnt.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatCnt.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BeatCnt
+
+Top level modules:
+	BeatCnt
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Tube/APBTube.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Tube/APBTube.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module APBTube
+
+Top level modules:
+	APBTube
+
+} {} {}} D:/Project/anlogic/SDR_transmit/td/al_ip/ADC.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/td/al_ip/ADC.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module ADC
+
+Top level modules:
+	ADC
+
+} {} {}} D:/Project/anlogic/SDR/rtl/PWM.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/PWM.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module pwm
+
+Top level modules:
+	pwm
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/Buzzer.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/Buzzer.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Buzzer
+
+Top level modules:
+	Buzzer
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Keyboard/APB_Keyboard.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Keyboard/APB_Keyboard.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module APB_Keyboard
+
+Top level modules:
+	APB_Keyboard
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusDecS3
+
+Top level modules:
+	RealTankSoCBusDecS3
+
+} {} {}} D:/Project/anlogic/SDR/rtl/LCD_printer/Interface_9341.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/LCD_printer/Interface_9341.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Interface_9341
+
+Top level modules:
+	Interface_9341
+
+} {} {}} D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusArbM2
+
+Top level modules:
+	RealTankSoCBusArbM2
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_controller.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_controller.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_controller
+
+Top level modules:
+	spi_master_controller
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_fifo.sv {1 {vlog -work work -vopt -sv -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_fifo.sv
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module spi_master_fifo
+
+Top level modules:
+	spi_master_fifo
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMA.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMA.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module BDMA
+
+Top level modules:
+	BDMA
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_interface.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_interface.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module SNR_APB_interface
+
+Top level modules:
+	SNR_APB_interface
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/testbench/testbench.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/testbench/testbench.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/AddrCnt.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/AddrCnt.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module AddrCnt
+
+Top level modules:
+	AddrCnt
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusMtx_lite
+
+Top level modules:
+	RealTankSoCBusMtx_lite
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/I2C/module_i2c.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/I2C/module_i2c.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module module_i2c
+
+Top level modules:
+	module_i2c
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/Buzzer/AddrCnt.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/Buzzer/AddrCnt.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module AddrCnt
+
+Top level modules:
+	AddrCnt
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/I2C/fifo.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/I2C/fifo.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module fifo
+
+Top level modules:
+	fifo
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Keyboard/APB_Keyboard.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Keyboard/APB_Keyboard.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module APB_Keyboard
+
+Top level modules:
+	APB_Keyboard
+
+} {} {}} D:/Project/anlogic/SDR/rtl/Buzzer/Buzzer.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR/rtl/Buzzer/Buzzer.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module Buzzer
+
+Top level modules:
+	Buzzer
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_ahb_to_apb.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_ahb_to_apb.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cmsdk_ahb_to_apb
+
+Top level modules:
+	cmsdk_ahb_to_apb
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module RealTankSoCBusOutM3
+
+Top level modules:
+	RealTankSoCBusOutM3
+
+} {} {}} D:/Project/anlogic/SDR_transmit/rtl/UART/cmsdk_apb_uart.v {1 {vlog -work work -vopt -stats=none D:/Project/anlogic/SDR_transmit/rtl/UART/cmsdk_apb_uart.v
+Model Technology ModelSim SE-64 vlog 2019.4 Compiler 2019.10 Oct 15 2019
+-- Compiling module cmsdk_apb_uart
+
+Top level modules:
+	cmsdk_apb_uart
+
+} {} {}}

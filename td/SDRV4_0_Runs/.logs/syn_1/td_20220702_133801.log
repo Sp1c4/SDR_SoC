@@ -1,0 +1,1196 @@
+============================================================
+   Tang Dynasty, V5.6.53426
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/TD/bin/td.exe
+   Built at =   19:26:25 Jun 10 2022
+   Run by =     Teriia
+   Run Date =   Sat Jul  2 13:38:01 2022
+
+   Run on =     DESKTOP-ND05MAH
+============================================================
+RUN-1002 : start command "open_project SDRV4_0.prj"
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../../rtl/ip/fifo8in.v
+HDL-1007 : analyze verilog file ../../../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/APB/cmsdk_ahb_to_apb.v
+HDL-1007 : analyze verilog file ../../../rtl/APB/cmsdk_apb_slave_mux.v
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/apb_spi_master.sv
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/spi_master_apb_if.sv
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/spi_master_clkgen.sv
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/spi_master_controller.sv
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/spi_master_fifo.sv
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/spi_master_rx.sv
+HDL-1007 : analyze verilog file ../../../rtl/APB_SPI_MASTER/spi_master_tx.sv
+HDL-1007 : analyze verilog file ../../../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/APB_BDMAC.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/AddrCnt.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/BDMA.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/BeatCnt.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/BeatDecoder.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/Buzzer.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/BuzzerCtr.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/TuneDecoder.v
+HDL-1007 : analyze verilog file ../../../rtl/Buzzer/TunePWM.v
+HDL-1007 : analyze verilog file ../../../rtl/FIFO_synq.v
+HDL-1007 : analyze verilog file ../../../rtl/I2C/apb.v
+HDL-1007 : analyze verilog file ../../../rtl/I2C/fifo.v
+HDL-1007 : analyze verilog file ../../../rtl/I2C/i2c.v
+HDL-1007 : analyze verilog file ../../../rtl/I2C/module_i2c.v
+HDL-1007 : analyze verilog file ../../../rtl/Keyboard/APB_Keyboard.v
+HDL-1007 : analyze verilog file ../../../rtl/Keyboard/KeyToCol.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/AHB_FIFO_Interface.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/Block_ROM_init_data.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/Block_ROM_init_sign.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/Interface_9341.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/LCD_ini.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/Printer.v
+HDL-1007 : analyze verilog file ../../../rtl/LCD_printer/Printer_ctr.v
+HDL-1007 : analyze verilog file ../../../rtl/PWM.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v
+HDL-5007 WARNING: macro 'TRN_IDLE' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(117)
+HDL-5007 WARNING: macro 'TRN_BUSY' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(118)
+HDL-5007 WARNING: macro 'TRN_NONSEQ' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(119)
+HDL-5007 WARNING: macro 'TRN_SEQ' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(120)
+HDL-5007 WARNING: macro 'BUR_SINGLE' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(123)
+HDL-5007 WARNING: macro 'BUR_INCR' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(124)
+HDL-5007 WARNING: macro 'BUR_WRAP4' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(125)
+HDL-5007 WARNING: macro 'BUR_INCR4' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(126)
+HDL-5007 WARNING: macro 'BUR_WRAP8' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(127)
+HDL-5007 WARNING: macro 'BUR_INCR8' is redefined in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(128)
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v
+HDL-1007 : analyze verilog file ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v
+HDL-1007 : analyze verilog file ../../../rtl/SDR_Pad.v
+HDL-1007 : undeclared symbol 'BDMAC_READY', assumed default net type 'wire' in ../../../rtl/SDR_Pad.v(696)
+HDL-1007 : undeclared symbol 'clk_lock', assumed default net type 'wire' in ../../../rtl/SDR_Pad.v(1158)
+HDL-1007 : analyze verilog file ../../../rtl/SNR/SNR_interface.v
+HDL-1007 : undeclared symbol 'apb_read', assumed default net type 'wire' in ../../../rtl/SNR/SNR_interface.v(23)
+HDL-1007 : analyze verilog file ../../../rtl/SNR/SNR_reader.v
+HDL-1007 : analyze verilog file ../../../rtl/Timer.v
+HDL-1007 : analyze verilog file ../../../rtl/Tube/APBTube.v
+HDL-1007 : analyze verilog file ../../../rtl/Tube/ClkDiv.v
+HDL-1007 : analyze verilog file ../../../rtl/Tube/DigSel.v
+HDL-1007 : analyze verilog file ../../../rtl/Tube/SSeg.v
+HDL-1007 : analyze verilog file ../../../rtl/UART/cmsdk_apb_uart.v
+HDL-1007 : analyze verilog file ../../../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../../../rtl/differentiator01.v
+HDL-1007 : analyze verilog file ../../../rtl/filter.v
+HDL-1007 : analyze verilog file ../../../rtl/tune_detector/RSSI_interface.v
+HDL-1007 : analyze verilog file ../../../rtl/tune_detector/RSSI_reader.v
+HDL-1007 : analyze verilog file ../../../rtl/ip/ADC.v
+HDL-1007 : analyze verilog file ../../../rtl/ip/PLL.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../rtl/ip/PLL.v(96)
+HDL-1007 : analyze verilog file ../../../rtl/ethernet/CRC32_D8.v
+HDL-1007 : analyze verilog file ../../../rtl/ethernet/Ethernet_TX.v
+HDL-1007 : analyze verilog file ../../../rtl/ethernet/apb_ethernet.v
+HDL-1007 : analyze verilog file ../../../rtl/ethernet/ethernet.v
+HDL-1007 : analyze verilog file ../../../rtl/ethernet/gmii2rgmii.v
+HDL-1007 : analyze verilog file ../../../rtl/ip/iddr.v
+HDL-1007 : analyze verilog file ../../../rtl/ip/oddr.v
+HDL-1007 : analyze verilog file ../../../rtl/ethernet/counter_test.v
+RUN-1001 : Project manager successfully analyzed 75 source files.
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "elaborate -top SDR_Pad"
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in ../../../rtl/SDR_Pad.v(120)
+HDL-1007 : elaborate module SDR_Pad in ../../../rtl/SDR_Pad.v(1)
+HDL-1007 : elaborate module cortexm0ds_logic in ../../../rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module RealTankSoCBusMtx in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(49)
+HDL-1007 : elaborate module RealTankSoCBusIn in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v(32)
+HDL-1007 : elaborate module RealTankSoCBusDecS0 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v(36)
+HDL-1007 : elaborate module RealTankSoCBusMtx_default_slave in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v(31)
+HDL-1007 : elaborate module RealTankSoCBusDecS1 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v(36)
+HDL-1007 : elaborate module RealTankSoCBusDecS2 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v(36)
+HDL-1007 : elaborate module RealTankSoCBusDecS3 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v(36)
+HDL-1007 : elaborate module RealTankSoCBusOutM0 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v(35)
+HDL-1007 : elaborate module RealTankSoCBusArbM0 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v(35)
+HDL-1007 : elaborate module RealTankSoCBusOutM1 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v(38)
+HDL-1007 : elaborate module RealTankSoCBusArbM1 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v(39)
+HDL-1007 : elaborate module RealTankSoCBusOutM2 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v(38)
+HDL-1007 : elaborate module RealTankSoCBusArbM2 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v(39)
+HDL-1007 : elaborate module RealTankSoCBusOutM3 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v(38)
+HDL-1007 : elaborate module RealTankSoCBusArbM3 in ../../../rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v(39)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESPS0' in ../../../rtl/SDR_Pad.v(284)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESPM2' in ../../../rtl/SDR_Pad.v(398)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESPM3' in ../../../rtl/SDR_Pad.v(417)
+HDL-1007 : elaborate module cmsdk_ahb_to_apb(REGISTER_RDATA=0) in ../../../rtl/APB/cmsdk_ahb_to_apb.v(31)
+HDL-1007 : elaborate module cmsdk_apb_slave_mux(PORT10_ENABLE=0,PORT11_ENABLE=0,PORT12_ENABLE=0,PORT13_ENABLE=0,PORT14_ENABLE=0,PORT15_ENABLE=0) in ../../../rtl/APB/cmsdk_apb_slave_mux.v(26)
+HDL-1007 : elaborate module Buzzer(isAHB=0) in ../../../rtl/Buzzer/Buzzer.v(1)
+HDL-1007 : elaborate module APB_BDMAC in ../../../rtl/Buzzer/APB_BDMAC.v(1)
+HDL-1007 : elaborate module BuzzerCtr in ../../../rtl/Buzzer/BuzzerCtr.v(1)
+HDL-1007 : elaborate module BDMA in ../../../rtl/Buzzer/BDMA.v(1)
+HDL-1007 : elaborate module AddrCnt in ../../../rtl/Buzzer/AddrCnt.v(1)
+HDL-1007 : elaborate module BeatCnt in ../../../rtl/Buzzer/BeatCnt.v(1)
+HDL-1007 : elaborate module BeatDecoder in ../../../rtl/Buzzer/BeatDecoder.v(1)
+HDL-1007 : elaborate module TuneDecoder in ../../../rtl/Buzzer/TuneDecoder.v(1)
+HDL-1007 : elaborate module TunePWM in ../../../rtl/Buzzer/TunePWM.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in ../../../rtl/AHBlite_Block_RAM.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM(ADDR_WIDTH=10) in ../../../rtl/AHBlite_Block_RAM.v(1)
+HDL-1007 : elaborate module Block_RAM in ../../../rtl/Block_RAM.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/Block_RAM.v(12)
+HDL-1007 : elaborate module Block_RAM(ADDR_WIDTH=10) in ../../../rtl/Block_RAM.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/Block_RAM.v(12)
+HDL-7007 CRITICAL-WARNING: illegal entry at D:/Project/anlogic/SDRV4_1/keil/code.hex:1025 for index 1024 in range [0:1023] in ../../../rtl/Block_RAM.v(16)
+HDL-1007 : elaborate module APB_Keyboard in ../../../rtl/Keyboard/APB_Keyboard.v(1)
+HDL-1007 : elaborate module KeyToCol in ../../../rtl/Keyboard/KeyToCol.v(1)
+HDL-1007 : elaborate module AHB_FIFO_Interface in ../../../rtl/LCD_printer/AHB_FIFO_Interface.v(1)
+HDL-1007 : elaborate module FIFO_synq(width=32,depth=5) in ../../../rtl/FIFO_synq.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/FIFO_synq.v(9)
+HDL-1007 : elaborate module Printer in ../../../rtl/LCD_printer/Printer.v(1)
+HDL-1007 : elaborate module Printer_ctr in ../../../rtl/LCD_printer/Printer_ctr.v(1)
+HDL-1007 : elaborate module LCD_ini in ../../../rtl/LCD_printer/LCD_ini.v(1)
+HDL-1007 : elaborate module Block_ROM_init_data in ../../../rtl/LCD_printer/Block_ROM_init_data.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/LCD_printer/Block_ROM_init_data.v(9)
+HDL-5007 WARNING: net 'mem' does not have a driver in ../../../rtl/LCD_printer/Block_ROM_init_data.v(9)
+HDL-1007 : elaborate module Block_ROM_init_sign in ../../../rtl/LCD_printer/Block_ROM_init_sign.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/LCD_printer/Block_ROM_init_sign.v(9)
+HDL-7007 CRITICAL-WARNING: entry size 4 at D:/Project/anlogic/SDRV4_0/rtl/LCD_printer/sign.hex:0 does not match memory width 1 in ../../../rtl/LCD_printer/Block_ROM_init_sign.v(13)
+HDL-5007 WARNING: net 'mem' does not have a driver in ../../../rtl/LCD_printer/Block_ROM_init_sign.v(9)
+HDL-1007 : elaborate module FIFO_synq(width=17,depth=4) in ../../../rtl/FIFO_synq.v(1)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/FIFO_synq.v(9)
+HDL-1007 : elaborate module Interface_9341 in ../../../rtl/LCD_printer/Interface_9341.v(1)
+HDL-1007 : elaborate module Timer in ../../../rtl/Timer.v(1)
+HDL-1007 : elaborate module cmsdk_apb_uart in ../../../rtl/UART/cmsdk_apb_uart.v(53)
+HDL-1007 : elaborate module apb_spi_master in ../../../rtl/APB_SPI_MASTER/apb_spi_master.sv(13)
+HDL-1007 : elaborate module spi_master_apb_if in ../../../rtl/APB_SPI_MASTER/spi_master_apb_if.sv(24)
+HDL-1007 : elaborate module spi_master_fifo(BUFFER_DEPTH=10) in ../../../rtl/APB_SPI_MASTER/spi_master_fifo.sv(13)
+HDL-1007 : elaborate module spi_master_controller in ../../../rtl/APB_SPI_MASTER/spi_master_controller.sv(15)
+HDL-1007 : elaborate module spi_master_clkgen in ../../../rtl/APB_SPI_MASTER/spi_master_clkgen.sv(11)
+HDL-1007 : elaborate module spi_master_tx in ../../../rtl/APB_SPI_MASTER/spi_master_tx.sv(11)
+HDL-1007 : elaborate module spi_master_rx in ../../../rtl/APB_SPI_MASTER/spi_master_rx.sv(11)
+HDL-1007 : elaborate module RSSI_APB_interface in ../../../rtl/tune_detector/RSSI_interface.v(1)
+HDL-1007 : elaborate module RSSI_reader in ../../../rtl/tune_detector/RSSI_reader.v(1)
+HDL-1007 : elaborate module SNR_APB_interface in ../../../rtl/SNR/SNR_interface.v(1)
+HDL-1007 : elaborate module SNR_reader in ../../../rtl/SNR/SNR_reader.v(1)
+HDL-1007 : elaborate module APBTube in ../../../rtl/Tube/APBTube.v(1)
+HDL-1007 : elaborate module ClkDiv in ../../../rtl/Tube/ClkDiv.v(1)
+HDL-1007 : elaborate module DigSel in ../../../rtl/Tube/DigSel.v(1)
+HDL-1007 : elaborate module SSeg in ../../../rtl/Tube/SSeg.v(1)
+HDL-1007 : elaborate module i2c in ../../../rtl/I2C/i2c.v(79)
+HDL-1007 : elaborate module i2c_fifo in ../../../rtl/I2C/fifo.v(76)
+HDL-1007 : extracting RAM for identifier 'mem' in ../../../rtl/I2C/fifo.v(90)
+HDL-5007 WARNING: latch inferred for net 'w_counter[3]' in ../../../rtl/I2C/fifo.v(154)
+HDL-1007 : elaborate module apb in ../../../rtl/I2C/apb.v(79)
+HDL-1007 : elaborate module module_i2c in ../../../rtl/I2C/module_i2c.v(80)
+HDL-1007 : elaborate module ADC in ../../../rtl/ip/ADC.v(14)
+HDL-1007 : elaborate module EG_PHY_ADC(CH4="ENABLE",CH6="ENABLE") in D:/TD/arch/eagle_macro.v(1073)
+HDL-1007 : elaborate module PLL in ../../../rtl/ip/PLL.v(26)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/TD/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=4,CLKC0_DIV=6,CLKC1_DIV=75,CLKC2_DIV=50,CLKC3_DIV=24,CLKC4_DIV=100,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",CLKC0_CPHASE=5,CLKC1_CPHASE=74,CLKC2_CPHASE=49,CLKC3_CPHASE=23,CLKC4_CPHASE=99,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/TD/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module pwm in ../../../rtl/PWM.v(1)
+HDL-1007 : elaborate module differentiator in ../../../rtl/differentiator01.v(1)
+HDL-1007 : elaborate module filter in ../../../rtl/filter.v(1)
+HDL-1007 : elaborate module apb_ethernet in ../../../rtl/ethernet/apb_ethernet.v(1)
+HDL-1007 : elaborate module ethernet in ../../../rtl/ethernet/ethernet.v(1)
+HDL-1007 : elaborate module Ethernet_TX in ../../../rtl/ethernet/Ethernet_TX.v(1)
+HDL-1007 : elaborate module CRC32_D8 in ../../../rtl/ethernet/CRC32_D8.v(19)
+HDL-1007 : elaborate module fifo8in in ../../../rtl/ip/fifo8in.v(14)
+HDL-1007 : elaborate module EG_LOGIC_FIFO(DATA_WIDTH_W=8,DATA_WIDTH_R=8,DATA_DEPTH_W=512,DATA_DEPTH_R=512,AF=10,F=512,ENDIAN="BIG") in D:/TD/arch/eagle_macro.v(142)
+HDL-1007 : elaborate module counter_test in ../../../rtl/ethernet/counter_test.v(1)
+HDL-1007 : elaborate module Gmii_to_Rgmii in ../../../rtl/ethernet/gmii2rgmii.v(1)
+HDL-1007 : elaborate module iddr in ../../../rtl/ip/iddr.v(14)
+HDL-1007 : elaborate module EG_LOGIC_IDDR in D:/TD/arch/eagle_macro.v(76)
+HDL-1007 : elaborate module oddr in ../../../rtl/ip/oddr.v(14)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:/TD/arch/eagle_macro.v(87)
+HDL-5007 WARNING: net 'BDMAC_PREADY' does not have a driver in ../../../rtl/SDR_Pad.v(490)
+HDL-5007 WARNING: net 'voice_cmd[7]' does not have a driver in ../../../rtl/SDR_Pad.v(1202)
+HDL-5007 WARNING: input port 'spi_sdi0' remains unconnected for this instance in ../../../rtl/SDR_Pad.v(980)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is SDR_Pad
+HDL-1100 : Inferred 7 RAMs.
+ARC-1002 : Mark IO location M12 as dedicate.
+ARC-1002 : Mark IO location P12 as dedicate.
+RUN-1003 : finish command "elaborate -top SDR_Pad" in  2.399575s wall, 2.250000s user + 0.140625s system = 2.390625s CPU (99.6%)
+
+RUN-1004 : used memory is 267 MB, reserved memory is 239 MB, peak memory is 576 MB
+RUN-1002 : start command "export_db SDRV4_0_elaborate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db SDRV4_0_elaborate.db" in  1.135680s wall, 1.578125s user + 0.062500s system = 1.640625s CPU (144.5%)
+
+RUN-1004 : used memory is 270 MB, reserved memory is 248 MB, peak memory is 576 MB
+RUN-1002 : start command "read_adc ../../../pin/pin_anlogic.adc"
+RUN-1002 : start command "set_pin_assignment  clk_in   LOCATION = R7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = A9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  col[0]   LOCATION = E11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  col[1]   LOCATION = D11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  col[2]   LOCATION = C11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  col[3]   LOCATION = F10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  row[0]   LOCATION = E10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  row[1]   LOCATION = C10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  row[2]   LOCATION = F9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  row[3]   LOCATION = D9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_CS   LOCATION = C7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_RS   LOCATION = D8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_WR   LOCATION = F7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_RD   LOCATION = E7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_RST   LOCATION = D6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_BL_CTR   LOCATION = F5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[0]   LOCATION = C6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[1]   LOCATION = C5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[2]   LOCATION = E6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[3]   LOCATION = C4; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[4]   LOCATION = D5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[5]   LOCATION = B3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[6]   LOCATION = F6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[7]   LOCATION = B2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[8]   LOCATION = A2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[9]   LOCATION = B1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[10]   LOCATION = C3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[11]   LOCATION = C1; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[12]   LOCATION = C2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[13]   LOCATION = E4; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[14]   LOCATION = D3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  LCD_DATA[15]   LOCATION = E3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  PWM_out   LOCATION = H11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = P2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = R2; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  RXD   LOCATION = F13; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  TXD   LOCATION = F15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  BGM_sw   LOCATION = A10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SPI_CLK   LOCATION = M9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  MSI001_clk   LOCATION = R15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SPI_CS_0   LOCATION = P9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SPI_SDO_0   LOCATION = N9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  pwm_start   LOCATION = B10; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  speaker_out   LOCATION = N8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  DIG[3]   LOCATION = A3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  DIG[2]   LOCATION = A5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  DIG[1]   LOCATION = B6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  DIG[0]   LOCATION = C9; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  A    LOCATION = A4; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  B    LOCATION = A6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  C    LOCATION = B8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  D    LOCATION = E8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  E    LOCATION = A7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  F    LOCATION = B5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  G    LOCATION = A8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  DP   LOCATION = C8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  QN8027_clk   LOCATION = T15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SDA   LOCATION = L8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  SCL   LOCATION = P7; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  Audio_Lo   LOCATION = P8; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  mic_in   LOCATION = P11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  out_switch   LOCATION = A14; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rxc   LOCATION = K6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rx_ctl   LOCATION = L4; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rd[0]   LOCATION = L3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rd[1]   LOCATION = J6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rd[2]   LOCATION = K3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_rd[3]   LOCATION = K5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_txc   LOCATION = H3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_tx_ctl   LOCATION = G3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_td[0]   LOCATION = H5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_td[1]   LOCATION = G6; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_td[2]   LOCATION = H4; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  rgmii_td[3]   LOCATION = G5; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  empty_flag1   LOCATION = B14; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  full_flag1   LOCATION = B15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  empty_flag2   LOCATION = B16; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  full_flag2   LOCATION = C15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  engg   LOCATION = A11; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/TD/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+SYN-1012 : SanityCheck: Model "SDR_Pad"
+SYN-1012 : SanityCheck: Model "ADC"
+SYN-1012 : SanityCheck: Model "AHB_FIFO_Interface"
+SYN-1012 : SanityCheck: Model "APBTube"
+SYN-1012 : SanityCheck: Model "ClkDiv"
+SYN-1012 : SanityCheck: Model "DigSel"
+SYN-1012 : SanityCheck: Model "SSeg"
+SYN-1012 : SanityCheck: Model "APB_Keyboard"
+SYN-1012 : SanityCheck: Model "KeyToCol"
+SYN-1012 : SanityCheck: Model "Buzzer(isAHB=0)"
+SYN-1012 : SanityCheck: Model "APB_BDMAC"
+SYN-1012 : SanityCheck: Model "AddrCnt"
+SYN-1012 : SanityCheck: Model "BDMA"
+SYN-1012 : SanityCheck: Model "BeatCnt"
+SYN-1012 : SanityCheck: Model "BeatDecoder"
+SYN-1012 : SanityCheck: Model "BuzzerCtr"
+SYN-1012 : SanityCheck: Model "TuneDecoder"
+SYN-1012 : SanityCheck: Model "TunePWM"
+SYN-1012 : SanityCheck: Model "Interface_9341"
+SYN-1012 : SanityCheck: Model "FIFO_synq(width=17,depth=4)"
+SYN-1012 : SanityCheck: Model "PLL"
+SYN-1012 : SanityCheck: Model "FIFO_synq(width=32,depth=5)"
+SYN-1012 : SanityCheck: Model "Printer"
+SYN-1012 : SanityCheck: Model "LCD_ini"
+SYN-1012 : SanityCheck: Model "Block_ROM_init_data"
+SYN-1012 : SanityCheck: Model "Block_ROM_init_sign"
+SYN-1012 : SanityCheck: Model "Printer_ctr"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM(ADDR_WIDTH=10)"
+SYN-1012 : SanityCheck: Model "Block_RAM"
+SYN-1012 : SanityCheck: Model "Block_RAM(ADDR_WIDTH=10)"
+SYN-1012 : SanityCheck: Model "RSSI_reader"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusMtx"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusIn"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusDecS0"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusMtx_default_slave"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusDecS1"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusDecS2"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusDecS3"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusOutM0"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusArbM0"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusOutM1"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusArbM1"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusOutM2"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusArbM2"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusOutM3"
+SYN-1012 : SanityCheck: Model "RealTankSoCBusArbM3"
+SYN-1012 : SanityCheck: Model "SNR_reader"
+SYN-1012 : SanityCheck: Model "Timer"
+SYN-1012 : SanityCheck: Model "cmsdk_apb_uart"
+SYN-1012 : SanityCheck: Model "cmsdk_ahb_to_apb(REGISTER_RDATA=0)"
+SYN-1012 : SanityCheck: Model "apb_ethernet"
+SYN-1012 : SanityCheck: Model "cmsdk_apb_slave_mux(PORT10_ENABLE=0,PORT11_ENABLE=0,PORT12_ENABLE=0,PORT13_ENABLE=0,PORT14_ENABLE=0,PORT15_ENABLE=0)"
+SYN-1012 : SanityCheck: Model "differentiator"
+SYN-1012 : SanityCheck: Model "filter"
+SYN-1012 : SanityCheck: Model "ethernet"
+SYN-1012 : SanityCheck: Model "Ethernet_TX"
+SYN-1012 : SanityCheck: Model "CRC32_D8"
+SYN-1012 : SanityCheck: Model "Gmii_to_Rgmii"
+SYN-1012 : SanityCheck: Model "iddr"
+SYN-1012 : SanityCheck: Model "oddr"
+SYN-1012 : SanityCheck: Model "counter_test"
+SYN-1012 : SanityCheck: Model "fifo8in"
+SYN-1012 : SanityCheck: Model "i2c"
+SYN-1012 : SanityCheck: Model "apb"
+SYN-1012 : SanityCheck: Model "i2c_fifo"
+SYN-1012 : SanityCheck: Model "module_i2c"
+SYN-1012 : SanityCheck: Model "pwm"
+SYN-1012 : SanityCheck: Model "RSSI_APB_interface"
+SYN-1012 : SanityCheck: Model "SNR_APB_interface"
+SYN-1012 : SanityCheck: Model "cortexm0ds_logic"
+SYN-1012 : SanityCheck: Model "apb_spi_master"
+SYN-1012 : SanityCheck: Model "spi_master_apb_if"
+SYN-1012 : SanityCheck: Model "spi_master_fifo(BUFFER_DEPTH=10)"
+SYN-1012 : SanityCheck: Model "spi_master_controller"
+SYN-1012 : SanityCheck: Model "spi_master_clkgen"
+SYN-1012 : SanityCheck: Model "spi_master_rx"
+SYN-1012 : SanityCheck: Model "spi_master_tx"
+ARC-1002 : Mark IO location M12 as dedicate.
+ARC-1002 : Mark IO location P12 as dedicate.
+SYN-1043 : Mark module_i2c as IO macro for instance SCL_i
+SYN-1043 : Mark i2c as IO macro for instance DUT_I2C_INTERNAL_RX_TX
+SYN-1043 : Mark oddr as IO macro for instance oddr
+SYN-1043 : Mark iddr as IO macro for instance iddr
+SYN-1043 : Mark Gmii_to_Rgmii as IO macro for instance u_rgmii_rd0
+SYN-1043 : Mark ethernet as IO macro for instance Gmii_to_Rgmii
+SYN-1043 : Mark PLL as IO macro for instance bufg_feedback
+SYN-1011 : Flatten model SDR_Pad
+SYN-1032 : 42727/2170 useful/useless nets, 29725/561 useful/useless insts
+SYN-1001 : Optimize 3 less-than instances
+SYN-1001 : Optimize 30 less-than instances
+SYN-1016 : Merged 1852 instances.
+SYN-1025 : Merged 23 RAM ports.
+SYN-1027 : Infer Logic DRAM(Interface_9341_FIFO/ramread0_syn_6) read 16x17, write 16x17
+SYN-1027 : Infer Logic DRAM(PTFIFO/ramread0_syn_6) read 32x32, write 32x32
+SYN-1027 : Infer Logic DRAM(i2c/DUT_FIFO_TX/ramread0_syn_6) read 16x24, write 16x24
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 8192 x 8	 write mode: NORMAL
+	 port b size: 8192 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 8192 x 8	 write mode: NORMAL
+	 port b size: 8192 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 8192 x 8	 write mode: NORMAL
+	 port b size: 8192 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_CODE/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 8192 x 8	 write mode: NORMAL
+	 port b size: 8192 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_15)
+	 port mode: single dual port
+	 port a size: 1024 x 8	 write mode: NORMAL
+	 port b size: 1024 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_20)
+	 port mode: single dual port
+	 port a size: 1024 x 8	 write mode: NORMAL
+	 port b size: 1024 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_25)
+	 port mode: single dual port
+	 port a size: 1024 x 8	 write mode: NORMAL
+	 port b size: 1024 x 8	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(RAM_DATA/ramread0_syn_30)
+	 port mode: single dual port
+	 port a size: 1024 x 8	 write mode: NORMAL
+	 port b size: 1024 x 8	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 3 Logic DRAMs, 8 Logic BRAMs.
+SYN-1032 : 37462/4156 useful/useless nets, 24827/1428 useful/useless insts
+SYN-1016 : Merged 1479 instances.
+SYN-5015 WARNING: Found latch in "SDR_Pad", name: "i2c/DUT_FIFO_TX/reg2_syn_2", d: "i2c/DUT_FIFO_TX/w_counter_b[0]", q: "i2c/DUT_FIFO_TX/w_counter[0]" // ../../../rtl/I2C/fifo.v(154)
+SYN-5015 WARNING: Found latch in "SDR_Pad", name: "i2c/DUT_FIFO_TX/reg2_syn_3", d: "i2c/DUT_FIFO_TX/w_counter_b[1]", q: "i2c/DUT_FIFO_TX/w_counter[1]" // ../../../rtl/I2C/fifo.v(154)
+SYN-5015 WARNING: Found latch in "SDR_Pad", name: "i2c/DUT_FIFO_TX/reg2_syn_4", d: "i2c/DUT_FIFO_TX/w_counter_b[2]", q: "i2c/DUT_FIFO_TX/w_counter[2]" // ../../../rtl/I2C/fifo.v(154)
+SYN-5015 WARNING: Found latch in "SDR_Pad", name: "i2c/DUT_FIFO_TX/reg2_syn_5", d: "i2c/DUT_FIFO_TX/w_counter_b[3]", q: "i2c/DUT_FIFO_TX/w_counter[3]" // ../../../rtl/I2C/fifo.v(154)
+SYN-1032 : 36029/182 useful/useless nets, 33554/478 useful/useless insts
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 4 equivalent DFF(s)
+SYN-3003 : Optimized 6 equivalent DFF(s)
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-3008 : Optimized 1 const1 DFF(s)
+SYN-3008 : Optimized 2 const1 DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3003 : Optimized 1 equivalent DFF(s)
+SYN-3004 : Optimized 382 const0 DFF(s)
+SYN-3004 : Optimized 2 const0 DFF(s)
+SYN-1032 : 34732/1296 useful/useless nets, 32280/870 useful/useless insts
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 62 inv instances.
+SYN-1032 : 34389/265 useful/useless nets, 31998/147 useful/useless insts
+SYN-1017 : Remove 47 const input seq instances
+SYN-1002 :     differentiator/filter/reg36_syn_2
+SYN-1002 :     differentiator/filter/reg38_syn_2
+SYN-1002 :     differentiator/filter/reg39_syn_2
+SYN-1002 :     differentiator/filter/reg39_syn_3
+SYN-1002 :     differentiator/filter/reg41_syn_2
+SYN-1002 :     differentiator/filter/reg41_syn_3
+SYN-1002 :     differentiator/filter/reg41_syn_4
+SYN-1002 :     differentiator/filter/reg43_syn_2
+SYN-1002 :     differentiator/filter/reg43_syn_3
+SYN-1002 :     differentiator/filter/reg44_syn_2
+SYN-1002 :     differentiator/filter/reg44_syn_19
+SYN-1002 :     differentiator/filter/reg45_syn_2
+SYN-1002 :     differentiator/filter/reg47_syn_2
+SYN-1002 :     differentiator/filter/reg52_syn_19
+SYN-1002 :     differentiator/filter/reg53_syn_2
+SYN-1002 :     differentiator/filter/reg53_syn_19
+SYN-1002 :     differentiator/filter/reg54_syn_2
+SYN-1002 :     differentiator/filter/reg54_syn_3
+SYN-1002 :     differentiator/filter/reg54_syn_4
+SYN-1002 :     differentiator/filter/reg54_syn_5
+SYN-1002 :     differentiator/filter/reg54_syn_6
+SYN-1002 :     differentiator/filter/reg54_syn_19
+SYN-1002 :     differentiator/filter/reg55_syn_18
+SYN-1002 :     differentiator/filter/reg55_syn_19
+SYN-1002 :     differentiator/filter/reg56_syn_2
+SYN-1002 :     differentiator/filter/reg56_syn_19
+SYN-1002 :     differentiator/filter/reg57_syn_2
+SYN-1002 :     differentiator/filter/reg57_syn_3
+SYN-1002 :     differentiator/filter/reg57_syn_19
+SYN-1002 :     differentiator/filter/reg58_syn_18
+SYN-1002 :     differentiator/filter/reg58_syn_19
+SYN-1002 :     differentiator/filter/reg59_syn_2
+SYN-1002 :     differentiator/filter/reg59_syn_19
+SYN-1002 :     differentiator/filter/reg60_syn_2
+SYN-1002 :     differentiator/filter/reg60_syn_3
+SYN-1002 :     differentiator/filter/reg60_syn_19
+SYN-1002 :     differentiator/filter/reg61_syn_2
+SYN-1002 :     differentiator/filter/reg61_syn_19
+SYN-1002 :     differentiator/filter/reg62_syn_2
+SYN-1002 :     differentiator/filter/reg62_syn_3
+SYN-1002 :     differentiator/filter/reg62_syn_4
+SYN-1002 :     differentiator/filter/reg62_syn_5
+SYN-1002 :     differentiator/filter/reg62_syn_6
+SYN-1002 :     differentiator/filter/reg62_syn_19
+SYN-1002 :     differentiator/filter/reg63_syn_2
+SYN-1002 :     differentiator/filter/reg63_syn_19
+SYN-1002 :     differentiator/filter/reg64_syn_19
+SYN-1018 : Transformed 2 mux instances.
+SYN-1019 : Optimized 108 mux instances.
+SYN-1021 : Optimized 234 onehot mux instances.
+SYN-1020 : Optimized 1199 distributor mux.
+SYN-1001 : Optimize 5 less-than instances
+SYN-1019 : Optimized 38 mux instances.
+SYN-1016 : Merged 2113 instances.
+SYN-1015 : Optimize round 1, 11643 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 11 inv instances.
+SYN-1032 : 29961/590 useful/useless nets, 27657/1980 useful/useless insts
+SYN-1019 : Optimized 75 mux instances.
+SYN-1020 : Optimized 15 distributor mux.
+SYN-1019 : Optimized 1 mux instances.
+SYN-1016 : Merged 86 instances.
+SYN-1015 : Optimize round 2, 2667 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 29877/43 useful/useless nets, 27573/45 useful/useless insts
+SYN-1015 : Optimize round 3, 47 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+RUN-1003 : finish command "optimize_rtl" in  13.806758s wall, 12.703125s user + 1.015625s system = 13.718750s CPU (99.4%)
+
+RUN-1004 : used memory is 312 MB, reserved memory is 285 MB, peak memory is 576 MB
+RUN-1002 : start command "report_area -file SDRV4_0_rtl.area"
+RUN-1001 : standard
+***Report Model: SDR_Pad Device: EG4S20BG256***
+
+IO Statistics
+#IO                        79
+  #input                   19
+  #output                  57
+  #inout                    3
+
+Gate Statistics
+#Basic gates            24916
+  #and                  10179
+  #nand                     0
+  #or                    2249
+  #nor                      0
+  #xor                    272
+  #xnor                     0
+  #buf                      0
+  #not                   6811
+  #bufif1                   3
+  #MX21                  1344
+  #FADD                     0
+  #DFF                   4054
+  #LATCH                    4
+#MACRO_ADD                182
+#MACRO_EQ                 184
+#MACRO_MULT                37
+#MACRO_MUX               2227
+#MACRO_OTHERS              20
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------------+
+|Instance                                |Module                          |gates  |seq    |macros |
++-------------------------------------------------------------------------------------------------+
+|top                                     |SDR_Pad                         |20858  |4058   |423    |
+|  ADC                                   |ADC                             |0      |0      |0      |
+|  AHB_FIFO_Interface                    |AHB_FIFO_Interface              |5      |1      |0      |
+|  APBTube                               |APBTube                         |21     |75     |2      |
+|    ClkDiv                              |ClkDiv                          |2      |9      |2      |
+|    DigSel                              |DigSel                          |14     |2      |0      |
+|    SSeg                                |SSeg                            |0      |0      |0      |
+|  APB_Keyboard                          |APB_Keyboard                    |85     |71     |3      |
+|    KeyToCol                            |KeyToCol                        |51     |55     |3      |
+|  Buzzer                                |Buzzer                          |276    |337    |22     |
+|    APB_BDMAC                           |APB_BDMAC                       |10     |73     |4      |
+|    AddrCnt_BGM                         |AddrCnt                         |0      |32     |1      |
+|    AddrCnt_Sound                       |AddrCnt                         |0      |32     |1      |
+|    BDMA_BGM                            |BDMA                            |5      |36     |3      |
+|    BDMA_Sound                          |BDMA                            |5      |36     |3      |
+|    BeatCnt_BGM                         |BeatCnt                         |0      |28     |2      |
+|    BeatCnt_Sound                       |BeatCnt                         |0      |28     |2      |
+|    BeatDecoder_BGM                     |BeatDecoder                     |29     |0      |0      |
+|    BeatDecoder_Sound                   |BeatDecoder                     |29     |0      |0      |
+|    BuzzerCtr_BGM                       |BuzzerCtr                       |38     |3      |0      |
+|    BuzzerCtr_Sound                     |BuzzerCtr                       |35     |3      |0      |
+|    TuneDecoder_BGM                     |TuneDecoder                     |56     |0      |0      |
+|    TuneDecoder_Sound                   |TuneDecoder                     |56     |0      |0      |
+|    TunePWM_BGM                         |TunePWM                         |3      |21     |3      |
+|    TunePWM_Sound                       |TunePWM                         |3      |21     |3      |
+|  Interface_9341                        |Interface_9341                  |9      |20     |0      |
+|  Interface_9341_FIFO                   |FIFO_synq                       |5      |10     |5      |
+|  PLL                                   |PLL                             |0      |0      |1      |
+|  PTFIFO                                |FIFO_synq                       |5      |12     |5      |
+|  Printer                               |Printer                         |67     |141    |18     |
+|    LCD_ini                             |LCD_ini                         |10     |26     |5      |
+|      Block_ROM_init_data               |Block_ROM_init_data             |0      |0      |0      |
+|      Block_ROM_init_sign               |Block_ROM_init_sign             |0      |0      |0      |
+|    Printer_ctr                         |Printer_ctr                     |13     |36     |5      |
+|  RAMCODE_Interface                     |AHBlite_Block_RAM               |18     |18     |0      |
+|  RAMDATA_Interface                     |AHBlite_Block_RAM               |18     |15     |0      |
+|  RAM_CODE                              |Block_RAM                       |0      |0      |4      |
+|  RAM_DATA                              |Block_RAM                       |0      |0      |4      |
+|  RSSI_reader                           |RSSI_reader                     |3      |9      |4      |
+|  RealTankSoCBusMtx                     |RealTankSoCBusMtx               |296    |109    |25     |
+|    u_RealTankSoCBusIn_0                |RealTankSoCBusIn                |14     |25     |0      |
+|    u_RealTankSoCBusIn_1                |RealTankSoCBusIn                |11     |21     |0      |
+|    u_RealTankSoCBusIn_2                |RealTankSoCBusIn                |11     |21     |0      |
+|    u_RealTankSoCBusIn_3                |RealTankSoCBusIn                |11     |21     |0      |
+|    u_realtanksocbusdecs0               |RealTankSoCBusDecS0             |26     |5      |9      |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |4      |2      |0      |
+|    u_realtanksocbusdecs1               |RealTankSoCBusDecS1             |41     |2      |3      |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |4      |1      |0      |
+|    u_realtanksocbusdecs2               |RealTankSoCBusDecS2             |41     |2      |3      |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |4      |1      |0      |
+|    u_realtanksocbusdecs3               |RealTankSoCBusDecS3             |41     |2      |3      |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |4      |1      |0      |
+|    u_realtanksocbusoutm0_0             |RealTankSoCBusOutM0             |74     |5      |5      |
+|      u_output_arb                      |RealTankSoCBusArbM0             |26     |3      |5      |
+|    u_realtanksocbusoutm1_1             |RealTankSoCBusOutM1             |6      |1      |0      |
+|      u_output_arb                      |RealTankSoCBusArbM1             |2      |1      |0      |
+|    u_realtanksocbusoutm2_2             |RealTankSoCBusOutM2             |10     |2      |1      |
+|      u_output_arb                      |RealTankSoCBusArbM2             |4      |1      |1      |
+|    u_realtanksocbusoutm3_3             |RealTankSoCBusOutM3             |10     |2      |1      |
+|      u_output_arb                      |RealTankSoCBusArbM3             |4      |1      |1      |
+|  SNR_reader                            |SNR_reader                      |68     |9      |25     |
+|  Timer                                 |Timer                           |4      |27     |4      |
+|  UART                                  |cmsdk_apb_uart                  |98     |116    |25     |
+|  ahb_to_apb                            |cmsdk_ahb_to_apb                |13     |18     |4      |
+|  apb_ethernet                          |apb_ethernet                    |0      |0      |1      |
+|  cmsdk_apb_slave_mux                   |cmsdk_apb_slave_mux             |307    |0      |16     |
+|  differentiator                        |differentiator                  |3      |928    |72     |
+|    filter                              |filter                          |0      |887    |65     |
+|  ethernet                              |ethernet                        |351    |90     |44     |
+|    Ethernet_TX_Inst                    |Ethernet_TX                     |351    |65     |35     |
+|      CRC32_D8_Init                     |CRC32_D8                        |197    |0      |0      |
+|    Gmii_to_Rgmii                       |Gmii_to_Rgmii                   |0      |21     |6      |
+|      u_rgmii_td0                       |oddr                            |0      |0      |1      |
+|      u_rgmii_td1                       |oddr                            |0      |0      |1      |
+|      u_rgmii_td2                       |oddr                            |0      |0      |1      |
+|      u_rgmii_td3                       |oddr                            |0      |0      |1      |
+|      u_rgmii_tx_ctl                    |oddr                            |0      |0      |1      |
+|      u_rgmii_txc                       |oddr                            |0      |0      |1      |
+|    counter_test                        |counter_test                    |0      |4      |1      |
+|    fifo1                               |fifo8in                         |0      |0      |1      |
+|    fifo2                               |fifo8in                         |0      |0      |1      |
+|  i2c                                   |i2c                             |103    |79     |31     |
+|    DUT_APB                             |apb                             |13     |28     |2      |
+|    DUT_FIFO_TX                         |i2c_fifo                        |13     |16     |7      |
+|    DUT_I2C_INTERNAL_RX_TX              |module_i2c                      |77     |35     |22     |
+|  pwm_dac                               |pwm                             |234    |42     |46     |
+|  u_RSSI_APB                            |RSSI_APB_interface              |2      |1      |0      |
+|  u_SNR_APB                             |SNR_APB_interface               |2      |1      |0      |
+|  u_logic                               |cortexm0ds_logic                |18496  |1300   |14     |
+|  u_spi_master                          |apb_spi_master                  |362    |621    |46     |
+|    u_axiregs                           |spi_master_apb_if               |36     |161    |8      |
+|    u_rxfifo                            |spi_master_fifo                 |10     |5      |4      |
+|    u_spictrl                           |spi_master_controller           |295    |122    |26     |
+|      u_clkgen                          |spi_master_clkgen               |8      |18     |2      |
+|      u_rxreg                           |spi_master_rx                   |14     |34     |5      |
+|      u_txreg                           |spi_master_tx                   |53     |65     |5      |
+|    u_txfifo                            |spi_master_fifo                 |21     |333    |8      |
++-------------------------------------------------------------------------------------------------+
+
+RUN-1002 : start command "export_db SDRV4_0_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db SDRV4_0_rtl.db" in  1.292384s wall, 1.984375s user + 0.062500s system = 2.046875s CPU (158.4%)
+
+RUN-1004 : used memory is 318 MB, reserved memory is 290 MB, peak memory is 576 MB
+RUN-1002 : start command "read_sdc ../../../pin/timing_cons.sdc"
+USR-1009 : NO module with IP_SDC ...
+RUN-1002 : start command "get_nets  clk "
+RUN-1002 : start command "create_clock -name clk -period 20 -waveform 0 10 "
+RUN-1102 : create_clock: clock name: clk, type: 0, period: 20000, rise: 0, fall: 10000.
+RUN-1002 : start command "get_nets  ADC_clk "
+RUN-1002 : start command "create_clock -name adc_clkl -period 62.5 -waveform 0 31.25 "
+RUN-1102 : create_clock: clock name: adc_clkl, type: 0, period: 62500, rise: 0, fall: 31250.
+RUN-1002 : start command "get_nets  rgmii_rxc "
+RUN-1002 : start command "create_clock -name rgmii_rxcl -period 8 -waveform 0 4 "
+RUN-1102 : create_clock: clock name: rgmii_rxcl, type: 0, period: 8000, rise: 0, fall: 4000.
+RUN-1002 : start command "get_nets  ADC_clk "
+RUN-1002 : start command "get_nets differentiator/filter/CLK"
+RUN-1002 : start command "create_generated_clock -name filter_clkl -source  -master_clock adc_clkl -divide_by 32 -phase 0 "
+RUN-1002 : start command "get_clocks adc_clkl"
+RUN-1002 : start command "get_clocks clk"
+RUN-1002 : start command "set_false_path -from  -to "
+RUN-1002 : start command "get_clocks clk"
+RUN-1002 : start command "get_clocks adc_clkl"
+RUN-1002 : start command "set_false_path -from  -to "
+RUN-1104 : Import SDC file ../../../pin/timing_cons.sdc finished, there are 3 nets kept by constraints.
+RUN-1002 : start command "optimize_gate -maparea SDRV4_0_gate.area"
+RUN-1001 : Open license file D:/TD/license/Anlogic.lic
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  |  Note  
+RUN-1001 : ------------------------------------------------------------------
+RUN-1001 :         cascade_dsp         |    off     |       off        |        
+RUN-1001 :         cascade_eram        |    off     |       off        |        
+RUN-1001 :        gate_sim_model       |    off     |       off        |        
+RUN-1001 :        map_sim_model        |    off     |       off        |        
+RUN-1001 :         map_strategy        |     1      |        1         |        
+RUN-1001 :           opt_area          |   medium   |      medium      |        
+RUN-1001 :          opt_timing         |    auto    |       auto       |        
+RUN-1001 :         pack_effort         |   medium   |      medium      |        
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        |        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        |        
+RUN-1001 :        pack_seq_in_io       |    auto    |       auto       |        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        |        
+RUN-1001 :            report           |  standard  |     standard     |        
+RUN-1001 :           retiming          |    off     |       off        |        
+RUN-1001 : ------------------------------------------------------------------
+SYN-2001 : Map 79 IOs to PADs
+SYN-1032 : 29951/6 useful/useless nets, 27649/9 useful/useless insts
+RUN-1002 : start command "update_pll_param -module SDR_Pad"
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 1 BUFG to GCLK
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_CODE/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_15 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_20 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_25 is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: RAM_DATA/ramread0_syn_30 is set to PDPW/SP from DP for resource saving
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ramread0_syn_38"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_32"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_34"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_36"
+SYN-2512 : LOGIC BRAM "RAM_DATA/ramread0_syn_38"
+SYN-2541 : Write 512x8, read 512x8.
+SYN-2541 : Write 512x8, read 512x8.
+SYN-2531 : Dram(Interface_9341_FIFO/ramread0_syn_6) write 16x17, read 16x17
+SYN-2531 : Dram(PTFIFO/ramread0_syn_6) write 32x32, read 32x32
+SYN-2531 : Dram(i2c/DUT_FIFO_TX/ramread0_syn_6) write 16x24, read 16x24
+SYN-2571 : Map 37 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 30214/68 useful/useless nets, 27789/1 useful/useless insts
+SYN-1016 : Merged 24 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 93 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2571 : Map 10 macro multiplier
+SYN-2571 : Map 10 macro multiplier
+SYN-2561 : Map multiplier RSSI_reader/mult0 into carry-chain logic
+SYN-1001 : Throwback 271 control mux instances
+SYN-1001 : Convert 58 adder
+SYN-2501 : Optimize round 1
+SYN-1032 : 31466/706 useful/useless nets, 29135/457 useful/useless insts
+SYN-1016 : Merged 350 instances.
+SYN-2501 : Optimize round 1, 1907 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 195 macro adder
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 50%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 25%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 41%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 33%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 41%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 16%.
+SYN-3001 : Mapper mapped 127 instances into 12 LUTs, name keeping = 41%.
+SYN-3001 : Mapper mapped 127 instances into 11 LUTs, name keeping = 45%.
+SYN-3001 : Mapper mapped 127 instances into 2 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 127 instances into 11 LUTs, name keeping = 63%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 7 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 3 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 29 ROM instances
+SYN-1019 : Optimized 981 mux instances.
+SYN-1016 : Merged 814 instances.
+SYN-1032 : 35130/1500 useful/useless nets, 32807/29 useful/useless insts
+RUN-1002 : start command "start_timer -prepack"
+TMR-2505 : Start building timing graph for model SDR_Pad.
+TMR-2506 : Build timing graph completely. Port num: 49, tpin num: 104102, tnet num: 35130, tinst num: 32806, tnode num: 113915, tedge num: 141255.
+TMR-2508 : Levelizing timing graph completed, there are 619 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+RUN-1003 : finish command "start_timer -prepack" in  1.122280s wall, 1.031250s user + 0.093750s system = 1.125000s CPU (100.2%)
+
+RUN-1004 : used memory is 462 MB, reserved memory is 439 MB, peak memory is 576 MB
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 35130 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3001 : Initiate 4 clocks from SDC.
+TMR-3004 : Map sdc constraints, there are 2 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 8367 (3.88), #lev = 21 (6.73)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 8531 (3.78), #lev = 19 (6.86)
+SYN-3001 : Logic optimization runtime opt =   1.66 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 26479 instances into 8554 LUTs, name keeping = 36%.
+SYN-3001 : Mapper removed 2 lut buffers
+RUN-1002 : start command "report_area -file SDRV4_0_gate.area"
+RUN-1001 : standard
+***Report Model: SDR_Pad Device: EG4S20BG256***
+
+IO Statistics
+#IO                        79
+  #input                   19
+  #output                  57
+  #inout                    3
+
+LUT Statistics
+#Total_luts             11100
+  #lut4                  6373
+  #lut5                  2199
+  #lut6                    18
+  #lut5_mx41                0
+  #lut4_alu1b            2510
+
+Utilization Statistics
+#lut                    11118   out of  19600   56.72%
+#reg                     3617   out of  19600   18.45%
+#le                         0
+#dsp                       29   out of     29  100.00%
+#bram                       6   out of     64    9.38%
+  #bram9k                   4
+  #fifo9k                   2
+#bram32k                    8   out of     16   50.00%
+#adc                        1   out of      1  100.00%
+#dram                      27
+#pad                       79   out of    186   42.47%
+  #ireg                     0
+  #oreg                     6
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------------------------+
+|Instance                                |Module                          |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------------------------------------------------+
+|top                                     |SDR_Pad                         |8608    |2510    |3623    |14      |29      |
+|  ADC                                   |ADC                             |0       |0       |0       |0       |0       |
+|  AHB_FIFO_Interface                    |AHB_FIFO_Interface              |6       |0       |1       |0       |0       |
+|  APBTube                               |APBTube                         |28      |19      |75      |0       |0       |
+|    ClkDiv                              |ClkDiv                          |9       |19      |9       |0       |0       |
+|    DigSel                              |DigSel                          |2       |0       |2       |0       |0       |
+|    SSeg                                |SSeg                            |15      |0       |0       |0       |0       |
+|  APB_Keyboard                          |APB_Keyboard                    |74      |37      |71      |0       |0       |
+|    KeyToCol                            |KeyToCol                        |54      |37      |55      |0       |0       |
+|  Buzzer                                |Buzzer                          |452     |164     |337     |0       |0       |
+|    APB_BDMAC                           |APB_BDMAC                       |30      |0       |73      |0       |0       |
+|    AddrCnt_BGM                         |AddrCnt                         |35      |32      |32      |0       |0       |
+|    AddrCnt_Sound                       |AddrCnt                         |35      |32      |32      |0       |0       |
+|    BDMA_BGM                            |BDMA                            |40      |0       |36      |0       |0       |
+|    BDMA_Sound                          |BDMA                            |40      |0       |36      |0       |0       |
+|    BeatCnt_BGM                         |BeatCnt                         |40      |29      |28      |0       |0       |
+|    BeatCnt_Sound                       |BeatCnt                         |34      |29      |28      |0       |0       |
+|    BuzzerCtr_BGM                       |BuzzerCtr                       |9       |0       |3       |0       |0       |
+|    BuzzerCtr_Sound                     |BuzzerCtr                       |7       |0       |3       |0       |0       |
+|    TunePWM_BGM                         |TunePWM                         |91      |21      |21      |0       |0       |
+|    TunePWM_Sound                       |TunePWM                         |90      |21      |21      |0       |0       |
+|  Interface_9341                        |Interface_9341                  |7       |0       |20      |0       |0       |
+|  Interface_9341_FIFO                   |FIFO_synq                       |127     |12      |10      |0       |0       |
+|  PLL                                   |PLL                             |0       |0       |0       |0       |0       |
+|  PTFIFO                                |FIFO_synq                       |4       |14      |12      |0       |0       |
+|  Printer                               |Printer                         |219     |91      |141     |0       |0       |
+|    LCD_ini                             |LCD_ini                         |45      |26      |26      |0       |0       |
+|      Block_ROM_init_data               |Block_ROM_init_data             |32      |0       |0       |0       |0       |
+|      Block_ROM_init_sign               |Block_ROM_init_sign             |4       |0       |0       |0       |0       |
+|    Printer_ctr                         |Printer_ctr                     |39      |0       |36      |0       |0       |
+|  RAMCODE_Interface                     |AHBlite_Block_RAM               |122     |0       |19      |0       |0       |
+|  RAMDATA_Interface                     |AHBlite_Block_RAM               |44      |0       |15      |0       |0       |
+|  RAM_CODE                              |Block_RAM                       |4       |0       |0       |8       |0       |
+|  RAM_DATA                              |Block_RAM                       |4       |0       |0       |4       |0       |
+|  RSSI_reader                           |RSSI_reader                     |12      |8       |9       |0       |0       |
+|  RealTankSoCBusMtx                     |RealTankSoCBusMtx               |107     |0       |109     |0       |0       |
+|    u_RealTankSoCBusIn_0                |RealTankSoCBusIn                |9       |0       |25      |0       |0       |
+|    u_RealTankSoCBusIn_1                |RealTankSoCBusIn                |3       |0       |21      |0       |0       |
+|    u_RealTankSoCBusIn_2                |RealTankSoCBusIn                |3       |0       |21      |0       |0       |
+|    u_RealTankSoCBusIn_3                |RealTankSoCBusIn                |3       |0       |21      |0       |0       |
+|    u_realtanksocbusdecs0               |RealTankSoCBusDecS0             |9       |0       |5       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |5       |0       |2       |0       |0       |
+|    u_realtanksocbusdecs1               |RealTankSoCBusDecS1             |2       |0       |2       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1       |0       |1       |0       |0       |
+|    u_realtanksocbusdecs2               |RealTankSoCBusDecS2             |2       |0       |2       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1       |0       |1       |0       |0       |
+|    u_realtanksocbusdecs3               |RealTankSoCBusDecS3             |2       |0       |2       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1       |0       |1       |0       |0       |
+|    u_realtanksocbusoutm0_0             |RealTankSoCBusOutM0             |43      |0       |5       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM0             |43      |0       |3       |0       |0       |
+|    u_realtanksocbusoutm1_1             |RealTankSoCBusOutM1             |6       |0       |1       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM1             |6       |0       |1       |0       |0       |
+|    u_realtanksocbusoutm2_2             |RealTankSoCBusOutM2             |15      |0       |2       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM2             |11      |0       |1       |0       |0       |
+|    u_realtanksocbusoutm3_3             |RealTankSoCBusOutM3             |10      |0       |2       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM3             |7       |0       |1       |0       |0       |
+|  SNR_reader                            |SNR_reader                      |53      |52      |9       |0       |0       |
+|  Timer                                 |Timer                           |9       |29      |27      |0       |0       |
+|  UART                                  |cmsdk_apb_uart                  |145     |23      |116     |0       |0       |
+|  ahb_to_apb                            |cmsdk_ahb_to_apb                |76      |0       |18      |0       |0       |
+|  differentiator                        |differentiator                  |4       |1325    |486     |0       |26      |
+|    filter                              |filter                          |0       |1103    |465     |0       |24      |
+|  ethernet                              |ethernet                        |182     |47      |90      |2       |0       |
+|    Ethernet_TX_Inst                    |Ethernet_TX                     |178     |47      |65      |0       |0       |
+|    Gmii_to_Rgmii                       |Gmii_to_Rgmii                   |0       |0       |21      |0       |0       |
+|    counter_test                        |counter_test                    |4       |0       |4       |0       |0       |
+|    fifo1                               |fifo8in                         |0       |0       |0       |1       |0       |
+|    fifo2                               |fifo8in                         |0       |0       |0       |1       |0       |
+|  i2c                                   |i2c                             |170     |179     |79      |0       |0       |
+|    DUT_APB                             |apb                             |2       |0       |28      |0       |0       |
+|    DUT_FIFO_TX                         |i2c_fifo                        |25      |0       |16      |0       |0       |
+|    DUT_I2C_INTERNAL_RX_TX              |module_i2c                      |143     |179     |35      |0       |0       |
+|  pwm_dac                               |pwm                             |219     |258     |42      |0       |0       |
+|  u_RSSI_APB                            |RSSI_APB_interface              |1       |0       |1       |0       |0       |
+|  u_SNR_APB                             |SNR_APB_interface               |3       |0       |1       |0       |0       |
+|  u_logic                               |cortexm0ds_logic                |5800    |173     |1300    |0       |3       |
+|  u_spi_master                          |apb_spi_master                  |713     |79      |621     |0       |0       |
+|    u_axiregs                           |spi_master_apb_if               |14      |0       |161     |0       |0       |
+|    u_rxfifo                            |spi_master_fifo                 |13      |0       |5       |0       |0       |
+|    u_spictrl                           |spi_master_controller           |624     |79      |122     |0       |0       |
+|      u_clkgen                          |spi_master_clkgen               |54      |9       |18      |0       |0       |
+|      u_rxreg                           |spi_master_rx                   |39      |35      |34      |0       |0       |
+|      u_txreg                           |spi_master_tx                   |508     |35      |65      |0       |0       |
+|    u_txfifo                            |spi_master_fifo                 |62      |0       |333     |0       |0       |
++----------------------------------------------------------------------------------------------------------------------+
+
+SYN-1001 : Packing model "SDR_Pad" ...
+SYN-4010 : Pack lib has 56 rtl pack models with 25 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 17122/8 useful/useless nets, 14866/14 useful/useless insts
+SYN-1015 : Optimize round 1, 22 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-4002 : Packing 3606 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 58 carry chain into lslice
+SYN-4007 : Packing 1254 adder to BLE ...
+SYN-4008 : Packed 1254 adder and 172 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4013 : Packed 27 DRAM and 17 SEQ.
+RUN-1003 : finish command "optimize_gate -maparea SDRV4_0_gate.area" in  18.808758s wall, 18.187500s user + 0.609375s system = 18.796875s CPU (99.9%)
+
+RUN-1004 : used memory is 395 MB, reserved memory is 390 MB, peak memory is 597 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model SDR_Pad
+RUN-1002 : start command "export_db SDRV4_0_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1003 : finish command "export_db SDRV4_0_gate.db" in  1.617916s wall, 2.656250s user + 0.078125s system = 2.734375s CPU (169.0%)
+
+RUN-1004 : used memory is 410 MB, reserved memory is 388 MB, peak memory is 597 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20220702_133801.log"

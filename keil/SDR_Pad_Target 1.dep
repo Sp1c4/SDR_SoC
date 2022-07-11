@@ -1,0 +1,69 @@
+Dependencies for Project 'SDR_Pad', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\src\main.c)(0x62C97D50)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\src\Driver/code_def.h)(0x60C16D4F)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\keli\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
+I (..\src\Driver/Buzzer.h)(0x60C0FB06)
+I (..\src\Driver/LCD.h)(0x6295CE60)
+I (..\src\Driver/Timer.h)(0x60C4D02D)
+I (..\src\Driver/UART.h)(0x623C71B0)
+I (..\src\Driver/SPI.h)(0x6294816B)
+I (..\src\Driver/Tube.h)(0x625ACA6C)
+I (..\src\Driver/DETECTOR.h)(0x625ACA92)
+I (..\src\Driver/I2C.h)(0x625ACB17)
+I (..\src\Driver/Ethernet.h)(0x62B5D64E)
+I (..\src\Driver/ledwater.h)(0x62C1AAC8)
+I (..\src\GameSDK/Game.h)(0x60C4CFFF)
+I (..\src\RealTank.h)(0x60C4D080)
+I (..\src\Asset.h)(0x60C4D13D)
+I (..\src\data.h)(0x62C68066)
+F (..\src\Asset.h)(0x60C4D13D)()
+F (..\src\RealTank.h)(0x60C4D080)()
+F (..\src\startup_CMSDK_CM0.s)(0x6246FD4C)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "CMSDK_CM0 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\startup_cmsdk_cm0.o --depend .\startup_cmsdk_cm0.d)
+F (..\src\Driver\Buzzer.c)(0x60C0FB00)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\buzzer.o --omf_browse .\buzzer.crf --depend .\buzzer.d)
+I (..\src\Driver\Buzzer.h)(0x60C0FB06)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\Buzzer.h)(0x60C0FB06)()
+F (..\src\Driver\code_def.c)(0x60C16D5A)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\code_def.o --omf_browse .\code_def.crf --depend .\code_def.d)
+I (..\src\Driver\code_def.h)(0x60C16D4F)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\keli\ARM\ARMCC\include\stdbool.h)(0x5E53505C)
+F (..\src\Driver\code_def.h)(0x60C16D4F)()
+F (..\src\Driver\LCD.c)(0x6295C347)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (..\src\Driver\LCD.h)(0x6295CE60)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\LCD.h)(0x6295CE60)()
+F (..\src\Driver\Timer.c)(0x60C4D0BC)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (..\src\Driver\Timer.h)(0x60C4D02D)
+F (..\src\Driver\Timer.h)(0x60C4D02D)()
+F (..\src\Driver\UART.c)(0x60C83EB4)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (..\src\Driver\UART.h)(0x623C71B0)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\UART.h)(0x623C71B0)()
+F (..\src\GameSDK\Game.c)(0x60C4BA07)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (..\src\GameSDK\Game.h)(0x60C4CFFF)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\GameSDK\Game.h)(0x60C4CFFF)()
+F (..\src\Driver\SPI.c)(0x625ACAF8)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+I (..\src\Driver\SPI.h)(0x6294816B)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\SPI.h)(0x6294816B)()
+F (..\src\Driver\Tube.c)(0x625ACBAE)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\tube.o --omf_browse .\tube.crf --depend .\tube.d)
+I (..\src\Driver\Tube.h)(0x625ACA6C)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\Tube.h)(0x625ACA6C)()
+F (..\src\Driver\DETECTOR.h)(0x625ACA92)()
+F (..\src\Driver\I2C.c)(0x6289F54C)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (..\src\Driver\I2C.h)(0x625ACB17)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\I2C.h)(0x625ACB17)()
+F (..\src\Driver\Ethernet.c)(0x62B5D64E)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\ethernet.o --omf_browse .\ethernet.crf --depend .\ethernet.d)
+I (..\src\Driver\Ethernet.h)(0x62B5D64E)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\Ethernet.h)(0x62B5D64E)()
+F (..\src\Driver\ledwater.c)(0x62C1AAD2)(--c99 --gnu -c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-ID:\keli\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DCMSDK_CM0 -D_RTE_-o .\ledwater.o --omf_browse .\ledwater.crf --depend .\ledwater.d)
+I (..\src\Driver\ledwater.h)(0x62C1AAC8)
+I (D:\keli\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+F (..\src\Driver\ledwater.h)(0x62C1AAC8)()
+F (..\src\data.h)(0x62C68066)()

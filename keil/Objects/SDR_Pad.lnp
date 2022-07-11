@@ -1,0 +1,14 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\realtank.o"
+".\objects\startup_cmsdk_cm0.o"
+".\objects\buzzer.o"
+".\objects\code_def.o"
+".\objects\lcd.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\game.o"
+--strict --scatter ".\Objects\SDR_Pad.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SDR_Pad.map" -o .\Objects\SDR_Pad.axf

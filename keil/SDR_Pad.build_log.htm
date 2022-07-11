@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Spica, 1, LIC=6C93N-Y2MZI-CLAC6-DJ53A-93MT0-67MNU
+ 
+Tool Versions:
+Toolchain:       DK-ARM Developers Kit  Version: 5.30.0.0
+Toolchain Path:  D:\keli\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.5.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+D:\jichuang\SDRV4_2_1\keil\SDR_Pad.uvprojx
+Project File Date:  07/07/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keli\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_CMSDK_CM0.s...
+compiling I2C.c...
+..\src\Driver\I2C.c(14): warning:  #177-D: variable "f"  was declared but never referenced
+      uint32_t f;
+..\src\Driver\I2C.c: 1 warning, 0 errors
+compiling Tube.c...
+compiling ledwater.c...
+..\src\Driver\ledwater.c(6): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\Driver\ledwater.c: 1 warning, 0 errors
+compiling Game.c...
+compiling main.c...
+..\src\data.h(1048): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\main.c(192): warning:  #111-D: statement is unreachable
+      return 0;
+..\src\main.c: 2 warnings, 0 errors
+compiling Ethernet.c...
+compiling code_def.c...
+compiling Timer.c...
+compiling LCD.c...
+compiling SPI.c...
+compiling UART.c...
+compiling Buzzer.c...
+linking...
+.\SDR_Pad.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=14944 RO-data=14380 RW-data=56 ZI-data=2568  
+Finished: 0 information, 1 warning and 0 error messages.
+After Build - User command #1: fromelf -cvf .\SDR_Pad.axf --vhx --32x1 -o code.hex
+After Build - User command #2: fromelf -cvf .\SDR_Pad.axf -o code.txt
+".\SDR_Pad.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.V2M-MPS2_CMx_BSP.1.7.1.pack
+                Keil.V2M-MPS2_CMx_BSP.1.7.1
+                ARM V2M-MPS2 Board Support PACK for Cortex-M System Design Kit Devices
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\keli\pack\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

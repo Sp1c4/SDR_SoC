@@ -1,0 +1,21 @@
+============================================================
+   Tang Dynasty, V5.6.53426
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/TD/bin/td.exe
+   Built at =   19:26:25 Jun 10 2022
+   Run by =     Teriia
+   Run Date =   Sat Jul  2 13:10:24 2022
+
+   Run on =     DESKTOP-ND05MAH
+============================================================
+RUN-1002 : start command "download -bit SDRV4_0_Runs\phy_1\SDRV4_0.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit SDRV4_0_Runs/phy_1/SDRV4_0.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.614292s wall, 0.078125s user + 0.078125s system = 0.156250s CPU (2.4%)
+
+RUN-1004 : used memory is 217 MB, reserved memory is 158 MB, peak memory is 248 MB
+RUN-1003 : finish command "download -bit SDRV4_0_Runs\phy_1\SDRV4_0.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.946960s wall, 0.171875s user + 0.093750s system = 0.265625s CPU (3.8%)
+
+RUN-1004 : used memory is 217 MB, reserved memory is 158 MB, peak memory is 248 MB
+GUI-1001 : Download success!

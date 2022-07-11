@@ -1,0 +1,2696 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/modelsim/examples
+T_opt
+!s110 1650104631
+VM2E?RF`RNnWgLjmbNoOoF1
+Z1 04 9 4 work testbench fast 0
+=1-f8e43b5d936c-625a9937-158-4664
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.4;69
+R0
+T_opt1
+!s110 1647875685
+VWSSzN]ea7jJb>la6oWm0e0
+R1
+=1-f8e43b5d936c-62389665-1c7-65d0
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1649994158
+VmU]D:Y9dEEE_F==GCZTO;2
+R1
+=1-f8e43b5d936c-6258e9ac-3dc-46a8
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vADC
+Z5 !s110 1650104782
+!i10b 1
+!s100 f6Rc52HgW=Gi1jlE@hha=0
+!s11b Ug9JHz8FCaNZG;H6_iNaz0
+IPFj?ZXjHYRB[z`=WQ@3@c0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dD:/Project/anlogic/SDR_transmit/modelsim
+w1646661441
+8D:/Project/anlogic/SDR_transmit/td/al_ip/ADC.v
+FD:/Project/anlogic/SDR_transmit/td/al_ip/ADC.v
+!i122 -1
+Z8 L0 14
+Z9 OL;L;2019.4;69
+r1
+!s85 0
+31
+Z10 !s108 1650104782.000000
+!s107 D:/Project/anlogic/SDR_transmit/td/al_ip/ADC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/td/al_ip/ADC.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@a@d@c
+vAddrCnt
+Z12 !s110 1650104779
+!i10b 1
+!s100 Do4CR@KgLUN_7B1XC[SGU0
+!s11b 9c_b4Z;Ej;ThPTjRfno9l2
+I=Ei4G7];H1cnFB76m3ako1
+R6
+R7
+Z13 w1621422836
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/AddrCnt.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/AddrCnt.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+Z14 !s108 1650104779.000000
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/AddrCnt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/AddrCnt.v|
+!i113 0
+R11
+R3
+n@addr@cnt
+vAHB_FIFO_Interface
+Z15 !s110 1650104780
+!i10b 1
+!s100 RP9z6C;mXh]<7d@Ud>OOb2
+!s11b cgik<eRMSd>hgzX46?Zab3
+Igz=TS5W`NOj^OD?Q7Sb<01
+R6
+R7
+w1623288966
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/AHB_FIFO_Interface.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/AHB_FIFO_Interface.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+Z16 !s108 1650104780.000000
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/AHB_FIFO_Interface.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/AHB_FIFO_Interface.v|
+!i113 0
+R11
+R3
+n@a@h@b_@f@i@f@o_@interface
+vAHBlite_Block_RAM
+Z17 !s110 1650104778
+!i10b 1
+!s100 XD<@PL7e<6MQ]VCP`FiR<0
+!s11b IZ]:aIh95d6m9bh_nKbaR3
+I:H@M9iUImP0BJ0EVLSJbV3
+R6
+R7
+w1649317693
+8D:/Project/anlogic/SDR_transmit/rtl/AHBlite_Block_RAM.v
+FD:/Project/anlogic/SDR_transmit/rtl/AHBlite_Block_RAM.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+Z18 !s108 1650104778.000000
+!s107 D:/Project/anlogic/SDR_transmit/rtl/AHBlite_Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/AHBlite_Block_RAM.v|
+!i113 0
+R11
+R3
+n@a@h@blite_@block_@r@a@m
+vapb
+R15
+!i10b 1
+!s100 EH`4M4Yg5i6NHm8oB5SZ33
+!s11b U=CaJN41B1aOT4<5jXZZ]1
+I0=?ZO?1ZBFH^[0cL;P;_b0
+R6
+R7
+w1650104444
+8D:/Project/anlogic/SDR_transmit/rtl/I2C/apb.v
+FD:/Project/anlogic/SDR_transmit/rtl/I2C/apb.v
+!i122 -1
+Z19 L0 79
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/I2C/apb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/I2C/apb.v|
+!i113 0
+R11
+R3
+vAPB_BDMAC
+R12
+!i10b 1
+!s100 Eb3oKHdm=S_Z68SmL7TO?0
+!s11b RGFEgG@=ib1Zb:nRV8]PY1
+I]=gBDea:C1@b=AAa]`<X_0
+R6
+R7
+w1621424623
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/APB_BDMAC.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/APB_BDMAC.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/APB_BDMAC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/APB_BDMAC.v|
+!i113 0
+R11
+R3
+n@a@p@b_@b@d@m@a@c
+vAPB_Keyboard
+R15
+!i10b 1
+!s100 3OY:OdBJ=RLIHOAfBnogc0
+!s11b 0fH15Y@5]6b9WQn7faOz`3
+IF2^FW5[MkmPDKIH`O3nDm2
+R6
+R7
+w1622450594
+8D:/Project/anlogic/SDR_transmit/rtl/Keyboard/APB_Keyboard.v
+FD:/Project/anlogic/SDR_transmit/rtl/Keyboard/APB_Keyboard.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Keyboard/APB_Keyboard.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Keyboard/APB_Keyboard.v|
+!i113 0
+R11
+R3
+n@a@p@b_@keyboard
+vapb_spi_master
+Z20 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R12
+!i10b 1
+!s100 S@TekN?>2bzO>:Xazh:?m1
+!s11b WW;:8nmaYFofkZ7kJ0Uo[1
+IElM^0NoONgl]z6X[;f_420
+R6
+S1
+R7
+Z21 w1646046509
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/apb_spi_master.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/apb_spi_master.sv
+!i122 -1
+Z22 L0 13
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/apb_spi_master.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/apb_spi_master.sv|
+!i113 0
+Z23 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vAPBTube
+Z24 !s110 1650104781
+!i10b 1
+!s100 2G5c?;U[IeI7?4O^[oCZi3
+!s11b L[fG88cQbigNkAg?OoHmJ0
+ICDMVzK5oJGYa><SUPJOaH1
+R6
+R7
+w1647570930
+8D:/Project/anlogic/SDR_transmit/rtl/Tube/APBTube.v
+FD:/Project/anlogic/SDR_transmit/rtl/Tube/APBTube.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+Z25 !s108 1650104781.000000
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Tube/APBTube.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Tube/APBTube.v|
+!i113 0
+R11
+R3
+n@a@p@b@tube
+vBDMA
+R12
+!i10b 1
+!s100 :o_W4Rcl<:cK^XSzNVEz:1
+!s11b eiPSXOPC<Zeiz1E=hb5Ej0
+IigC5LLK_mCCN`=@2nDgmJ3
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMA.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMA.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMA.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMA.v|
+!i113 0
+R11
+R3
+n@b@d@m@a
+vBDMAC
+R12
+!i10b 1
+!s100 C3LYR?F5KEEWONkbKJ<P52
+!s11b ?2JRlOZW2HGW>BPeKXRN[1
+I7a8d@dI5n997z4^2hb:P;1
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMAC.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMAC.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMAC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BDMAC.v|
+!i113 0
+R11
+R3
+n@b@d@m@a@c
+vBeatCnt
+R12
+!i10b 1
+!s100 H[DWUe@aNd<XWTl:=fCkX1
+!s11b AGKVS0i0FO58hVkIFPzEH1
+IzbONOV4A<;kAXZ6:gYngn3
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatCnt.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatCnt.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatCnt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatCnt.v|
+!i113 0
+R11
+R3
+n@beat@cnt
+vBeatDecoder
+R12
+!i10b 1
+!s100 aQD>[z14K:`cMX[BD@[kC3
+!s11b [_;]>SCH7W0[ZAgiFK]?b1
+IVD9GYeV8j0EVRiO>E@zj@2
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatDecoder.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatDecoder.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatDecoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BeatDecoder.v|
+!i113 0
+R11
+R3
+n@beat@decoder
+vBlock_RAM
+R17
+!i10b 1
+!s100 <@heKFdEPh:Fc6z:Yj^YZ2
+!s11b eE1@:VCaEdIl]F]G8EBJ;3
+I;=UUf[nf=MWW8Va]5]88E1
+R6
+R7
+w1649768686
+8D:/Project/anlogic/SDR_transmit/rtl/Block_RAM.v
+FD:/Project/anlogic/SDR_transmit/rtl/Block_RAM.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R18
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Block_RAM.v|
+!i113 0
+R11
+R3
+n@block_@r@a@m
+vBlock_ROM_init_data
+R15
+!i10b 1
+!s100 e6Z1R6ZnaL>_j=5EC7c;30
+!s11b CDaMV0Q4inSjf>TYb@WJP1
+INaUWUfADB6Yo@TVM9kkD_3
+R6
+R7
+Z26 w1649737642
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_data.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_data.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_data.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_data.v|
+!i113 0
+R11
+R3
+n@block_@r@o@m_init_data
+vBlock_ROM_init_sign
+R15
+!i10b 1
+!s100 4hjfHnkQ]K0YTBKd?lb;Q2
+!s11b VYO4FjWFc<N;:OL01bD_D2
+I:7YBcolTM=o51f]4H7@oe1
+R6
+R7
+R26
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_sign.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_sign.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_sign.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Block_ROM_init_sign.v|
+!i113 0
+R11
+R3
+n@block_@r@o@m_init_sign
+vBuzzer
+R12
+!i10b 1
+!s100 70bbP7Ga1hoKiMazOAP[03
+!s11b 1AIZ_0]?>_Z]QLleE:5Gg0
+I7QU_^b=@bPeHZY?b_`Vza3
+R6
+R7
+w1623253779
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/Buzzer.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/Buzzer.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/Buzzer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/Buzzer.v|
+!i113 0
+R11
+R3
+n@buzzer
+vBuzzerCtr
+R12
+!i10b 1
+!s100 ^A^@X=cV:f[5C3?NTb`_g1
+!s11b 4D;MLNz4;g8[hhcIG?d081
+IgV:SDK^]=2QZP5QkZiEH11
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BuzzerCtr.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/BuzzerCtr.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BuzzerCtr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/BuzzerCtr.v|
+!i113 0
+R11
+R3
+n@buzzer@ctr
+vClkDiv
+R24
+!i10b 1
+!s100 g@WdbE6cBZHcgXnPDF:If2
+!s11b >]o9P36caTCdVFg;LJG>I2
+II]]c98gi1Ri;9TZ_i39Wn0
+R6
+R7
+w1635694209
+8D:/Project/anlogic/SDR_transmit/rtl/Tube/ClkDiv.v
+FD:/Project/anlogic/SDR_transmit/rtl/Tube/ClkDiv.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Tube/ClkDiv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Tube/ClkDiv.v|
+!i113 0
+R11
+R3
+n@clk@div
+vcmsdk_ahb_to_apb
+R12
+!i10b 1
+!s100 liHAgL=_U=n<FA1b[9?PR2
+!s11b cz=VCF35_UK5DND0Pc<jC2
+IYeFU@o<TX7F4lb6cnTniQ1
+R6
+R7
+Z27 w1621422092
+8D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_ahb_to_apb.v
+FD:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_ahb_to_apb.v
+!i122 -1
+Z28 L0 31
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_ahb_to_apb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_ahb_to_apb.v|
+!i113 0
+R11
+R3
+vcmsdk_apb_slave_mux
+R12
+!i10b 1
+!s100 JKo1J=MPFkim@;F8kShON1
+!s11b TYS1L?i:8NNb4l8OmCiWc2
+IX0]CSD?AJ]<V@j4fo]:FZ1
+R6
+R7
+R27
+8D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_apb_slave_mux.v
+FD:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_apb_slave_mux.v
+!i122 -1
+L0 26
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_apb_slave_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB/cmsdk_apb_slave_mux.v|
+!i113 0
+R11
+R3
+vcmsdk_apb_uart
+R5
+!i10b 1
+!s100 Y:XS4WQ3:zTU9U@`BoXjZ1
+!s11b <DDfFjT7J<S5EOg6?_@LX0
+IC4:mI5_mdABojf>YiY_@F3
+R6
+R7
+w1506940716
+8D:/Project/anlogic/SDR_transmit/rtl/UART/cmsdk_apb_uart.v
+FD:/Project/anlogic/SDR_transmit/rtl/UART/cmsdk_apb_uart.v
+!i122 -1
+L0 53
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/UART/cmsdk_apb_uart.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/UART/cmsdk_apb_uart.v|
+!i113 0
+R11
+R3
+vcortexm0ds_logic
+R17
+!i10b 1
+!s100 G<3Q_bN@PV<MKFdgj4zVA1
+!s11b U1CP4P8L[gUYDIO^iBUE20
+IjNdkLKAA>ahD>LOVKh7VV3
+R6
+R7
+w1621422093
+8D:/Project/anlogic/SDR_transmit/rtl/cortexm0ds_logic.v
+FD:/Project/anlogic/SDR_transmit/rtl/cortexm0ds_logic.v
+!i122 -1
+Z29 L0 27
+R9
+r1
+!s85 0
+31
+R18
+!s107 D:/Project/anlogic/SDR_transmit/rtl/cortexm0ds_logic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/cortexm0ds_logic.v|
+!i113 0
+R11
+R3
+vdifferentiator
+R17
+!i10b 1
+!s100 Y3:5[Zo;aollQ<?R?Nk<52
+!s11b fh3O:olzH5_@zF_Pgn:f:0
+I9O[C[_m]zg2;IGXX4AdKO2
+R6
+R7
+w1648477394
+8D:/Project/anlogic/SDR_transmit/rtl/differentiator01.v
+FD:/Project/anlogic/SDR_transmit/rtl/differentiator01.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R18
+!s107 D:/Project/anlogic/SDR_transmit/rtl/differentiator01.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/differentiator01.v|
+!i113 0
+R11
+R3
+vDigSel
+R24
+!i10b 1
+!s100 JedHS^Y@?Dh0K6T;;Ggj63
+!s11b 4g>3Y3K[KEzYdli^n?5g92
+ImTe`ZFeNcQAiB:WoaPF963
+R6
+R7
+w1647411043
+8D:/Project/anlogic/SDR_transmit/rtl/Tube/DigSel.v
+FD:/Project/anlogic/SDR_transmit/rtl/Tube/DigSel.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Tube/DigSel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Tube/DigSel.v|
+!i113 0
+R11
+R3
+n@dig@sel
+vEG_LOGIC_BRAM
+Z30 !s110 1647875676
+!i10b 1
+!s100 ;Xi?doA1l9QN80E2To0500
+!s11b <GYG9c38S5Z>9Z1=hjAP`2
+I[Db^;D[`0leF3aTBPo=L22
+R6
+Z31 dD:/Project/anlogic/SDR/modelsim
+Z32 w1619427436
+Z33 8D:/TD/arch/eagle_macro.v
+Z34 FD:/TD/arch/eagle_macro.v
+!i122 -1
+L0 1032
+R9
+r1
+!s85 0
+31
+Z35 !s108 1647875675.000000
+Z36 !s107 D:/TD/arch/eagle_macro.v|
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/TD/arch/eagle_macro.v|
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@b@r@a@m
+vEG_LOGIC_BUF
+Z38 !s110 1647875675
+!i10b 1
+!s100 8iVdNdzIDYUV@fL15Sf0i3
+Z39 !s11b 4a1;1L52Aj9i[TzoX^0fg3
+IlIKb9o3?OJlNUXhiD[g6Z1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 2
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@b@u@f
+vEG_LOGIC_BUFG
+R38
+!i10b 1
+!s100 07^j?;@miO<[F3B7Hj5L`0
+R39
+I9g>6dz0WY^z:gEo1<DUEm1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 8
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@b@u@f@g
+vEG_LOGIC_BUFGMUX
+R38
+!i10b 1
+!s100 WWXl2X[^`P:midgOH[1@R2
+!s11b OK?C@^B<UWc7e2Um_<b=X1
+IBE<L:0b5_X[=C]Xh>SNGB3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+R29
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@b@u@f@g@m@u@x
+vEG_LOGIC_BUFIO
+R38
+!i10b 1
+!s100 MSf]c?IEbg7EgTESV[Pi;1
+!s11b 6GP04e@KU4V1=X9[X>LX^3
+IP4Gk[Lz63Nn6[@LezK3P83
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+R8
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@b@u@f@i@o
+vEG_LOGIC_CCLK
+R38
+!i10b 1
+!s100 Z^QDXY7imLK^Xf<HYYZM51
+!s11b 7heME4mAE1kK6_POA2QMR3
+I8kH4@6hBJROEF27fmAg]32
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 62
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@c@c@l@k
+vEG_LOGIC_DNA
+R38
+!i10b 1
+!s100 O_::LhROaO[=ZDf53<Q`c2
+!s11b Ndd5DlHglCOY4UZS3CNgO3
+I__1Q=^IQN61[l<K:IeQ1T1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 46
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@d@n@a
+vEG_LOGIC_DRAM
+R30
+!i10b 1
+!s100 T:kTzYG7T5P]oR<E1N6eQ3
+!s11b W;Az543M?=760YE4O<Id80
+I_:9:Y59]^PcL^RAWHiFGY1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 176
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@d@r@a@m
+vEG_LOGIC_DRAM16X4
+R30
+!i10b 1
+!s100 f9ao4b`@49U7RIXeFo<9?1
+!s11b PPnUfaO?ij@JOX3Q]no8>3
+IbTBBcJdCUHI1gQMVWLWJ53
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 200
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@d@r@a@m16@x4
+vEG_LOGIC_FIFO
+R30
+!i10b 1
+!s100 Dh_bUL@U7NX@T60V8;YYj1
+!s11b cYMGjVRhl;GBiYSGAjREo3
+If1Tn;@MoW@_TR8KSFia7h1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 142
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@f@i@f@o
+vEG_LOGIC_GSRN
+R38
+!i10b 1
+!s100 11z`;lkT6G9<3Fk2TTaXL3
+!s11b YP?J1BAVbIE?:iaG:BeSb2
+ICm=1o9DO1MQBP2OccB8<T3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 54
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@g@s@r@n
+vEG_LOGIC_IDDR
+R38
+!i10b 1
+!s100 @[e=je6aD[9:IhM`K7<Y70
+!s11b N<ombbBZ7HzUm>zR]>IU>3
+IJgIO9d]2BfN0]66GfM=j?2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+Z40 L0 76
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@i@d@d@r
+vEG_LOGIC_IDDRx2
+R30
+!i10b 1
+!s100 JANML1fSULJ2EPHQ5a9I41
+!s11b <4E2Pl@;V[olLLnf>OQJd1
+I2;E;<:abY2LUm?I5nOSkY1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 97
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@i@d@d@rx2
+vEG_LOGIC_IDELAY
+R38
+!i10b 1
+!s100 OPkcj1Ra=7iUOmHMc?2oS2
+!s11b 9_UmEAFh>3i:n6fhT81A;1
+ID;7VN=C<>D5a7f^O8_?K10
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 69
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@i@d@e@l@a@y
+vEG_LOGIC_MBOOT
+R38
+!i10b 1
+!s100 CQH6_EXB8D;>DgR@ZX@?_1
+!s11b TV8DJ7W5h:01hi3Acd39:3
+IQbi>@hVYB7a=SUD9<[5I?2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+Z41 L0 38
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@m@b@o@o@t
+vEG_LOGIC_MULT
+R30
+!i10b 1
+!s100 3WU@UidJX5Ak_;c[2=R?h3
+!s11b zdD3lL8o0BIL0FCjGCc`Z2
+IGdCGG;KQBYJ>^c6X5:?L?2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 214
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@m@u@l@t
+vEG_LOGIC_ODDR
+R38
+!i10b 1
+!s100 lS=QdZ_eTW=KmHAUPR5]:0
+!s11b [;5n1=7dcfTbf[2nTJjeb1
+IHjPN:;UdTDHS_YQEQ4CQ23
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 87
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@o@d@d@r
+vEG_LOGIC_ODDRx2
+R30
+!i10b 1
+!s100 Le3M66c:Qaj:J[k=XMnGQ1
+!s11b T?D:aR^;@bh5`;F<kmU?n0
+IXO^4<eHFWg7OnP8fAV3nV1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 117
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@o@d@d@rx2
+vEG_LOGIC_ODDRx2l
+R30
+!i10b 1
+!s100 BgR7d4GB9QRO;jdfd>J613
+!s11b [U=DEVU>IhFhI`JSahR[Q0
+IJ5G@^E9K?i3hk]V0F[_z`1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 130
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@o@d@d@rx2l
+vEG_LOGIC_ODELAY
+R30
+!i10b 1
+!s100 =dkc2GXWPcS[jVUek03Ez1
+!s11b WAUANLi0f230JdeNj:28n0
+I15?X8Nj2V6OA:G;h@XU=S3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 110
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@o@d@e@l@a@y
+vEG_LOGIC_RAMFIFO
+R30
+!i10b 1
+!s100 =N?<Fg36WCSgnZQQW=;iQ0
+!s11b 0bJXVSnnoQbeVoz`T8RI33
+IcI3a8VYCH215Ene57O85a0
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 792
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@r@a@m@f@i@f@o
+vEG_LOGIC_SEQ_DIV
+R30
+!i10b 1
+!s100 ;;R80Ff32TDRiZToO4?<o0
+!s11b ij9OU7FNWf1>12SWcbl<_1
+I>IAb9Ih3;CLQmC;iSR_2J1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 237
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@l@o@g@i@c_@s@e@q_@d@i@v
+vEG_PHY_ADC
+R30
+!i10b 1
+!s100 PTd7ZLYZ=I0[]ZRfbbk;03
+!s11b [3_YLf^0IRCc[J<HR[L<a2
+I<C2J]2MX@z]cZB7fa<`Qc3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 1074
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@a@d@c
+vEG_PHY_BRAM
+R30
+!i10b 1
+!s100 o[>P>eV3ISD=^]C9;D8CI3
+!s11b ji0Jg4?^L3Rbga>5bZB2k1
+I4=NNL9j>1[Z]YHSLC8=K61
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 252
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@b@r@a@m
+vEG_PHY_BRAM32K
+R30
+!i10b 1
+!s100 >mmZ]gAUGchVMZ]=_lZG;3
+!s11b 9J0n70>Oz[NU>SH1jkWc22
+I8LF;BJ^lRLL[:mN]IMPVB0
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 337
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@b@r@a@m32@k
+vEG_PHY_CLKDIV
+R30
+!i10b 1
+!s100 LdOiS0GW[b3>V@S0I6RFn2
+!s11b H7f^W5UInP:UL^8TU967k2
+IYo7XH7RRjh@?W:;9TKg@N2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 614
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@c@l@k@d@i@v
+vEG_PHY_CONFIG
+R30
+!i10b 1
+!s100 K:9EAml0Lg`R[]H<b]2KE3
+!s11b Dh53?i<2RVf0`HDQK0_P=0
+I8AEG=Qh;3S0e=fR>3L8n?0
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 625
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@c@o@n@f@i@g
+vEG_PHY_CSB
+R30
+!i10b 1
+!s100 @Ydl=Lgac^g;iJ:E4ZLGd0
+!s11b 7mFCflj?U1D2W;]RGeR>:2
+I:AYAG0EbTk?@MDcd2<a;l2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 1018
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@c@s@b
+vEG_PHY_DDR_8M_16
+R30
+!i10b 1
+!s100 WEdIjN:Y7V4=^2:N83k690
+!s11b 2I^E93>DDmnnc^JQeNg]T2
+I7Paz8ljmMJdee?AVgmU@X1
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 686
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@d@d@r_8@m_16
+vEG_PHY_FIFO
+R30
+!i10b 1
+!s100 aGfPIFzaDbmhSa6eEAc^V3
+!s11b 1C`k0If5KMhTWW3[Rk1W^1
+I[G>e@gU;7ZWHQ5TBJE;:82
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 507
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@f@i@f@o
+vEG_PHY_GCLK
+R30
+!i10b 1
+!s100 f]1BGCiioC@ag:^B0>M;O0
+!s11b G^b1TB8be]K1BmgckRF0:2
+IoKj2CfW]aPS[EOa4JBkF>3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 600
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@g@c@l@k
+vEG_PHY_IOCLK
+R30
+!i10b 1
+!s100 4:Vbg8IU8gm1MR[X_YNEM1
+!s11b H87J3fMb>m0S;<RYUNHOJ1
+Iic=z0dS:9`k[CjYV3IeVO2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 606
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@i@o@c@l@k
+vEG_PHY_LSLICE
+R30
+!i10b 1
+!s100 9h=[k;z<76M]z@ck;ljPC2
+!s11b fiE<<i;WAg_Qm5f@o=Qa>3
+Ik58[7:<@Nz8LUm]ASf4FY0
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 869
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@l@s@l@i@c@e
+vEG_PHY_MSLICE
+R30
+!i10b 1
+!s100 _df;XinQLP8>nHX<e1bR11
+!s11b ELSBWGW4H4jKNg<ddKH`12
+IeFimf8`9aGBWcKeA`kVPK3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 817
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@m@s@l@i@c@e
+vEG_PHY_MULT18
+R30
+!i10b 1
+!s100 ZLg<M_c@XlZLDNcD:GDg10
+!s11b 8ESG08@6J:Bh]<zPh]=CK3
+Io?3ZWRkA@_z26N17D<T4d2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 560
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@m@u@l@t18
+vEG_PHY_OSC
+R30
+!i10b 1
+!s100 XzjY4VVmcL:V=dFJJ?WS61
+!s11b c79Ifz4jT;m6BA3jLBITN1
+IcdbCg@i18iEB33bF^[NOM3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 670
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@o@s@c
+vEG_PHY_PAD
+R30
+!i10b 1
+!s100 6Bl1M4MQkCCa2Jce=Vzob2
+!s11b k^@:B3?0k:oHBJ;k9IJEX0
+I`F^7mPCkf67M4[]a=DLMl0
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 752
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@p@a@d
+vEG_PHY_PLL
+R30
+!i10b 1
+!s100 KHkT@5l2BhCm;z5IQO?132
+!s11b OQ6RBTDH3J[6RocAC19UG2
+IKafAADRShM90Chha;UE]^2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 930
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@p@l@l
+vEG_PHY_PWRMNT
+R30
+!i10b 1
+!s100 =3U2OGElB6dcZMNdji?P:1
+!s11b WH?ZB2dm_KZG>lXm]BKc_0
+IWDhiln:je^ZiA40m6YOW_3
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 678
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@p@w@r@m@n@t
+vEG_PHY_SDRAM_2M_32
+R30
+!i10b 1
+!s100 8_T45HcFcf;^BE8O2<KgG2
+!s11b =EIIlN8V9OOE8TNiZ[SST1
+I@]dQWA_;obYkbZU?:3R`D2
+R6
+R31
+R32
+R33
+R34
+!i122 -1
+L0 720
+R9
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R11
+R3
+n@e@g_@p@h@y_@s@d@r@a@m_2@m_32
+vfifo
+R15
+!i10b 1
+!s100 M77N[aXD7LFNbJ@J:HN_c0
+!s11b e:S^2D`lbl3k26a8;od>`1
+If5iBZ0AzNJY8JiZVj^IjT2
+R6
+R7
+w1649749907
+8D:/Project/anlogic/SDR_transmit/rtl/I2C/fifo.v
+FD:/Project/anlogic/SDR_transmit/rtl/I2C/fifo.v
+!i122 -1
+R40
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/I2C/fifo.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/I2C/fifo.v|
+!i113 0
+R11
+R3
+vFIFO_synq
+R17
+!i10b 1
+!s100 3`>f_^hik@[SQK@Xehkd;3
+!s11b Xl:8]17GD3nc79Hhebka:1
+ILK1;A0ISQ@:;]FFHLn6iM2
+R6
+R7
+w1623256746
+8D:/Project/anlogic/SDR_transmit/rtl/FIFO_synq.v
+FD:/Project/anlogic/SDR_transmit/rtl/FIFO_synq.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R18
+!s107 D:/Project/anlogic/SDR_transmit/rtl/FIFO_synq.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/FIFO_synq.v|
+!i113 0
+R11
+R3
+n@f@i@f@o_synq
+vfilter
+R17
+!i10b 1
+!s100 `NfjV;^DKQ^ckEz`hdb3Z2
+!s11b oPlWc[eR@D[TDc752AIB:1
+IoIGjGYk6P;bfNo]C0I;fN0
+R6
+R7
+w1648285479
+8D:/Project/anlogic/SDR_transmit/rtl/filter.v
+FD:/Project/anlogic/SDR_transmit/rtl/filter.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R18
+!s107 D:/Project/anlogic/SDR_transmit/rtl/filter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/filter.v|
+!i113 0
+R11
+R3
+vi2c
+R15
+!i10b 1
+!s100 4iEHOT=hD83@a<kkc@Abh1
+!s11b BeYT?^[aR9DB7c[a6252T1
+IR3SnVhfc65YZ[Elo4QXhT2
+R6
+R7
+w1650104382
+8D:/Project/anlogic/SDR_transmit/rtl/I2C/i2c.v
+FD:/Project/anlogic/SDR_transmit/rtl/I2C/i2c.v
+!i122 -1
+R19
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/I2C/i2c.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/I2C/i2c.v|
+!i113 0
+R11
+R3
+vInterface_9341
+R15
+!i10b 1
+!s100 8eI;E32EVP9?jEa`JL^?L0
+!s11b @Y31PEVaJ:dEgYdEM0oC42
+IlgcP4N2a>]KjiR0YDo^`R1
+R6
+R7
+w1623251704
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Interface_9341.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Interface_9341.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Interface_9341.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Interface_9341.v|
+!i113 0
+R11
+R3
+n@interface_9341
+vKeyToCol
+R15
+!i10b 1
+!s100 zaO8LOD=P;DBTO4IVOA`W3
+!s11b ><kzXKVZV=R;Y_1BZjNkU3
+I>O3]I=b6N>Kf7FQj7^2Jh2
+R6
+R7
+w1647919312
+8D:/Project/anlogic/SDR_transmit/rtl/Keyboard/KeyToCol.v
+FD:/Project/anlogic/SDR_transmit/rtl/Keyboard/KeyToCol.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Keyboard/KeyToCol.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Keyboard/KeyToCol.v|
+!i113 0
+R11
+R3
+n@key@to@col
+vLCD_ini
+R15
+!i10b 1
+!s100 5=0AT=i;6FdeM_Nc`nUzT2
+!s11b GZmKjHaNQF<=n8jf7oJ@`0
+IJ<T3zE4WdTOjk_67UYR852
+R6
+R7
+w1623290004
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/LCD_ini.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/LCD_ini.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/LCD_ini.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/LCD_ini.v|
+!i113 0
+R11
+R3
+n@l@c@d_ini
+vLPF_Filter
+!s110 1647837574
+!i10b 1
+!s100 fMfLN]fCV`NRO@J`e9<:l0
+!s11b BdWA@aI9K4WOMA5_L_S2;3
+IKM_PjZVHzZTn:Z=SMQWEC3
+R6
+R31
+w1646995375
+8D:/Project/anlogic/SDR/rtl/LPF.v
+FD:/Project/anlogic/SDR/rtl/LPF.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1647837574.000000
+!s107 D:/Project/anlogic/SDR/rtl/LPF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR/rtl/LPF.v|
+!i113 0
+R11
+R3
+n@l@p@f_@filter
+vmodule_i2c
+R15
+!i10b 1
+!s100 T:KE@hjQXP94aRT]fQVlF0
+!s11b Ga44z6WjaIzJUi^5MnPQY2
+ILl9]iJR^nTl?KBFKQ68_z0
+R6
+R7
+w1650104180
+8D:/Project/anlogic/SDR_transmit/rtl/I2C/module_i2c.v
+FD:/Project/anlogic/SDR_transmit/rtl/I2C/module_i2c.v
+!i122 -1
+L0 80
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/I2C/module_i2c.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/I2C/module_i2c.v|
+!i113 0
+R11
+R3
+vPLL
+R5
+!i10b 1
+!s100 E1K=5WjAn[kL2_lzA18BX1
+!s11b oJ[:z=NGG^7oH2U78moMI2
+IEI=P6VRE9YXBL^dFgoC`G3
+R6
+R7
+w1648453778
+8D:/Project/anlogic/SDR_transmit/td/al_ip/PLL.v
+FD:/Project/anlogic/SDR_transmit/td/al_ip/PLL.v
+!i122 -1
+L0 25
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/Project/anlogic/SDR_transmit/td/al_ip/PLL.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/td/al_ip/PLL.v|
+!i113 0
+R11
+R3
+n@p@l@l
+vPrinter
+R15
+!i10b 1
+!s100 [b[NeI^RjNc1`NJMYnd6j1
+!s11b idzTDcnHe1m29CBbRg=`I3
+IRTDZD:JF<GV3G>AL3<o@V1
+R6
+R7
+w1623296043
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer.v|
+!i113 0
+R11
+R3
+n@printer
+vPrinter_ctr
+R15
+!i10b 1
+!s100 ?hfzZ5K3g1h^I2T]:UKDd0
+!s11b <@50mF9Dk>5;NaHVogTnB2
+I<ohH4ST5[>f]S5;mUP]L33
+R6
+R7
+w1623296027
+8D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer_ctr.v
+FD:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer_ctr.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer_ctr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/LCD_printer/Printer_ctr.v|
+!i113 0
+R11
+R3
+n@printer_ctr
+vpwm
+R17
+!i10b 1
+!s100 >Dmk2h=^lNcOOQeK1mJW=1
+!s11b l^;P7LTUo>3MLRg_IjgA`2
+IoJS<`>]N5k=N;ERV4g1]m3
+R6
+R7
+w1646797125
+8D:/Project/anlogic/SDR_transmit/rtl/PWM.v
+FD:/Project/anlogic/SDR_transmit/rtl/PWM.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R18
+!s107 D:/Project/anlogic/SDR_transmit/rtl/PWM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/PWM.v|
+!i113 0
+R11
+R3
+vRealTankSoCBusArbM0
+R15
+!i10b 1
+!s100 LP]6PLaRS`2g]KOlI5H_c0
+!s11b z2OihSA1C:<Q4dH8N9@`[1
+IBffQazkEe7^B;_Kc4_1JX0
+R6
+R7
+Z42 w1623255429
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v
+!i122 -1
+Z43 L0 35
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM0.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@arb@m0
+vRealTankSoCBusArbM1
+R15
+!i10b 1
+!s100 l8;WVh;`VnYL7aIHJgOKd0
+Z44 !s11b ]DIja1NoNBN;Ied_0nS`h1
+If0M:34R>`JTS@;H5o52Y11
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v
+!i122 -1
+Z45 L0 39
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM1.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@arb@m1
+vRealTankSoCBusArbM2
+R15
+!i10b 1
+!s100 ^kf[ELV?_oU27HIXP8]<T1
+R44
+IRWc4oDXKIWYK]3TL;f[DM0
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v
+!i122 -1
+R45
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM2.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@arb@m2
+vRealTankSoCBusArbM3
+R15
+!i10b 1
+!s100 E=>GI<AKa9eIi[kZMMOBV0
+R44
+I3_8XGR?ZfaN8_zI@F=jmJ1
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v
+!i122 -1
+R45
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusArbM3.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@arb@m3
+vRealTankSoCBusDecS0
+R15
+!i10b 1
+!s100 c_Pk3[_KZfXb0Zg>cBC9E3
+!s11b @lh__l2GW46<f_:f1=6GD0
+INk[217R<HnJPY5HZzFWl@0
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v
+!i122 -1
+Z46 L0 36
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS0.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@dec@s0
+vRealTankSoCBusDecS1
+R24
+!i10b 1
+!s100 cEKA8iSaY1NUdFcFHBIc<3
+Z47 !s11b 71I?oU5VLQYb^zLW6U3N81
+Il0F[8J5=9YHPf^I1L3DDV2
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v
+!i122 -1
+R46
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS1.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@dec@s1
+vRealTankSoCBusDecS2
+R24
+!i10b 1
+!s100 `eXaPg9CneSXN_kON@AfW2
+R47
+IB]GV9kjb;<DRKmW`S0g`K2
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v
+!i122 -1
+R46
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS2.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@dec@s2
+vRealTankSoCBusDecS3
+R24
+!i10b 1
+!s100 _LE>:acU@H7kHO7P=OGN31
+R47
+IhklO>OZ4[Hf[L=Z9V805`1
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v
+!i122 -1
+R46
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusDecS3.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@dec@s3
+vRealTankSoCBusIn
+R24
+!i10b 1
+!s100 zg;R]CSo]5L=M8TRbI<PW0
+!s11b GiVnOhOz=c9gRLle7o7Uo1
+I1S1D[59Xn=Pa4JP;3UIRH3
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v
+!i122 -1
+L0 32
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusIn.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@in
+vRealTankSoCBusMtx
+R24
+!i10b 1
+!s100 1?gK3:oMX7CQA0JzaAhJh1
+!s11b @Mm_AD^Bak@Jz2fUPMoEG1
+IcgJL`WT^SDIcDPC[YZ>gm2
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+!i122 -1
+L0 49
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@mtx
+vRealTankSoCBusMtx_default_slave
+R24
+!i10b 1
+!s100 e:kcAbXzRAdX4fdG@2XmF1
+!s11b c?7fn<L9O5>bz]B0Pj7Oj0
+IWJ_7RhzNnjRmh;jZdo?]D2
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v
+!i122 -1
+R28
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_default_slave.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@mtx_default_slave
+vRealTankSoCBusMtx_lite
+R24
+!i10b 1
+!s100 1k<0MIlcPl7?A3ok>c;]Z1
+!s11b n7AD6C@TZKJ>E0=QoC?`02
+I<O9_6FR_ITn__?e]kaoW01
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v
+!i122 -1
+L0 33
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx_lite.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@mtx_lite
+vRealTankSoCBusOutM0
+R24
+!i10b 1
+!s100 b_P8mY9748cnS7=:DJFLB1
+!s11b lG`?3K4e6EEkz>M:eUZh13
+I4JOEY]]=jWGV=5i<8d5Rn2
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v
+!i122 -1
+R43
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM0.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@out@m0
+vRealTankSoCBusOutM1
+R24
+!i10b 1
+!s100 ZLRZUVSKL2Oi:a46GV=CU1
+!s11b 4DzeQmEia4mdI_bV9O]b]1
+IlK6Kn[@CS=d]B=KJh<PGR3
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v
+!i122 -1
+R41
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM1.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@out@m1
+vRealTankSoCBusOutM2
+R24
+!i10b 1
+!s100 5426AdE1VG4VoXLFM]>;c0
+!s11b KhRl9Tn;0NL9iJMaYf_F62
+ISNV8QlMSGWVIJ3][Jom2R3
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v
+!i122 -1
+R41
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM2.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@out@m2
+vRealTankSoCBusOutM3
+R24
+!i10b 1
+!s100 _`g4iFH=[E`nDz6b5JaMn1
+!s11b dT`UTOZQ]Y3PW8MoijcUR2
+IMN5nzFIOVaQWBE3Nb@b[]1
+R6
+R7
+R42
+8D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v
+FD:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v
+!i122 -1
+R41
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/RealTankSoCBusMtx/RealTankSoCBusOutM3.v|
+!i113 0
+R11
+R3
+n@real@tank@so@c@bus@out@m3
+vRSSI_APB_interface
+R24
+!i10b 1
+!s100 gKJ7Jbd@]z5OOh_Lgf=eV0
+!s11b VIgDmN9i>S]3BDTlGC9EF1
+I_c00d=X@JO<C4<F_O=_<S3
+R6
+R7
+w1648282470
+8D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_interface.v
+FD:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_interface.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_interface.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_interface.v|
+!i113 0
+R11
+R3
+n@r@s@s@i_@a@p@b_interface
+vRSSI_reader
+R24
+!i10b 1
+!s100 M8DaCTo7YSP`XmfDS]6BD2
+!s11b [W^XM^ehJ<ANEO6bNHi4^1
+IkeNBj0G]njNFaiLXCVMkI3
+R6
+R7
+w1648282386
+8D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_reader.v
+FD:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_reader.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_reader.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/tune_detector/RSSI_reader.v|
+!i113 0
+R11
+R3
+n@r@s@s@i_reader
+vSDR_Pad
+R12
+!i10b 1
+!s100 ELVOm^VCjM24ANhSE3n3_1
+!s11b EhP0hjFK`@lFFjOG]f43B2
+IDHJN??;>Gd[:3eld1g`D_2
+R6
+R7
+w1650104600
+8D:/Project/anlogic/SDR_transmit/rtl/SDR_Pad.v
+FD:/Project/anlogic/SDR_transmit/rtl/SDR_Pad.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/SDR_Pad.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/SDR_Pad.v|
+!i113 0
+R11
+R3
+n@s@d@r_@pad
+vSNR_APB_interface
+R24
+!i10b 1
+!s100 oFm58e5_>zh]4NE:h^k6n2
+!s11b J`L;g[`R:khoKiaZYck?b3
+IhYgbLKMXXOQNMcKnX]mIi0
+R6
+R7
+w1648307770
+8D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_interface.v
+FD:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_interface.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_interface.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_interface.v|
+!i113 0
+R11
+R3
+n@s@n@r_@a@p@b_interface
+vSNR_reader
+R24
+!i10b 1
+!s100 RgmkR8`RKBh>PenJ5M98e0
+!s11b 9@Y;z`eIVDihD:0J=?]jj3
+IFkM`=Eg7SdobNF_1T9?G02
+R6
+R7
+w1648474928
+8D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_reader.v
+FD:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_reader.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_reader.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/SNR/SNR_reader.v|
+!i113 0
+R11
+R3
+n@s@n@r_reader
+vspi_master_apb_if
+R20
+R12
+!i10b 1
+!s100 C4`Aa<9GH>aC;NDC=oKEf3
+!s11b YjNVc82ghWDk:RiiTkLKW1
+In[Db<^dkFFF3<k0gIOSh;3
+R6
+S1
+R7
+R21
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_apb_if.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_apb_if.sv
+!i122 -1
+L0 24
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_apb_if.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_apb_if.sv|
+!i113 0
+R23
+R3
+vspi_master_clkgen
+R20
+R12
+!i10b 1
+!s100 [_QgZ1fNneEI^2G=NG?E53
+!s11b @i:ZZ6@o6]^E`]LJge?YH1
+IFlg^d=S@4@RE>2]=HWkIm3
+R6
+S1
+R7
+Z48 w1646114410
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_clkgen.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_clkgen.sv
+!i122 -1
+Z49 L0 11
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_clkgen.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_clkgen.sv|
+!i113 0
+R23
+R3
+vspi_master_controller
+R20
+R12
+!i10b 1
+!s100 =<kAmYZ:^9S9AYXbd9GH]2
+!s11b Vh^3gUTW;fT_WfU7bX74Y1
+ITXR8F:zMOBmhfV`PYJ7YP2
+R6
+S1
+R7
+w1646316526
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_controller.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_controller.sv
+!i122 -1
+L0 15
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_controller.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_controller.sv|
+!i113 0
+R23
+R3
+vspi_master_fifo
+R20
+R12
+!i10b 1
+!s100 58h^J6mnC9VSgHV3dgV8P0
+!s11b jC>L`jF7=BJK[_DM>BF4B2
+I>C4LmV>J;`B1d]RR^i>eZ2
+R6
+S1
+R7
+R48
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_fifo.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_fifo.sv
+!i122 -1
+R22
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_fifo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_fifo.sv|
+!i113 0
+R23
+R3
+vspi_master_rx
+R20
+R12
+!i10b 1
+!s100 W0QPA:EO]:A@P3CenB@d43
+!s11b A:LiL7gN2Gk0YSOh[:S6B3
+IXVa_zEK0RUTi0ZGcRDYLO3
+R6
+S1
+R7
+R48
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_rx.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_rx.sv
+!i122 -1
+R49
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_rx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_rx.sv|
+!i113 0
+R23
+R3
+vspi_master_tx
+R20
+R12
+!i10b 1
+!s100 ^YQ`;k@7ESlIc2[l1dSER3
+!s11b ]4hlaadoE>gjO[nQ]<@>O1
+IR8NW?Z4I;EH9S5:PW^XN00
+R6
+S1
+R7
+R48
+8D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_tx.sv
+FD:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_tx.sv
+!i122 -1
+R49
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_tx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/APB_SPI_MASTER/spi_master_tx.sv|
+!i113 0
+R23
+R3
+vsqrt
+!s110 1646807404
+!i10b 1
+!s100 V2PH6aXg`[eI=c_c]z1XN0
+I@VC]iP3076>9X0Y:ga<?h1
+R6
+dC:/Users/Spica/Desktop/jichuang/SDR/modelsim
+w1646729772
+8C:/Users/Spica/Desktop/jichuang/SDR/rtl/SQRT.v
+FC:/Users/Spica/Desktop/jichuang/SDR/rtl/SQRT.v
+L0 1
+OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1646807404.030000
+!s107 C:/Users/Spica/Desktop/jichuang/SDR/rtl/SQRT.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/Spica/Desktop/jichuang/SDR/rtl/SQRT.v|
+!i113 1
+R11
+vSSeg
+R24
+!i10b 1
+!s100 :e]z;BH<c_[PXWMDTc=0L2
+!s11b =3WnElJVMM[k_EiadkKfz1
+I>VeM;fGQD@_iZKYSL^Aai0
+R6
+R7
+w1635499035
+8D:/Project/anlogic/SDR_transmit/rtl/Tube/SSeg.v
+FD:/Project/anlogic/SDR_transmit/rtl/Tube/SSeg.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Tube/SSeg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Tube/SSeg.v|
+!i113 0
+R11
+R3
+n@s@seg
+vtestbench
+R24
+!i10b 1
+!s100 @h268nbH]Eo<JZF?S^dYC2
+!s11b hkfnbTR8X:O:>AdaYbzmI1
+I6OQ9<FEGoGdJ<i4UeSL5e1
+R6
+R7
+w1649995276
+8D:/Project/anlogic/SDR_transmit/rtl/testbench/testbench.v
+FD:/Project/anlogic/SDR_transmit/rtl/testbench/testbench.v
+!i122 -1
+L0 3
+R9
+r1
+!s85 0
+31
+R25
+!s107 D:/Project/anlogic/SDR_transmit/rtl/testbench/testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/testbench/testbench.v|
+!i113 0
+R11
+R3
+vTimer
+R12
+!i10b 1
+!s100 G5SAHaI9NS1[`Q1PbG8Uz3
+!s11b cb0Y:3aJ@<`AJCn7iO4IQ0
+I=VIkHNVln3BPU7LGZYz^Y1
+R6
+R7
+w1623512202
+8D:/Project/anlogic/SDR_transmit/rtl/Timer.v
+FD:/Project/anlogic/SDR_transmit/rtl/Timer.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Timer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Timer.v|
+!i113 0
+R11
+R3
+n@timer
+vTuneDecoder
+R15
+!i10b 1
+!s100 @@0ShGGGAVi>CUABZ<Q:m2
+!s11b ^iPQKehOdMlLZkO<eeL0o2
+I<0MUY>5V`ia@ImzN?zKjh0
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TuneDecoder.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/TuneDecoder.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R14
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TuneDecoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TuneDecoder.v|
+!i113 0
+R11
+R3
+n@tune@decoder
+vTunePWM
+R15
+!i10b 1
+!s100 BlABGSacAb8L51G_8Z]ln0
+!s11b DZVCZk962d;`ALK<N>:>81
+I3;0R5Q^eF=_Z^X`dRPXf22
+R6
+R7
+R13
+8D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TunePWM.v
+FD:/Project/anlogic/SDR_transmit/rtl/Buzzer/TunePWM.v
+!i122 -1
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TunePWM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Project/anlogic/SDR_transmit/rtl/Buzzer/TunePWM.v|
+!i113 0
+R11
+R3
+n@tune@p@w@m

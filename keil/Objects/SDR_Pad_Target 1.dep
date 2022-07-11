@@ -1,0 +1,44 @@
+Dependencies for Project 'SDR_Pad', Target 'Target 1': (DO NOT MODIFY !)
+F (..\src\main.c)(0x60C8495E)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\src\Driver/code_def.h)(0x60C16D4F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (..\src\Driver/Buzzer.h)(0x60C0FB06)
+I (..\src\Driver/LCD.h)(0x60C4DB28)
+I (..\src\Driver/Timer.h)(0x60C4D02D)
+I (..\src\Driver/UART.h)(0x60C83ED5)
+I (..\src\GameSDK/Game.h)(0x60C4CFFF)
+I (..\src\RealTank.h)(0x60C4D080)
+I (..\src\Asset.h)(0x60C4D13D)
+F (..\src\RealTank.c)(0x60C4D082)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\realtank.o --omf_browse .\objects\realtank.crf --depend .\objects\realtank.d)
+I (..\src\RealTank.h)(0x60C4D080)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (..\src\GameSDK/Game.h)(0x60C4CFFF)
+I (..\src\Asset.h)(0x60C4D13D)
+F (..\src\Asset.h)(0x60C4D13D)()
+F (..\src\RealTank.h)(0x60C4D080)()
+F (..\src\startup_CMSDK_CM0.s)(0x60C83C59)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "CMSDK_CM0 SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\objects\startup_cmsdk_cm0.o --depend .\objects\startup_cmsdk_cm0.d)
+F (..\src\Driver\Buzzer.c)(0x60C0FB00)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
+I (..\src\Driver\Buzzer.h)(0x60C0FB06)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+F (..\src\Driver\Buzzer.h)(0x60C0FB06)()
+F (..\src\Driver\code_def.c)(0x60C16D5A)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\code_def.o --omf_browse .\objects\code_def.crf --depend .\objects\code_def.d)
+I (..\src\Driver\code_def.h)(0x60C16D4F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+F (..\src\Driver\code_def.h)(0x60C16D4F)()
+F (..\src\Driver\LCD.c)(0x60C4DB64)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (..\src\Driver\LCD.h)(0x60C4DB28)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+F (..\src\Driver\LCD.h)(0x60C4DB28)()
+F (..\src\Driver\Timer.c)(0x60C4D0BC)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\src\Driver\Timer.h)(0x60C4D02D)
+F (..\src\Driver\Timer.h)(0x60C4D02D)()
+F (..\src\Driver\UART.c)(0x60C83EB4)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\src\Driver\UART.h)(0x60C83ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+F (..\src\Driver\UART.h)(0x60C83ED5)()
+F (..\src\GameSDK\Game.c)(0x60C4BA07)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DCMSDK_CM0-o .\objects\game.o --omf_browse .\objects\game.crf --depend .\objects\game.d)
+I (..\src\GameSDK\Game.h)(0x60C4CFFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+F (..\src\GameSDK\Game.h)(0x60C4CFFF)()

@@ -1,0 +1,11 @@
+.\objects\main.o: ..\src\main.c
+.\objects\main.o: ..\src\Driver/code_def.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: ..\src\Driver/Buzzer.h
+.\objects\main.o: ..\src\Driver/LCD.h
+.\objects\main.o: ..\src\Driver/Timer.h
+.\objects\main.o: ..\src\Driver/UART.h
+.\objects\main.o: ..\src\GameSDK/Game.h
+.\objects\main.o: ..\src\RealTank.h
+.\objects\main.o: ..\src\Asset.h

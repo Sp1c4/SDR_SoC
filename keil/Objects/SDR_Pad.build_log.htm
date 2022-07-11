@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Èí¼þ¹Ü¼Ò ¹ÙÍø, www.softgi.com, LIC=8MZI6-DVPIV-KUA4L-05W4X-0JQCZ-6B6W6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      CMSIS_AGDI.dll V1.25.7.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\code\SDR_Pad\keil\SDR_Pad.uvprojx
+Project File Date:  03/02/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_CMSDK_CM0.s...
+compiling Game.c...
+compiling Timer.c...
+compiling Buzzer.c...
+compiling LCD.c...
+compiling code_def.c...
+compiling RealTank.c...
+compiling main.c...
+..\src\main.c(54): warning:  #111-D: statement is unreachable
+      return 0;
+..\src\main.c: 1 warning, 0 errors
+compiling UART.c...
+linking...
+.\Objects\SDR_Pad.axf: Warning: L6305W: Image does not have an entry point. (Not specified or not set due to multiple choices.)
+Program Size: Code=932 RO-data=3532 RW-data=28 ZI-data=2324  
+Finished: 0 information, 1 warning and 0 error messages.
+After Build - User command #1: fromelf -cvf .\SDR_Pad.axf --vhx --32x1 -o code.hex
+".\SDR_Pad.axf": Error: Q0122E: Could not open file '.\SDR_Pad.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+After Build - User command #2: fromelf -cvf .\SDR_Pad.axf -o code.txt
+".\SDR_Pad.axf": Error: Q0122E: Could not open file '.\SDR_Pad.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\SDR_Pad.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.V2M-MPS2_CMx_BSP.1.7.1.pack
+                Keil.V2M-MPS2_CMx_BSP.1.7.1
+                ARM V2M-MPS2 Board Support PACK for Cortex-M System Design Kit Devices
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM0\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

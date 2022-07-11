@@ -1,0 +1,663 @@
+# Reading D:/modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# OpenFile C:/Users/Spica/Desktop/jichuang/SDR/modelsim/test.mpf
+# Loading project test
+# Compile of AHBlite_Block_RAM.v was successful.
+# Compile of Block_RAM.v was successful.
+# Compile of cortexm0ds_logic.v was successful.
+# Compile of differentiator01.v was successful.
+# Compile of FIFO_synq.v was successful.
+# Compile of LPF_filter.v was successful.
+# Compile of PWM.v was successful.
+# Compile of SDR_Pad.v was successful.
+# Compile of SQRT.v was successful.
+# Compile of Timer.v was successful.
+# Compile of testbench.v was successful.
+# Compile of cmsdk_ahb_to_apb.v was successful.
+# Compile of cmsdk_apb_slave_mux.v was successful.
+# Compile of apb_spi_master.sv was successful.
+# Compile of spi_master_apb_if.sv was successful.
+# Compile of spi_master_clkgen.sv was successful.
+# Compile of spi_master_controller.sv was successful.
+# Compile of spi_master_fifo.sv was successful.
+# Compile of spi_master_rx.sv was successful.
+# Compile of spi_master_tx.sv was successful.
+# Compile of AddrCnt.v was successful.
+# Compile of APB_BDMAC.v was successful.
+# Compile of BDMA.v was successful.
+# Compile of BDMAC.v was successful.
+# Compile of BeatCnt.v was successful.
+# Compile of BeatDecoder.v was successful.
+# Compile of Buzzer.v was successful.
+# Compile of BuzzerCtr.v was successful.
+# Compile of TuneDecoder.v was successful.
+# Compile of TunePWM.v was successful.
+# Compile of APB_Keyboard.v was successful.
+# Compile of KeyToCol.v was successful.
+# Compile of AHB_FIFO_Interface.v was successful.
+# Compile of Block_ROM_init_data.v was successful.
+# Compile of Block_ROM_init_sign.v was successful.
+# Compile of Interface_9341.v was successful.
+# Compile of LCD_ini.v was successful.
+# Compile of Printer.v was successful.
+# Compile of Printer_ctr.v was successful.
+# Compile of RealTankSoCBusArbM0.v was successful.
+# Compile of RealTankSoCBusArbM1.v was successful.
+# Compile of RealTankSoCBusArbM2.v was successful.
+# Compile of RealTankSoCBusArbM3.v was successful.
+# Compile of RealTankSoCBusDecS0.v was successful.
+# Compile of RealTankSoCBusDecS1.v was successful.
+# Compile of RealTankSoCBusDecS2.v was successful.
+# Compile of RealTankSoCBusDecS3.v was successful.
+# Compile of RealTankSoCBusIn.v was successful.
+# Compile of RealTankSoCBusMtx.v was successful.
+# Compile of RealTankSoCBusMtx_default_slave.v was successful.
+# Compile of RealTankSoCBusMtx_lite.v was successful.
+# Compile of RealTankSoCBusOutM0.v was successful.
+# Compile of RealTankSoCBusOutM1.v was successful.
+# Compile of RealTankSoCBusOutM2.v was successful.
+# Compile of RealTankSoCBusOutM3.v was successful.
+# Compile of cmsdk_apb_uart.v was successful.
+# 56 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim -gui C:\Users\Spica\Desktop\jichuang\SDR\modelsim\test.mpf 
+# Start time: 14:29:02 on Mar 09,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.testbench
+# Loading work.SDR_Pad
+# Loading work.cortexm0ds_logic
+# Loading work.RealTankSoCBusMtx
+# Loading work.RealTankSoCBusIn
+# Loading work.RealTankSoCBusDecS0
+# Loading work.RealTankSoCBusMtx_default_slave
+# Loading work.RealTankSoCBusDecS1
+# Loading work.RealTankSoCBusDecS2
+# Loading work.RealTankSoCBusDecS3
+# Loading work.RealTankSoCBusOutM0
+# Loading work.RealTankSoCBusArbM0
+# Loading work.RealTankSoCBusOutM1
+# Loading work.RealTankSoCBusArbM1
+# Loading work.RealTankSoCBusOutM2
+# Loading work.RealTankSoCBusArbM2
+# Loading work.RealTankSoCBusOutM3
+# Loading work.RealTankSoCBusArbM3
+# Loading work.cmsdk_ahb_to_apb
+# Loading work.cmsdk_apb_slave_mux
+# Loading work.Buzzer
+# Loading work.BuzzerCtr
+# Loading work.BDMA
+# Loading work.AddrCnt
+# Loading work.BeatCnt
+# Loading work.BeatDecoder
+# Loading work.TuneDecoder
+# Loading work.TunePWM
+# Loading work.AHBlite_Block_RAM
+# Loading work.Block_RAM
+# Loading work.APB_Keyboard
+# Loading work.KeyToCol
+# Loading work.AHB_FIFO_Interface
+# Loading work.FIFO_synq
+# Loading work.Printer
+# Loading work.Printer_ctr
+# Loading work.LCD_ini
+# Loading work.Block_ROM_init_data
+# Loading work.Block_ROM_init_sign
+# Loading work.Interface_9341
+# Loading work.Timer
+# Loading work.cmsdk_apb_uart
+# Loading sv_std.std
+# Loading work.apb_spi_master
+# Loading work.spi_master_apb_if
+# Loading work.spi_master_fifo
+# Loading work.spi_master_controller
+# Loading work.spi_master_clkgen
+# Loading work.spi_master_tx
+# Loading work.spi_master_rx
+# ** Error: (vsim-3033) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(963): Instantiation of 'ADC' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/u_sdr_pad File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v
+#         Searched libraries:
+#             C:/Users/Spica/Desktop/jichuang/SDR/modelsim/work
+# ** Error: (vsim-3033) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(1000): Instantiation of 'PLL' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/u_sdr_pad File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v
+#         Searched libraries:
+#             C:/Users/Spica/Desktop/jichuang/SDR/modelsim/work
+# Loading work.pwm
+# Loading work.differentiator
+# Error loading design
+# Compile of AHBlite_Block_RAM.v was successful.
+# Compile of Block_RAM.v was successful.
+# Compile of cortexm0ds_logic.v was successful.
+# Compile of differentiator01.v was successful.
+# Compile of FIFO_synq.v was successful.
+# Compile of LPF_filter.v was successful.
+# Compile of PWM.v was successful.
+# Compile of SDR_Pad.v was successful.
+# Compile of SQRT.v was successful.
+# Compile of Timer.v was successful.
+# Compile of testbench.v was successful.
+# Compile of cmsdk_ahb_to_apb.v was successful.
+# Compile of cmsdk_apb_slave_mux.v was successful.
+# Compile of apb_spi_master.sv was successful.
+# Compile of spi_master_apb_if.sv was successful.
+# Compile of spi_master_clkgen.sv was successful.
+# Compile of spi_master_controller.sv was successful.
+# Compile of spi_master_fifo.sv was successful.
+# Compile of spi_master_rx.sv was successful.
+# Compile of spi_master_tx.sv was successful.
+# Compile of AddrCnt.v was successful.
+# Compile of APB_BDMAC.v was successful.
+# Compile of BDMA.v was successful.
+# Compile of BDMAC.v was successful.
+# Compile of BeatCnt.v was successful.
+# Compile of BeatDecoder.v was successful.
+# Compile of Buzzer.v was successful.
+# Compile of BuzzerCtr.v was successful.
+# Compile of TuneDecoder.v was successful.
+# Compile of TunePWM.v was successful.
+# Compile of APB_Keyboard.v was successful.
+# Compile of KeyToCol.v was successful.
+# Compile of AHB_FIFO_Interface.v was successful.
+# Compile of Block_ROM_init_data.v was successful.
+# Compile of Block_ROM_init_sign.v was successful.
+# Compile of Interface_9341.v was successful.
+# Compile of LCD_ini.v was successful.
+# Compile of Printer.v was successful.
+# Compile of Printer_ctr.v was successful.
+# Compile of RealTankSoCBusArbM0.v was successful.
+# Compile of RealTankSoCBusArbM1.v was successful.
+# Compile of RealTankSoCBusArbM2.v was successful.
+# Compile of RealTankSoCBusArbM3.v was successful.
+# Compile of RealTankSoCBusDecS0.v was successful.
+# Compile of RealTankSoCBusDecS1.v was successful.
+# Compile of RealTankSoCBusDecS2.v was successful.
+# Compile of RealTankSoCBusDecS3.v was successful.
+# Compile of RealTankSoCBusIn.v was successful.
+# Compile of RealTankSoCBusMtx.v was successful.
+# Compile of RealTankSoCBusMtx_default_slave.v was successful.
+# Compile of RealTankSoCBusMtx_lite.v was successful.
+# Compile of RealTankSoCBusOutM0.v was successful.
+# Compile of RealTankSoCBusOutM1.v was successful.
+# Compile of RealTankSoCBusOutM2.v was successful.
+# Compile of RealTankSoCBusOutM3.v was successful.
+# Compile of cmsdk_apb_uart.v was successful.
+# 56 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim 
+# Start time: 14:31:26 on Mar 09,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.testbench
+# Loading work.SDR_Pad
+# Loading work.cortexm0ds_logic
+# Loading work.RealTankSoCBusMtx
+# Loading work.RealTankSoCBusIn
+# Loading work.RealTankSoCBusDecS0
+# Loading work.RealTankSoCBusMtx_default_slave
+# Loading work.RealTankSoCBusDecS1
+# Loading work.RealTankSoCBusDecS2
+# Loading work.RealTankSoCBusDecS3
+# Loading work.RealTankSoCBusOutM0
+# Loading work.RealTankSoCBusArbM0
+# Loading work.RealTankSoCBusOutM1
+# Loading work.RealTankSoCBusArbM1
+# Loading work.RealTankSoCBusOutM2
+# Loading work.RealTankSoCBusArbM2
+# Loading work.RealTankSoCBusOutM3
+# Loading work.RealTankSoCBusArbM3
+# Loading work.cmsdk_ahb_to_apb
+# Loading work.cmsdk_apb_slave_mux
+# Loading work.Buzzer
+# Loading work.BuzzerCtr
+# Loading work.BDMA
+# Loading work.AddrCnt
+# Loading work.BeatCnt
+# Loading work.BeatDecoder
+# Loading work.TuneDecoder
+# Loading work.TunePWM
+# Loading work.AHBlite_Block_RAM
+# Loading work.Block_RAM
+# Loading work.APB_Keyboard
+# Loading work.KeyToCol
+# Loading work.AHB_FIFO_Interface
+# Loading work.FIFO_synq
+# Loading work.Printer
+# Loading work.Printer_ctr
+# Loading work.LCD_ini
+# Loading work.Block_ROM_init_data
+# Loading work.Block_ROM_init_sign
+# Loading work.Interface_9341
+# Loading work.Timer
+# Loading work.cmsdk_apb_uart
+# Loading sv_std.std
+# Loading work.apb_spi_master
+# Loading work.spi_master_apb_if
+# Loading work.spi_master_fifo
+# Loading work.spi_master_controller
+# Loading work.spi_master_clkgen
+# Loading work.spi_master_tx
+# Loading work.spi_master_rx
+# Loading work.APB_BDMAC
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Too few port connections. Expected 24, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'col'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'BGM_sw'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'row'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'PWM_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'REF'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'speaker_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDI'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'pwm_start'.
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Too few port connections. Expected 79, found 41.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_logic File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/cortexm0ds_logic.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODENSEQ'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODEHINTDE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SPECHTRANS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPING'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICSENSE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r14_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_apsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_tbit_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_ipsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_control_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_primask_o'.
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPS0'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(210).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM2'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM3'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(139).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(914): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_spi_master File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv
+do C:/Users/Spica/Desktop/jichuang/SDR/modelsim/wave.do
+run
+add wave -position insertpoint  \
+sim:/testbench/u_sdr_pad/spi_cnt
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.apb_spi_master
+# Loading work.spi_master_apb_if
+# Loading work.spi_master_fifo
+# Loading work.spi_master_controller
+# Loading work.spi_master_clkgen
+# Loading work.spi_master_tx
+# Loading work.spi_master_rx
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Too few port connections. Expected 24, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'col'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'BGM_sw'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'row'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'PWM_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'REF'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'speaker_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDI'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'pwm_start'.
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Too few port connections. Expected 79, found 41.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_logic File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/cortexm0ds_logic.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODENSEQ'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODEHINTDE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SPECHTRANS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPING'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICSENSE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r14_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_apsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_tbit_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_ipsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_control_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_primask_o'.
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPS0'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(210).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM2'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM3'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(139).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(914): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_spi_master File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv
+run
+quit -sim
+# Compile of SDR_Pad.v was successful.
+vsim work.testbench
+# vsim 
+# Start time: 14:52:38 on Mar 09,2022
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.testbench
+# Loading work.SDR_Pad
+# Loading work.cortexm0ds_logic
+# Loading work.RealTankSoCBusMtx
+# Loading work.RealTankSoCBusIn
+# Loading work.RealTankSoCBusDecS0
+# Loading work.RealTankSoCBusMtx_default_slave
+# Loading work.RealTankSoCBusDecS1
+# Loading work.RealTankSoCBusDecS2
+# Loading work.RealTankSoCBusDecS3
+# Loading work.RealTankSoCBusOutM0
+# Loading work.RealTankSoCBusArbM0
+# Loading work.RealTankSoCBusOutM1
+# Loading work.RealTankSoCBusArbM1
+# Loading work.RealTankSoCBusOutM2
+# Loading work.RealTankSoCBusArbM2
+# Loading work.RealTankSoCBusOutM3
+# Loading work.RealTankSoCBusArbM3
+# Loading work.cmsdk_ahb_to_apb
+# Loading work.cmsdk_apb_slave_mux
+# Loading work.Buzzer
+# Loading work.BuzzerCtr
+# Loading work.BDMA
+# Loading work.AddrCnt
+# Loading work.BeatCnt
+# Loading work.BeatDecoder
+# Loading work.TuneDecoder
+# Loading work.TunePWM
+# Loading work.AHBlite_Block_RAM
+# Loading work.Block_RAM
+# Loading work.APB_Keyboard
+# Loading work.KeyToCol
+# Loading work.AHB_FIFO_Interface
+# Loading work.FIFO_synq
+# Loading work.Printer
+# Loading work.Printer_ctr
+# Loading work.LCD_ini
+# Loading work.Block_ROM_init_data
+# Loading work.Block_ROM_init_sign
+# Loading work.Interface_9341
+# Loading work.Timer
+# Loading work.cmsdk_apb_uart
+# Loading sv_std.std
+# Loading work.apb_spi_master
+# Loading work.spi_master_apb_if
+# Loading work.spi_master_fifo
+# Loading work.spi_master_controller
+# Loading work.spi_master_clkgen
+# Loading work.spi_master_tx
+# Loading work.spi_master_rx
+# Loading work.APB_BDMAC
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Too few port connections. Expected 24, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'col'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'BGM_sw'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'row'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'PWM_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'REF'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'speaker_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDI'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'pwm_start'.
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Too few port connections. Expected 79, found 41.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_logic File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/cortexm0ds_logic.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODENSEQ'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODEHINTDE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SPECHTRANS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPING'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICSENSE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r14_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_apsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_tbit_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_ipsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_control_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_primask_o'.
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPS0'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(210).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM2'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM3'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(139).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(914): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_spi_master File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv
+do C:/Users/Spica/Desktop/jichuang/SDR/modelsim/wave.do
+run
+add wave -position insertpoint  \
+sim:/testbench/u_sdr_pad/spi_cnt
+run
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.apb_spi_master
+# Loading work.spi_master_apb_if
+# Loading work.spi_master_fifo
+# Loading work.spi_master_controller
+# Loading work.spi_master_clkgen
+# Loading work.spi_master_tx
+# Loading work.spi_master_rx
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Too few port connections. Expected 24, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWDIO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SWCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'col'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'BGM_sw'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'row'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'PWM_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_WR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_RST'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_DATA'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'LCD_BL_CTR'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'TXD'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'REF'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_CS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'speaker_out'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'SPI_SDI'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/testbench/testbench.v(6): [TFMPC] - Missing connection for port 'pwm_start'.
+# ** Warning: (vsim-3017) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Too few port connections. Expected 79, found 41.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_logic File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/cortexm0ds_logic.v
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODENSEQ'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'CODEHINTDE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SPECHTRANS'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TDO'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'nTDOEN'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'DBGRESTARTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'HALTED'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'TXEV'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'LOCKUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'GATEHCLK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPING'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPDEEP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WAKEUP'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICSENSE'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'SLEEPHOLDACKn'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'WICENACK'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r0_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r1_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r2_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r3_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r4_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r5_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r6_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r7_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r8_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r9_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r10_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r11_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r12_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_r14_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_msp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_psp_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_pc_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_apsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_tbit_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_ipsr_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_control_o'.
+# ** Warning: (vsim-3722) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(92): [TFMPC] - Missing connection for port 'vis_primask_o'.
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPS0'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(210).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM2'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(133).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(234): [PCDPC] - Port size (2) does not match connection size (1) for port 'HRESPM3'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v(139).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RealTankSoCBusMtx File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/RealTankSoCBusMtx/RealTankSoCBusMtx.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(654): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMCODE_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_WRADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(685): [PCDPC] - Port size (14) does not match connection size (12) for port 'BRAM_RDADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/RAMDATA_Interface File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/AHBlite_Block_RAM.v
+# ** Warning: (vsim-3015) C:/Users/Spica/Desktop/jichuang/SDR/rtl/SDR_Pad.v(914): [PCDPC] - Port size (12) does not match connection size (16) for port 'PADDR'. The port definition is at: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_sdr_pad/u_spi_master File: C:/Users/Spica/Desktop/jichuang/SDR/rtl/APB_SPI_MASTER/apb_spi_master.sv
+run
+# Causality operation skipped due to absence of debug database file
+# End time: 16:04:45 on Mar 09,2022, Elapsed time: 1:12:07
+# Errors: 0, Warnings: 141

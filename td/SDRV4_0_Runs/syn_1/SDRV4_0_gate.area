@@ -1,0 +1,126 @@
+standard
+***Report Model: SDR_Pad Device: EG4S20BG256***
+
+IO Statistics
+#IO                        83
+  #input                   18
+  #output                  62
+  #inout                    3
+
+LUT Statistics
+#Total_luts             11403
+  #lut4                  6396
+  #lut5                  2149
+  #lut6                    18
+  #lut5_mx41                0
+  #lut4_alu1b            2840
+
+Utilization Statistics
+#lut                    11421   out of  19600   58.27%
+#reg                     3693   out of  19600   18.84%
+#le                         0
+#dsp                       29   out of     29  100.00%
+#bram                       6   out of     64    9.38%
+  #bram9k                   4
+  #fifo9k                   2
+#bram32k                    8   out of     16   50.00%
+#adc                        1   out of      1  100.00%
+#dram                      27
+#pad                       83   out of    186   44.62%
+  #ireg                     0
+  #oreg                     6
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------------------------+
+|Instance                                |Module                          |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------------------------------------------------+
+|top                                     |SDR_Pad                         |8581    |2840    |3699    |14      |29      |
+|  ADC                                   |ADC                             |0       |0       |0       |0       |0       |
+|  AHB_FIFO_Interface                    |AHB_FIFO_Interface              |7       |0       |1       |0       |0       |
+|  APBTube                               |APBTube                         |28      |19      |75      |0       |0       |
+|    ClkDiv                              |ClkDiv                          |9       |19      |9       |0       |0       |
+|    DigSel                              |DigSel                          |2       |0       |2       |0       |0       |
+|    SSeg                                |SSeg                            |15      |0       |0       |0       |0       |
+|  APB_Keyboard                          |APB_Keyboard                    |74      |37      |71      |0       |0       |
+|    KeyToCol                            |KeyToCol                        |54      |37      |55      |0       |0       |
+|  Buzzer                                |Buzzer                          |441     |164     |337     |0       |0       |
+|    APB_BDMAC                           |APB_BDMAC                       |27      |0       |73      |0       |0       |
+|    AddrCnt_BGM                         |AddrCnt                         |35      |32      |32      |0       |0       |
+|    AddrCnt_Sound                       |AddrCnt                         |35      |32      |32      |0       |0       |
+|    BDMA_BGM                            |BDMA                            |40      |0       |36      |0       |0       |
+|    BDMA_Sound                          |BDMA                            |40      |0       |36      |0       |0       |
+|    BeatCnt_BGM                         |BeatCnt                         |35      |29      |28      |0       |0       |
+|    BeatCnt_Sound                       |BeatCnt                         |34      |29      |28      |0       |0       |
+|    BuzzerCtr_BGM                       |BuzzerCtr                       |9       |0       |3       |0       |0       |
+|    BuzzerCtr_Sound                     |BuzzerCtr                       |7       |0       |3       |0       |0       |
+|    TunePWM_BGM                         |TunePWM                         |87      |21      |21      |0       |0       |
+|    TunePWM_Sound                       |TunePWM                         |90      |21      |21      |0       |0       |
+|  Interface_9341                        |Interface_9341                  |7       |0       |20      |0       |0       |
+|  Interface_9341_FIFO                   |FIFO_synq                       |127     |12      |10      |0       |0       |
+|  PLL                                   |PLL                             |0       |0       |0       |0       |0       |
+|  PTFIFO                                |FIFO_synq                       |4       |14      |12      |0       |0       |
+|  Printer                               |Printer                         |215     |91      |141     |0       |0       |
+|    LCD_ini                             |LCD_ini                         |45      |26      |26      |0       |0       |
+|      Block_ROM_init_data               |Block_ROM_init_data             |32      |0       |0       |0       |0       |
+|      Block_ROM_init_sign               |Block_ROM_init_sign             |4       |0       |0       |0       |0       |
+|    Printer_ctr                         |Printer_ctr                     |36      |0       |36      |0       |0       |
+|  RAMCODE_Interface                     |AHBlite_Block_RAM               |110     |0       |19      |0       |0       |
+|  RAMDATA_Interface                     |AHBlite_Block_RAM               |42      |0       |15      |0       |0       |
+|  RAM_CODE                              |Block_RAM                       |4       |0       |0       |8       |0       |
+|  RAM_DATA                              |Block_RAM                       |4       |0       |0       |4       |0       |
+|  RSSI_reader                           |RSSI_reader                     |12      |8       |9       |0       |0       |
+|  RealTankSoCBusMtx                     |RealTankSoCBusMtx               |109     |0       |109     |0       |0       |
+|    u_RealTankSoCBusIn_0                |RealTankSoCBusIn                |9       |0       |25      |0       |0       |
+|    u_RealTankSoCBusIn_1                |RealTankSoCBusIn                |3       |0       |21      |0       |0       |
+|    u_RealTankSoCBusIn_2                |RealTankSoCBusIn                |3       |0       |21      |0       |0       |
+|    u_RealTankSoCBusIn_3                |RealTankSoCBusIn                |3       |0       |21      |0       |0       |
+|    u_realtanksocbusdecs0               |RealTankSoCBusDecS0             |10      |0       |5       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |5       |0       |2       |0       |0       |
+|    u_realtanksocbusdecs1               |RealTankSoCBusDecS1             |2       |0       |2       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1       |0       |1       |0       |0       |
+|    u_realtanksocbusdecs2               |RealTankSoCBusDecS2             |2       |0       |2       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1       |0       |1       |0       |0       |
+|    u_realtanksocbusdecs3               |RealTankSoCBusDecS3             |2       |0       |2       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1       |0       |1       |0       |0       |
+|    u_realtanksocbusoutm0_0             |RealTankSoCBusOutM0             |46      |0       |5       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM0             |46      |0       |3       |0       |0       |
+|    u_realtanksocbusoutm1_1             |RealTankSoCBusOutM1             |4       |0       |1       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM1             |4       |0       |1       |0       |0       |
+|    u_realtanksocbusoutm2_2             |RealTankSoCBusOutM2             |12      |0       |2       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM2             |8       |0       |1       |0       |0       |
+|    u_realtanksocbusoutm3_3             |RealTankSoCBusOutM3             |13      |0       |2       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM3             |9       |0       |1       |0       |0       |
+|  SNR_reader                            |SNR_reader                      |173     |533     |43      |0       |0       |
+|  Timer                                 |Timer                           |9       |29      |27      |0       |0       |
+|  UART                                  |cmsdk_apb_uart                  |146     |23      |116     |0       |0       |
+|  ahb_to_apb                            |cmsdk_ahb_to_apb                |77      |0       |18      |0       |0       |
+|  apb_ethernet                          |apb_ethernet                    |1       |0       |1       |0       |0       |
+|  apb_ledwater                          |apb_ledwater                    |13      |0       |1       |0       |0       |
+|  differentiator                        |differentiator                  |4       |1124    |486     |0       |26      |
+|    filter                              |filter                          |0       |1103    |465     |0       |24      |
+|  ethernet                              |ethernet                        |192     |73      |93      |2       |0       |
+|    Ethernet_TX_Inst                    |Ethernet_TX                     |182     |73      |68      |0       |0       |
+|    counter_fifo                        |counter_fifo                    |4       |0       |4       |0       |0       |
+|    fifo1                               |fifo8in                         |0       |0       |0       |1       |0       |
+|    fifo2                               |fifo8in                         |0       |0       |0       |1       |0       |
+|    u1                                  |util_gmii_to_rgmii              |6       |0       |21      |0       |0       |
+|  i2c                                   |i2c                             |167     |179     |79      |0       |0       |
+|    DUT_APB                             |apb                             |3       |0       |28      |0       |0       |
+|    DUT_FIFO_TX                         |i2c_fifo                        |24      |0       |16      |0       |0       |
+|    DUT_I2C_INTERNAL_RX_TX              |module_i2c                      |140     |179     |35      |0       |0       |
+|  ledwater                              |ledwater                        |38      |24      |37      |0       |0       |
+|  pwm_dac                               |pwm                             |219     |258     |42      |0       |0       |
+|  u_RSSI_APB                            |RSSI_APB_interface              |2       |0       |1       |0       |0       |
+|  u_SNR_APB                             |SNR_APB_interface               |2       |0       |1       |0       |0       |
+|  u_logic                               |cortexm0ds_logic                |5614    |173     |1300    |0       |3       |
+|  u_spi_master                          |apb_spi_master                  |712     |79      |621     |0       |0       |
+|    u_axiregs                           |spi_master_apb_if               |13      |0       |161     |0       |0       |
+|    u_rxfifo                            |spi_master_fifo                 |14      |0       |5       |0       |0       |
+|    u_spictrl                           |spi_master_controller           |607     |79      |122     |0       |0       |
+|      u_clkgen                          |spi_master_clkgen               |39      |9       |18      |0       |0       |
+|      u_rxreg                           |spi_master_rx                   |38      |35      |34      |0       |0       |
+|      u_txreg                           |spi_master_tx                   |505     |35      |65      |0       |0       |
+|    u_txfifo                            |spi_master_fifo                 |78      |0       |333     |0       |0       |
++----------------------------------------------------------------------------------------------------------------------+

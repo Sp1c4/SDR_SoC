@@ -1,0 +1,12 @@
+============================================================
+   Tang Dynasty, V5.6.53426
+   Copyright (c) 2012-2022 Anlogic
+   Executable = D:/anlogic/TD5.6.1/bin/td.exe
+   Built at =   19:26:25 Jun 10 2022
+   Run by =     Spica
+   Run Date =   Mon Jul 18 22:37:37 2022
+
+   Run on =     LAPTOP-1TLPN50G
+============================================================
+RUN-001 : GUI based run...
+GUI-2000 : The IP files have been created successfully :Set_ip_dir=D:/jichuang/SDRV4_2_1/td/al_ip

@@ -1,112 +1,112 @@
 eagle_s20
-13 1321 4837 13132 4000008854 17 0
--38.327 0.091 SDR_Pad eagle_s20 EG4S20BG256 Detail NA 30 4
+13 1291 3705 13100 4000008954 16 0
+-38.714 0.133 SDR_Pad eagle_s20 EG4S20BG256 Detail NA 30 4
 clock: adc_clkl
 13 74 6 2
 Setup check
 23 3
-Endpoint: differentiator/mult0_syn_1
-23 60.270000 18 3
-Timing path: u_logic/Glphu6_syn_4650.clk->differentiator/mult0_syn_1
-u_logic/Glphu6_syn_4650.clk
-differentiator/mult0_syn_1
-25 60.270000 64.424000 4.154000 1 1
-differentiator/XQ0[8] differentiator/mult0_syn_1.b[8]
-
-Timing path: u_logic/Qbfpw6[0]_syn_169.clk->differentiator/mult0_syn_1
-u_logic/Qbfpw6[0]_syn_169.clk
-differentiator/mult0_syn_1
-59 60.889000 64.424000 3.535000 1 1
-differentiator/XQ0[4] differentiator/mult0_syn_1.b[4]
-
-Timing path: differentiator/reg2_syn_50.clk->differentiator/mult0_syn_1
-differentiator/reg2_syn_50.clk
-differentiator/mult0_syn_1
-93 61.237000 64.424000 3.187000 1 1
-differentiator/XQ0[6] differentiator/mult0_syn_1.b[6]
-
-
 Endpoint: differentiator/mult1_syn_1
-127 60.327000 18 3
-Timing path: u_logic/Glphu6_syn_4654.clk->differentiator/mult1_syn_1
-u_logic/Glphu6_syn_4654.clk
+23 60.680000 18 3
+Timing path: u_logic/Glphu6_syn_4697.clk->differentiator/mult1_syn_1
+u_logic/Glphu6_syn_4697.clk
 differentiator/mult1_syn_1
-129 60.327000 64.352000 4.025000 1 1
+25 60.680000 64.558000 3.878000 1 1
+differentiator/XI0[9] differentiator/mult1_syn_1.b[17]
+
+Timing path: u_logic/Glphu6_syn_4697.clk->differentiator/mult1_syn_1
+u_logic/Glphu6_syn_4697.clk
+differentiator/mult1_syn_1
+59 60.680000 64.558000 3.878000 1 1
 differentiator/XI0[9] differentiator/mult1_syn_1.b[14]
 
-Timing path: u_logic/Glphu6_syn_4654.clk->differentiator/mult1_syn_1
-u_logic/Glphu6_syn_4654.clk
+Timing path: u_logic/Glphu6_syn_4697.clk->differentiator/mult1_syn_1
+u_logic/Glphu6_syn_4697.clk
 differentiator/mult1_syn_1
-163 60.327000 64.352000 4.025000 1 1
+93 60.680000 64.558000 3.878000 1 1
 differentiator/XI0[9] differentiator/mult1_syn_1.b[15]
 
-Timing path: u_logic/Qijpw6_reg_syn_455.clk->differentiator/mult1_syn_1
-u_logic/Qijpw6_reg_syn_455.clk
-differentiator/mult1_syn_1
-197 60.601000 64.352000 3.751000 1 1
-differentiator/XI0[0] differentiator/mult1_syn_1.b[0]
+
+Endpoint: differentiator/mult0_syn_1
+127 61.036000 18 3
+Timing path: differentiator/filter/multi_data2[0]_syn_345.clk->differentiator/mult0_syn_1
+differentiator/filter/multi_data2[0]_syn_345.clk
+differentiator/mult0_syn_1
+129 61.036000 64.558000 3.522000 1 1
+differentiator/XQ0[6] differentiator/mult0_syn_1.b[6]
+
+Timing path: differentiator/reg2_syn_38.clk->differentiator/mult0_syn_1
+differentiator/reg2_syn_38.clk
+differentiator/mult0_syn_1
+163 61.050000 64.558000 3.508000 1 1
+differentiator/XQ0[9] differentiator/mult0_syn_1.b[15]
+
+Timing path: differentiator/reg2_syn_38.clk->differentiator/mult0_syn_1
+differentiator/reg2_syn_38.clk
+differentiator/mult0_syn_1
+197 61.050000 64.558000 3.508000 1 1
+differentiator/XQ0[9] differentiator/mult0_syn_1.b[14]
 
 
 Endpoint: differentiator/filter_clk_r_reg_syn_10
-231 61.451000 1 1
+231 61.391000 1 1
 Timing path: differentiator/filter_clk_r_reg_syn_10.clk->differentiator/filter_clk_r_reg_syn_10
 differentiator/filter_clk_r_reg_syn_10.clk
 differentiator/filter_clk_r_reg_syn_10
-233 61.451000 64.660000 3.209000 1 1
+233 61.391000 64.794000 3.403000 1 1
 differentiator/filter/CLK differentiator/filter_clk_r_reg_syn_10.d[0]
 
 
 
 Hold check
 267 3
-Endpoint: differentiator/mult0_syn_1
-269 0.354000 18 3
-Timing path: differentiator/reg2_syn_53.clk->differentiator/mult0_syn_1
-differentiator/reg2_syn_53.clk
-differentiator/mult0_syn_1
-271 0.354000 1.918000 2.272000 1 1
-differentiator/XQ0[5] differentiator/mult0_syn_1.b[5]
-
-Timing path: u_logic/Bfjpw6_reg_syn_3797.clk->differentiator/mult0_syn_1
-u_logic/Bfjpw6_reg_syn_3797.clk
-differentiator/mult0_syn_1
-305 0.406000 1.918000 2.324000 1 1
-differentiator/XQ0[9] differentiator/mult0_syn_1.b[13]
-
-Timing path: u_logic/Bfjpw6_reg_syn_3797.clk->differentiator/mult0_syn_1
-u_logic/Bfjpw6_reg_syn_3797.clk
-differentiator/mult0_syn_1
-339 0.406000 1.918000 2.324000 1 1
-differentiator/XQ0[9] differentiator/mult0_syn_1.b[12]
-
-
 Endpoint: differentiator/mult1_syn_1
-373 0.460000 18 3
-Timing path: u_logic/Glphu6_syn_4652.clk->differentiator/mult1_syn_1
-u_logic/Glphu6_syn_4652.clk
+269 0.461000 18 3
+Timing path: differentiator/reg0_syn_40.clk->differentiator/mult1_syn_1
+differentiator/reg0_syn_40.clk
 differentiator/mult1_syn_1
-375 0.460000 1.918000 2.378000 1 1
+271 0.461000 2.009000 2.470000 1 1
+differentiator/XI0[8] differentiator/mult1_syn_1.b[8]
+
+Timing path: differentiator/reg0_syn_46.clk->differentiator/mult1_syn_1
+differentiator/reg0_syn_46.clk
+differentiator/mult1_syn_1
+305 0.499000 2.009000 2.508000 1 1
 differentiator/XI0[6] differentiator/mult1_syn_1.b[6]
 
-Timing path: u_logic/Bfjpw6_reg_syn_3793.clk->differentiator/mult1_syn_1
-u_logic/Bfjpw6_reg_syn_3793.clk
+Timing path: differentiator/reg0_syn_40.clk->differentiator/mult1_syn_1
+differentiator/reg0_syn_40.clk
 differentiator/mult1_syn_1
-409 0.497000 1.918000 2.415000 1 1
-differentiator/XI0[4] differentiator/mult1_syn_1.b[4]
-
-Timing path: u_logic/P8phu6_syn_428.clk->differentiator/mult1_syn_1
-u_logic/P8phu6_syn_428.clk
-differentiator/mult1_syn_1
-443 0.567000 1.918000 2.485000 1 1
+339 0.536000 2.009000 2.545000 1 1
 differentiator/XI0[2] differentiator/mult1_syn_1.b[2]
 
 
+Endpoint: differentiator/mult0_syn_1
+373 0.470000 18 3
+Timing path: differentiator/reg2_syn_38.clk->differentiator/mult0_syn_1
+differentiator/reg2_syn_38.clk
+differentiator/mult0_syn_1
+375 0.470000 2.009000 2.479000 1 1
+differentiator/XQ0[8] differentiator/mult0_syn_1.b[8]
+
+Timing path: differentiator/reg2_syn_38.clk->differentiator/mult0_syn_1
+differentiator/reg2_syn_38.clk
+differentiator/mult0_syn_1
+409 0.478000 2.009000 2.487000 1 1
+differentiator/XQ0[9] differentiator/mult0_syn_1.b[9]
+
+Timing path: differentiator/reg2_syn_47.clk->differentiator/mult0_syn_1
+differentiator/reg2_syn_47.clk
+differentiator/mult0_syn_1
+443 0.577000 2.009000 2.586000 1 1
+differentiator/XQ0[3] differentiator/mult0_syn_1.b[3]
+
+
 Endpoint: differentiator/filter_clk_r_reg_syn_10
-477 0.586000 1 1
+477 0.648000 1 1
 Timing path: differentiator/filter_clk_r_reg_syn_10.clk->differentiator/filter_clk_r_reg_syn_10
 differentiator/filter_clk_r_reg_syn_10.clk
 differentiator/filter_clk_r_reg_syn_10
-479 0.586000 1.999000 2.585000 1 1
+479 0.648000 2.090000 2.738000 1 1
 differentiator/filter/CLK differentiator/filter_clk_r_reg_syn_10.d[0]
 
 
@@ -116,331 +116,334 @@ clock: filter_clkl
 513 2000000000 1080 3
 Setup check
 523 3
-Endpoint: SNR_reader/reg3_syn_105
-523 52.514000 312 3
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_105
+Endpoint: SNR_reader/reg3_syn_104
+523 54.776000 312 3
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_104
 differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_105
-525 52.514000 67.089000 14.575000 6 7
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
+SNR_reader/reg3_syn_104
+525 54.776000 67.471000 12.695000 6 10
+differentiator/temp2[1] differentiator/sub0_syn_104.a[1]
+differentiator/sub0_syn_86 differentiator/sub0_syn_105.fci
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
 differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[12] SNR_reader/add1_syn_95.e[1]
-SNR_reader/add1_syn_80 SNR_reader/add1_syn_96.fci
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
 SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
-SNR_reader/un_filtered_sum_b1[14] SNR_reader/reg3_syn_105.d[1]
+SNR_reader/un_filtered_sum_b1[14] SNR_reader/reg3_syn_104.d[1]
 
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_105
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_104
 differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_105
-575 52.519000 67.089000 14.570000 6 7
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
+SNR_reader/reg3_syn_104
+581 54.803000 67.471000 12.668000 6 9
+differentiator/temp2[4] differentiator/sub0_syn_105.b[0]
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
 differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[11] SNR_reader/add1_syn_95.d[1]
-SNR_reader/add1_syn_80 SNR_reader/add1_syn_96.fci
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
 SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
-SNR_reader/un_filtered_sum_b1[14] SNR_reader/reg3_syn_105.d[1]
+SNR_reader/un_filtered_sum_b1[14] SNR_reader/reg3_syn_104.d[1]
 
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_105
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_104
 differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_105
-625 52.541000 67.089000 14.548000 6 6
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
+SNR_reader/reg3_syn_104
+635 54.822000 67.471000 12.649000 6 10
+differentiator/temp2[0] differentiator/sub0_syn_104.b[0]
+differentiator/sub0_syn_86 differentiator/sub0_syn_105.fci
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
 differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[14] SNR_reader/add1_syn_96.e[0]
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
 SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
-SNR_reader/un_filtered_sum_b1[14] SNR_reader/reg3_syn_105.d[1]
+SNR_reader/un_filtered_sum_b1[14] SNR_reader/reg3_syn_104.d[1]
 
 
-Endpoint: SNR_reader/reg3_syn_108
-673 52.671000 312 3
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_108
+Endpoint: SNR_reader/reg3_syn_110
+691 54.901000 312 3
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_110
 differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_108
-675 52.671000 67.089000 14.418000 6 7
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
+SNR_reader/reg3_syn_110
+693 54.901000 67.471000 12.570000 6 11
+differentiator/temp2[1] differentiator/sub0_syn_104.a[1]
+differentiator/sub0_syn_86 differentiator/sub0_syn_105.fci
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
 differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[12] SNR_reader/add1_syn_95.e[1]
-SNR_reader/add1_syn_80 SNR_reader/add1_syn_96.fci
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
-SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
-SNR_reader/un_filtered_sum_b1[12] SNR_reader/reg3_syn_108.d[0]
-
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_108
-differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_108
-725 52.676000 67.089000 14.413000 6 7
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
-differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[11] SNR_reader/add1_syn_95.d[1]
-SNR_reader/add1_syn_80 SNR_reader/add1_syn_96.fci
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
-SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
-SNR_reader/un_filtered_sum_b1[12] SNR_reader/reg3_syn_108.d[0]
-
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_108
-differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_108
-775 52.698000 67.089000 14.391000 6 6
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
-differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[14] SNR_reader/add1_syn_96.e[0]
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
-SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
-SNR_reader/un_filtered_sum_b1[12] SNR_reader/reg3_syn_108.d[0]
-
-
-Endpoint: SNR_reader/reg3_syn_111
-823 52.685000 312 3
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_111
-differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_111
-825 52.685000 67.089000 14.404000 6 8
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
-differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[12] SNR_reader/add1_syn_95.e[1]
-SNR_reader/add1_syn_80 SNR_reader/add1_syn_96.fci
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
 SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
 SNR_reader/add1_syn_92 SNR_reader/add1_syn_99.fci
-SNR_reader/un_filtered_sum_b1[16] SNR_reader/reg3_syn_111.d[1]
+SNR_reader/un_filtered_sum_b1[16] SNR_reader/reg3_syn_110.d[1]
 
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_111
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_110
 differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_111
-877 52.690000 67.089000 14.399000 6 8
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
+SNR_reader/reg3_syn_110
+751 54.928000 67.471000 12.543000 6 10
+differentiator/temp2[4] differentiator/sub0_syn_105.b[0]
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
 differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[11] SNR_reader/add1_syn_95.d[1]
-SNR_reader/add1_syn_80 SNR_reader/add1_syn_96.fci
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
 SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
 SNR_reader/add1_syn_92 SNR_reader/add1_syn_99.fci
-SNR_reader/un_filtered_sum_b1[16] SNR_reader/reg3_syn_111.d[1]
+SNR_reader/un_filtered_sum_b1[16] SNR_reader/reg3_syn_110.d[1]
 
-Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_111
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_110
 differentiator/mult1_syn_1.clk
-SNR_reader/reg3_syn_111
-929 52.712000 67.089000 14.377000 6 7
-differentiator/temp2[9] differentiator/sub0_syn_106.a[1]
+SNR_reader/reg3_syn_110
+807 54.947000 67.471000 12.524000 6 11
+differentiator/temp2[0] differentiator/sub0_syn_104.b[0]
+differentiator/sub0_syn_86 differentiator/sub0_syn_105.fci
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
 differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
-differentiator/temp3[14] SNR_reader/add1_syn_96.e[0]
-SNR_reader/add1_syn_84 SNR_reader/add1_syn_97.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
 SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
 SNR_reader/add1_syn_92 SNR_reader/add1_syn_99.fci
-SNR_reader/un_filtered_sum_b1[16] SNR_reader/reg3_syn_111.d[1]
+SNR_reader/un_filtered_sum_b1[16] SNR_reader/reg3_syn_110.d[1]
+
+
+Endpoint: SNR_reader/reg3_syn_107
+865 55.059000 312 3
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_107
+differentiator/mult1_syn_1.clk
+SNR_reader/reg3_syn_107
+867 55.059000 67.471000 12.412000 6 10
+differentiator/temp2[1] differentiator/sub0_syn_104.a[1]
+differentiator/sub0_syn_86 differentiator/sub0_syn_105.fci
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
+differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
+SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
+SNR_reader/un_filtered_sum_b1[13] SNR_reader/reg3_syn_107.d[1]
+
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_107
+differentiator/mult1_syn_1.clk
+SNR_reader/reg3_syn_107
+923 55.086000 67.471000 12.385000 6 9
+differentiator/temp2[4] differentiator/sub0_syn_105.b[0]
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
+differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
+SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
+SNR_reader/un_filtered_sum_b1[13] SNR_reader/reg3_syn_107.d[1]
+
+Timing path: differentiator/mult1_syn_1.clk->SNR_reader/reg3_syn_107
+differentiator/mult1_syn_1.clk
+SNR_reader/reg3_syn_107
+977 55.105000 67.471000 12.366000 6 10
+differentiator/temp2[0] differentiator/sub0_syn_104.b[0]
+differentiator/sub0_syn_86 differentiator/sub0_syn_105.fci
+differentiator/sub0_syn_90 differentiator/sub0_syn_106.fci
+differentiator/sub0_syn_94 differentiator/sub0_syn_107.fci
+differentiator/sub0_syn_98 differentiator/sub0_syn_108.fci
+differentiator/sub0_syn_102 differentiator/sub0_syn_109.fci
+differentiator/temp3[19] differentiator/filter/reg11_syn_46.d[1]
+differentiator/temp4[9] SNR_reader/add1_syn_97.d[1]
+SNR_reader/add1_syn_88 SNR_reader/add1_syn_98.fci
+SNR_reader/un_filtered_sum_b1[13] SNR_reader/reg3_syn_107.d[1]
 
 
 
 Hold check
-979 3
-Endpoint: ethernet/fifo1/fifo_inst_syn_2
-981 0.205000 7 3
-Timing path: ledwater/empty_flag1_syn_7.clk->ethernet/fifo1/fifo_inst_syn_2
-ledwater/empty_flag1_syn_7.clk
-ethernet/fifo1/fifo_inst_syn_2
-983 0.205000 4.530000 4.735000 1 1
-ethernet/counter_fifo/addr[3] ethernet/fifo1/fifo_inst_syn_2.dia[6]
-
-Timing path: ledwater/full_flag1_syn_7.clk->ethernet/fifo1/fifo_inst_syn_2
-ledwater/full_flag1_syn_7.clk
-ethernet/fifo1/fifo_inst_syn_2
-1025 0.357000 4.530000 4.887000 1 1
-ethernet/counter_fifo/addr[2] ethernet/fifo1/fifo_inst_syn_2.dia[5]
-
-Timing path: Printer/reg3_syn_130.clk->ethernet/fifo1/fifo_inst_syn_2
-Printer/reg3_syn_130.clk
-ethernet/fifo1/fifo_inst_syn_2
-1067 0.382000 4.530000 4.912000 1 1
-ethernet/counter_fifo/addr[1] ethernet/fifo1/fifo_inst_syn_2.dia[4]
-
-
+1033 3
 Endpoint: ethernet/fifo2/fifo_inst_syn_2
-1109 0.255000 7 3
-Timing path: differentiator/filter/reg0_syn_67.clk->ethernet/fifo2/fifo_inst_syn_2
-differentiator/filter/reg0_syn_67.clk
+1035 0.205000 7 3
+Timing path: differentiator/filter/reg0_syn_72.clk->ethernet/fifo2/fifo_inst_syn_2
+differentiator/filter/reg0_syn_72.clk
 ethernet/fifo2/fifo_inst_syn_2
-1111 0.255000 4.530000 4.785000 1 1
-differentiator/filtered[13] ethernet/fifo2/fifo_inst_syn_2.dia[3]
+1037 0.205000 4.761000 4.966000 1 1
+differentiator/filtered[11] ethernet/fifo2/fifo_inst_syn_2.dia[1]
 
 Timing path: differentiator/filter/reg0_syn_70.clk->ethernet/fifo2/fifo_inst_syn_2
 differentiator/filter/reg0_syn_70.clk
 ethernet/fifo2/fifo_inst_syn_2
-1153 0.338000 4.530000 4.868000 1 1
+1079 0.396000 4.761000 5.157000 1 1
 differentiator/filtered[15] ethernet/fifo2/fifo_inst_syn_2.dia[5]
 
-Timing path: differentiator/filter/reg0_syn_67.clk->ethernet/fifo2/fifo_inst_syn_2
-differentiator/filter/reg0_syn_67.clk
+Timing path: differentiator/filter/reg0_syn_64.clk->ethernet/fifo2/fifo_inst_syn_2
+differentiator/filter/reg0_syn_64.clk
 ethernet/fifo2/fifo_inst_syn_2
-1195 0.338000 4.530000 4.868000 1 1
-differentiator/filtered[10] ethernet/fifo2/fifo_inst_syn_2.dia[0]
+1121 0.457000 4.761000 5.218000 1 1
+differentiator/filtered[16] ethernet/fifo2/fifo_inst_syn_2.dia[6]
 
 
-Endpoint: differentiator/filter/reg8_syn_48
-1237 0.314000 1 1
-Timing path: differentiator/filter/reg7_syn_48.clk->differentiator/filter/reg8_syn_48
-differentiator/filter/reg7_syn_48.clk
-differentiator/filter/reg8_syn_48
-1239 0.314000 4.391000 4.705000 0 1
-differentiator/filter/delay_pipeline16[2] differentiator/filter/reg8_syn_48.mi[0]
+Endpoint: differentiator/filter/reg33_syn_44
+1163 0.314000 1 1
+Timing path: differentiator/filter/multi_data1[1]_syn_111.clk->differentiator/filter/reg33_syn_44
+differentiator/filter/multi_data1[1]_syn_111.clk
+differentiator/filter/reg33_syn_44
+1165 0.314000 4.622000 4.936000 0 1
+differentiator/filter/delay_pipeline8[8] differentiator/filter/reg33_syn_44.mi[1]
+
+
+Endpoint: differentiator/filter/reg2_syn_47
+1207 0.314000 1 1
+Timing path: differentiator/filter/reg1_syn_46.clk->differentiator/filter/reg2_syn_47
+differentiator/filter/reg1_syn_46.clk
+differentiator/filter/reg2_syn_47
+1209 0.314000 4.622000 4.936000 0 1
+differentiator/filter/delay_pipeline10[2] differentiator/filter/reg2_syn_47.mi[1]
 
 
 
 Period check
-1281 26
+1251 26
+Endpoint: differentiator/filter/mult4_syn_3.clk
+1255 1996.586000 1 0
+
 Endpoint: differentiator/filter/mult32_syn_1.clk
-1285 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult30_syn_1.clk
-1286 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult25_syn_1.clk
-1287 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult11_syn_3.clk
-1288 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult15_syn_1.clk
-1289 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult21_syn_2.clk
-1290 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult29_syn_2.clk
-1291 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult2_syn_3.clk
-1292 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult19_syn_2.clk
-1293 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult22_syn_2.clk
-1294 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult17_syn_1.clk
-1295 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult16_syn_1.clk
-1296 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult27_syn_2.clk
-1297 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult26_syn_2.clk
-1298 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult0_syn_1.clk
-1299 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult18_syn_1.clk
-1300 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult20_syn_1.clk
-1301 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult14_syn_3.clk
-1302 1996.586000 1 0
-
-Endpoint: differentiator/filter/mult23_syn_1.clk
-1303 1996.586000 1 0
+1256 1996.586000 1 0
 
 Endpoint: differentiator/filter/mult31_syn_1.clk
-1304 1996.586000 1 0
+1257 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult29_syn_2.clk
+1258 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult30_syn_1.clk
+1259 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult27_syn_2.clk
+1260 1996.586000 1 0
 
 Endpoint: differentiator/filter/mult28_syn_1.clk
-1305 1996.586000 1 0
+1261 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult21_syn_2.clk
+1262 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult23_syn_1.clk
+1263 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult17_syn_1.clk
+1264 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult22_syn_2.clk
+1265 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult20_syn_1.clk
+1266 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult15_syn_1.clk
+1267 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult2_syn_3.clk
+1268 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult19_syn_2.clk
+1269 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult0_syn_1.clk
+1270 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult18_syn_1.clk
+1271 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult16_syn_1.clk
+1272 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult14_syn_3.clk
+1273 1996.586000 1 0
 
 Endpoint: differentiator/filter/mult13_syn_3.clk
-1306 1996.586000 1 0
+1274 1996.586000 1 0
 
-Endpoint: differentiator/filter/mult4_syn_3.clk
-1307 1996.586000 1 0
+Endpoint: differentiator/filter/mult11_syn_3.clk
+1275 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult26_syn_2.clk
+1276 1996.586000 1 0
+
+Endpoint: differentiator/filter/mult25_syn_1.clk
+1277 1996.586000 1 0
 
 Endpoint: differentiator/filter/mult1_syn_3.clk
-1308 1996.586000 1 0
+1278 1996.586000 1 0
 
 Endpoint: ethernet/fifo2/fifo_inst_syn_2.clkw
-1309 1996.700000 1 0
+1279 1996.700000 1 0
 
 Endpoint: ethernet/fifo1/fifo_inst_syn_2.clkw
-1310 1996.700000 1 0
+1280 1996.700000 1 0
 
 
 
 clock: clk
-1311 2000000000 11730 4
+1281 2000000000 11702 4
 Setup check
-1321 3
-Endpoint: pwm_dac/reg2_syn_63
-1321 -38.327000 1000000000 3
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/reg2_syn_63
-pwm_dac/reg3_syn_37.clk
-pwm_dac/reg2_syn_63
-1323 -38.327000 22.096000 60.423000 62 135
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
+1291 3
+Endpoint: pwm_dac/idx_b4_n407_syn_44
+1291 -38.714000 1000000000 3
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/idx_b4_n407_syn_44
+u_logic/Doohu6_syn_287.clk
+pwm_dac/idx_b4_n407_syn_44
+1293 -38.714000 22.096000 60.810000 61 118
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
 pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
 pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
 pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
 pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
 pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
 pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
 pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
 pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
 pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
 pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
 pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
 pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
 pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
 pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
 pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
 pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
 pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
 pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
 pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n407_syn_44.d[1]
-pwm_dac/idx_b4_n155 pwm_dac/idx[2]_syn_183.a[1]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
 pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[1]
+pwm_dac/idx_b4_n171 pwm_dac/idx[1]_syn_200.a[1]
 pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
 pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
@@ -448,7 +451,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
 pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
@@ -456,147 +459,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n414_syn_23.d[0]
-pwm_dac/idx_b4_n310 differentiator/filter/FIR_OUT_b30[19]_syn_5780.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2983 differentiator/filter/FIR_OUT_b30[19]_syn_5783.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
-pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
-pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
-pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
-pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
-pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
-pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
-pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
-pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
-pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
-pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
-pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
-pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
-pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
-pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
-pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
-pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
-pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
-pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
-pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
-pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
-pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
-pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/reg2_syn_63.a[1]
-
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/reg2_syn_63
-pwm_dac/reg3_syn_37.clk
-pwm_dac/reg2_syn_63
-1625 -38.312000 22.096000 60.408000 62 134
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
-pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
-pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
-pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
-pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
-pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
-pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
-pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
-pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
-pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
-pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
-pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
-pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
-pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
-pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
-pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
-pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
-pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
-pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
-pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n407_syn_44.d[1]
-pwm_dac/idx_b4_n155 pwm_dac/idx[2]_syn_183.a[1]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
-pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
-pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
-pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
-pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_26.d[1]
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
 pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
@@ -604,29 +467,25 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n417_syn_15.d[1]
+pwm_dac/idx_b4_n396 differentiator/filter/FIR_OUT_b30[19]_syn_5003.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
@@ -653,73 +512,61 @@ pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
 pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
 pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
 pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/reg2_syn_63.a[1]
+pwm_dac/idx_b2_n pwm_dac/idx_b4_n407_syn_44.a[0]
 
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/reg2_syn_63
-pwm_dac/reg3_syn_37.clk
-pwm_dac/reg2_syn_63
-1925 -38.308000 22.096000 60.404000 62 135
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/idx_b4_n407_syn_44
+u_logic/Doohu6_syn_287.clk
+pwm_dac/idx_b4_n407_syn_44
+1561 -38.707000 22.096000 60.803000 61 117
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
 pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
 pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
 pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
 pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
 pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
 pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
 pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
 pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
 pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
 pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
 pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
 pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
 pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
 pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
 pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
 pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
 pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
 pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
 pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n408_syn_50.d[1]
-pwm_dac/idx_b4_n156 pwm_dac/idx[2]_syn_183.a[0]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
 pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[1]
+pwm_dac/idx_b4_n171 pwm_dac/idx[1]_syn_200.a[1]
 pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
 pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
@@ -727,7 +574,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
 pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
@@ -735,290 +582,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n414_syn_23.d[0]
-pwm_dac/idx_b4_n310 differentiator/filter/FIR_OUT_b30[19]_syn_5780.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2983 differentiator/filter/FIR_OUT_b30[19]_syn_5783.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
-pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
-pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
-pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
-pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
-pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
-pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
-pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
-pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
-pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
-pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
-pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
-pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
-pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
-pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
-pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
-pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
-pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
-pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
-pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
-pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
-pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
-pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/reg2_syn_63.a[1]
-
-
-Endpoint: pwm_dac/idx_b4[1]_syn_5
-2227 -38.327000 1000000000 3
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/idx_b4[1]_syn_5
-pwm_dac/reg3_syn_37.clk
-pwm_dac/idx_b4[1]_syn_5
-2229 -38.327000 22.096000 60.423000 62 135
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
-pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
-pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
-pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
-pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
-pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
-pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
-pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
-pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
-pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
-pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
-pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
-pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
-pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
-pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
-pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
-pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
-pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
-pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
-pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n407_syn_44.d[1]
-pwm_dac/idx_b4_n155 pwm_dac/idx[2]_syn_183.a[1]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
-pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
-pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
-pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
-pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n414_syn_23.d[0]
-pwm_dac/idx_b4_n310 differentiator/filter/FIR_OUT_b30[19]_syn_5780.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2983 differentiator/filter/FIR_OUT_b30[19]_syn_5783.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
-pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
-pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
-pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
-pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
-pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
-pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
-pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
-pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
-pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
-pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
-pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
-pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
-pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
-pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
-pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
-pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
-pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
-pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
-pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
-pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
-pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
-pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/idx_b4[1]_syn_5.a[0]
-
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/idx_b4[1]_syn_5
-pwm_dac/reg3_syn_37.clk
-pwm_dac/idx_b4[1]_syn_5
-2531 -38.312000 22.096000 60.408000 62 134
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
-pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
-pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
-pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
-pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
-pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
-pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
-pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
-pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
-pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
-pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
-pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
-pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
-pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
-pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
-pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
-pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
-pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
-pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
-pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n407_syn_44.d[1]
-pwm_dac/idx_b4_n155 pwm_dac/idx[2]_syn_183.a[1]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
-pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
-pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
-pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
-pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_26.d[1]
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
 pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
@@ -1026,30 +590,25 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n410_syn_35.d[1]
+pwm_dac/idx_b4_n389 differentiator/filter/FIR_OUT_b30[19]_syn_5004.b[1]
 differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
@@ -1075,73 +634,61 @@ pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
 pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
 pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
 pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/idx_b4[1]_syn_5.a[0]
+pwm_dac/idx_b2_n pwm_dac/idx_b4_n407_syn_44.a[0]
 
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/idx_b4[1]_syn_5
-pwm_dac/reg3_syn_37.clk
-pwm_dac/idx_b4[1]_syn_5
-2831 -38.308000 22.096000 60.404000 62 135
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/idx_b4_n407_syn_44
+u_logic/Doohu6_syn_287.clk
+pwm_dac/idx_b4_n407_syn_44
+1827 -38.700000 22.096000 60.796000 61 118
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
 pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
 pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
 pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
 pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
 pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
 pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
 pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
 pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
 pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
 pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
 pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
 pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
 pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
 pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
 pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
 pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
 pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
 pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
 pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n408_syn_50.d[1]
-pwm_dac/idx_b4_n156 pwm_dac/idx[2]_syn_183.a[0]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
 pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[0]
+pwm_dac/idx_b4_n172 pwm_dac/idx[1]_syn_200.a[0]
 pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
 pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
@@ -1149,7 +696,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
 pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
@@ -1157,290 +704,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n414_syn_23.d[0]
-pwm_dac/idx_b4_n310 differentiator/filter/FIR_OUT_b30[19]_syn_5780.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2983 differentiator/filter/FIR_OUT_b30[19]_syn_5783.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
-pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
-pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
-pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
-pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
-pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
-pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
-pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
-pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
-pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
-pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
-pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
-pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
-pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
-pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
-pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
-pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
-pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
-pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
-pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
-pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
-pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
-pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/idx_b4[1]_syn_5.a[0]
-
-
-Endpoint: pwm_dac/reg2_syn_60
-3133 -38.327000 1000000000 3
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/reg2_syn_60
-pwm_dac/reg3_syn_37.clk
-pwm_dac/reg2_syn_60
-3135 -38.327000 22.096000 60.423000 62 135
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
-pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
-pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
-pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
-pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
-pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
-pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
-pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
-pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
-pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
-pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
-pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
-pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
-pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
-pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
-pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
-pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
-pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
-pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
-pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n407_syn_44.d[1]
-pwm_dac/idx_b4_n155 pwm_dac/idx[2]_syn_183.a[1]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
-pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
-pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
-pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
-pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n414_syn_23.d[0]
-pwm_dac/idx_b4_n310 differentiator/filter/FIR_OUT_b30[19]_syn_5780.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2983 differentiator/filter/FIR_OUT_b30[19]_syn_5783.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
-pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
-pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
-pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
-pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
-pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
-pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
-pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
-pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
-pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
-pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
-pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
-pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
-pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
-pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
-pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
-pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
-pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
-pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
-pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
-pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
-pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
-pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/reg2_syn_60.a[0]
-
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/reg2_syn_60
-pwm_dac/reg3_syn_37.clk
-pwm_dac/reg2_syn_60
-3437 -38.312000 22.096000 60.408000 62 134
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
-pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
-pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
-pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
-pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
-pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
-pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
-pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
-pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
-pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
-pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
-pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
-pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
-pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
-pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
-pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
-pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
-pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
-pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
-pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n407_syn_44.d[1]
-pwm_dac/idx_b4_n155 pwm_dac/idx[2]_syn_183.a[1]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
-pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
-pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
-pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
-pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_26.d[1]
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
 pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
@@ -1448,29 +712,25 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n417_syn_15.d[1]
+pwm_dac/idx_b4_n396 differentiator/filter/FIR_OUT_b30[19]_syn_5003.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
@@ -1497,73 +757,64 @@ pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
 pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
 pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
 pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/reg2_syn_60.a[0]
+pwm_dac/idx_b2_n pwm_dac/idx_b4_n407_syn_44.a[0]
 
-Timing path: pwm_dac/reg3_syn_37.clk->pwm_dac/reg2_syn_60
-pwm_dac/reg3_syn_37.clk
-pwm_dac/reg2_syn_60
-3737 -38.308000 22.096000 60.404000 62 135
-pwm_dac/pwm_valr[2] pwm_dac/idx[9]_syn_117.b[1]
+
+Endpoint: pwm_dac/reg1_syn_45
+2095 -38.639000 1000000000 3
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/reg1_syn_45
+u_logic/Doohu6_syn_287.clk
+pwm_dac/reg1_syn_45
+2097 -38.639000 22.096000 60.735000 61 118
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
 pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
 pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
 pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
 pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
-pwm_dac/idx_b4[19] ethernet/u1/reg3_syn_44.d[0]
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
 pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
 pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
 pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
 pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
 pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
-pwm_dac/idx_b4[18] pwm_dac/idx_b4_n403_syn_55.a[0]
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
 pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
 pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
 pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
 pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
 pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
-pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_80.d[1]
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
 pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
 pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
 pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
 pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
 pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
-pwm_dac/idx_b4[16] pwm_dac/idx_b4_n405_syn_52.d[1]
-pwm_dac/idx_b4_n90 pwm_dac/idx[5]_syn_148.a[0]
-pwm_dac/idx[5]_syn_44 pwm_dac/idx[5]_syn_151.fci
-pwm_dac/idx[5]_syn_2[4] pwm_dac/idx_b4_n402_syn_84.b[1]
-pwm_dac/idx_b4_n108 pwm_dac/idx[4]_syn_172.a[0]
-pwm_dac/idx[4]_syn_107 pwm_dac/idx[4]_syn_175.fci
-pwm_dac/idx[4]_syn_109 pwm_dac/idx[4]_syn_178.fci
-pwm_dac/idx_b4[14] pwm_dac/idx_b4_n406_syn_67.d[0]
-pwm_dac/idx_b4_n134 pwm_dac/idx[3]_syn_174.a[0]
-pwm_dac/idx[3]_syn_108 pwm_dac/idx[3]_syn_177.fci
-pwm_dac/idx[3]_syn_110 pwm_dac/idx[3]_syn_180.fci
-pwm_dac/idx[3]_syn_112 pwm_dac/idx[3]_syn_183.fci
-pwm_dac/idx[3]_syn_114 pwm_dac/idx[3]_syn_186.fci
-pwm_dac/idx_b4[13] pwm_dac/idx_b4_n408_syn_50.d[1]
-pwm_dac/idx_b4_n156 pwm_dac/idx[2]_syn_183.a[0]
-pwm_dac/idx[2]_syn_113 pwm_dac/idx[2]_syn_186.fci
-pwm_dac/idx[2]_syn_115 pwm_dac/idx[2]_syn_189.fci
-pwm_dac/idx[2]_syn_117 pwm_dac/idx[2]_syn_192.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
 pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
-pwm_dac/idx_b4[12] pwm_dac/idx_b4_n406_syn_65.d[1]
-pwm_dac/idx_b4_n175 pwm_dac/idx[1]_syn_194.a[1]
-pwm_dac/idx[1]_syn_120 pwm_dac/idx[1]_syn_197.fci
-pwm_dac/idx[1]_syn_122 pwm_dac/idx[1]_syn_200.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[1]
+pwm_dac/idx_b4_n171 pwm_dac/idx[1]_syn_200.a[1]
 pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
-pwm_dac/idx_b4[11] pwm_dac/idx_b4_n402_syn_72.d[0]
-pwm_dac/idx_b4_n200 pwm_dac/lt12_syn_94.a[0]
-pwm_dac/lt12_syn_56 pwm_dac/lt12_syn_97.fci
-pwm_dac/lt12_syn_58 pwm_dac/lt12_syn_100.fci
-pwm_dac/lt12_syn_60 pwm_dac/lt12_syn_103.fci
-pwm_dac/lt12_syn_62 pwm_dac/lt12_syn_106.fci
-pwm_dac/idx_b4[10] pwm_dac/idx_b4_n409_syn_50.d[1]
-pwm_dac/idx_b4_n220 differentiator/filter/FIR_OUT_b30[19]_syn_5563.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_1873 differentiator/filter/FIR_OUT_b30[19]_syn_5566.fci
-pwm_dac/idx_b16[15] pwm_dac/idx_b4_n405_syn_64.b[0]
-pwm_dac/idx_b4_n238 differentiator/filter/FIR_OUT_b30[19]_syn_5721.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2740 differentiator/filter/FIR_OUT_b30[19]_syn_5724.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
-pwm_dac/idx_b4_n233 DIG[2]_syn_7.d[0]
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
 pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
@@ -1571,7 +822,7 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
-pwm_dac/idx_b4_n254 DIG[1]_syn_7.d[0]
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
 pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
@@ -1579,38 +830,33 @@ differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30
 differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
-pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n414_syn_23.d[0]
-pwm_dac/idx_b4_n310 differentiator/filter/FIR_OUT_b30[19]_syn_5780.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_2983 differentiator/filter/FIR_OUT_b30[19]_syn_5783.fci
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
+pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
-pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n415_syn_20.d[0]
-pwm_dac/idx_b4_n332 differentiator/filter/FIR_OUT_b30[19]_syn_5806.a[0]
-differentiator/filter/FIR_OUT_b30[19]_syn_3080 differentiator/filter/FIR_OUT_b30[19]_syn_5809.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
-pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n415_syn_20.d[1]
-pwm_dac/idx_b4_n352 differentiator/filter/FIR_OUT_b30[19]_syn_5024.a[0]
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
-pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n412_syn_31.d[0]
-pwm_dac/idx_b4_n376 differentiator/filter/FIR_OUT_b30[19]_syn_5013.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3295 differentiator/filter/FIR_OUT_b30[19]_syn_5014.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3299 differentiator/filter/FIR_OUT_b30[19]_syn_5015.fci
-differentiator/filter/FIR_OUT_b30[19]_syn_3303 differentiator/filter/FIR_OUT_b30[19]_syn_5016.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
-pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n418_syn_11.d[0]
-pwm_dac/idx_b4_n398 differentiator/filter/FIR_OUT_b30[19]_syn_5002.a[1]
-differentiator/filter/FIR_OUT_b30[19]_syn_3413 differentiator/filter/FIR_OUT_b30[19]_syn_5003.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n417_syn_15.d[1]
+pwm_dac/idx_b4_n396 differentiator/filter/FIR_OUT_b30[19]_syn_5003.a[0]
 differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
 differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
@@ -1637,433 +883,1058 @@ pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
 pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
 pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
 pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
-pwm_dac/idx_b2_n pwm_dac/reg2_syn_60.a[0]
+pwm_dac/idx_b2_n pwm_dac/reg1_syn_45.a[0]
+
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/reg1_syn_45
+u_logic/Doohu6_syn_287.clk
+pwm_dac/reg1_syn_45
+2365 -38.632000 22.096000 60.728000 61 117
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
+pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
+pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
+pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
+pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
+pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
+pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
+pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
+pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
+pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
+pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
+pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
+pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
+pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
+pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
+pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
+pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
+pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
+pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
+pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
+pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[1]
+pwm_dac/idx_b4_n171 pwm_dac/idx[1]_syn_200.a[1]
+pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
+pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
+pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
+pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n410_syn_35.d[1]
+pwm_dac/idx_b4_n389 differentiator/filter/FIR_OUT_b30[19]_syn_5004.b[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
+pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
+pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
+pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
+pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
+pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
+pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
+pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
+pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
+pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
+pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
+pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
+pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
+pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
+pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
+pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
+pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
+pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
+pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
+pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
+pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
+pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
+pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
+pwm_dac/idx_b2_n pwm_dac/reg1_syn_45.a[0]
+
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/reg1_syn_45
+u_logic/Doohu6_syn_287.clk
+pwm_dac/reg1_syn_45
+2631 -38.625000 22.096000 60.721000 61 118
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
+pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
+pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
+pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
+pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
+pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
+pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
+pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
+pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
+pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
+pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
+pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
+pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
+pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
+pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
+pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
+pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
+pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
+pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
+pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
+pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[0]
+pwm_dac/idx_b4_n172 pwm_dac/idx[1]_syn_200.a[0]
+pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
+pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
+pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
+pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n417_syn_15.d[1]
+pwm_dac/idx_b4_n396 differentiator/filter/FIR_OUT_b30[19]_syn_5003.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
+pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
+pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
+pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
+pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
+pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
+pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
+pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
+pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
+pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
+pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
+pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
+pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
+pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
+pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
+pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
+pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
+pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
+pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
+pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
+pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
+pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
+pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
+pwm_dac/idx_b2_n pwm_dac/reg1_syn_45.a[0]
+
+
+Endpoint: pwm_dac/reg2_syn_62
+2899 -38.588000 1000000000 3
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/reg2_syn_62
+u_logic/Doohu6_syn_287.clk
+pwm_dac/reg2_syn_62
+2901 -38.588000 22.096000 60.684000 61 118
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
+pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
+pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
+pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
+pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
+pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
+pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
+pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
+pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
+pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
+pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
+pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
+pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
+pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
+pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
+pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
+pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
+pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
+pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
+pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
+pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[1]
+pwm_dac/idx_b4_n171 pwm_dac/idx[1]_syn_200.a[1]
+pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
+pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
+pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
+pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n417_syn_15.d[1]
+pwm_dac/idx_b4_n396 differentiator/filter/FIR_OUT_b30[19]_syn_5003.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
+pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
+pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
+pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
+pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
+pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
+pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
+pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
+pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
+pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
+pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
+pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
+pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
+pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
+pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
+pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
+pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
+pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
+pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
+pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
+pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
+pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
+pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
+pwm_dac/idx_b2_n pwm_dac/reg2_syn_62.a[1]
+
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/reg2_syn_62
+u_logic/Doohu6_syn_287.clk
+pwm_dac/reg2_syn_62
+3169 -38.581000 22.096000 60.677000 61 117
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
+pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
+pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
+pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
+pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
+pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
+pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
+pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
+pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
+pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
+pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
+pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
+pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
+pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
+pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
+pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
+pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
+pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
+pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
+pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
+pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[1]
+pwm_dac/idx_b4_n171 pwm_dac/idx[1]_syn_200.a[1]
+pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
+pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
+pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
+pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n410_syn_35.d[1]
+pwm_dac/idx_b4_n389 differentiator/filter/FIR_OUT_b30[19]_syn_5004.b[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
+pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
+pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
+pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
+pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
+pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
+pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
+pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
+pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
+pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
+pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
+pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
+pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
+pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
+pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
+pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
+pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
+pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
+pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
+pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
+pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
+pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
+pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
+pwm_dac/idx_b2_n pwm_dac/reg2_syn_62.a[1]
+
+Timing path: u_logic/Doohu6_syn_287.clk->pwm_dac/reg2_syn_62
+u_logic/Doohu6_syn_287.clk
+pwm_dac/reg2_syn_62
+3435 -38.574000 22.096000 60.670000 61 118
+pwm_dac/pwm_valr[1] pwm_dac/idx[9]_syn_117.b[0]
+pwm_dac/idx[9]_syn_79 pwm_dac/idx[9]_syn_120.fci
+pwm_dac/idx[9]_syn_81 pwm_dac/idx[9]_syn_123.fci
+pwm_dac/idx[9]_syn_83 pwm_dac/idx[9]_syn_126.fci
+pwm_dac/idx[9]_syn_85 pwm_dac/idx[9]_syn_129.fci
+pwm_dac/idx_b4[19] pwm_dac/idx_b4[5]_syn_5.d[0]
+pwm_dac/idx_b4_n24 pwm_dac/idx[8]_syn_124.a[0]
+pwm_dac/idx[8]_syn_86 pwm_dac/idx[8]_syn_127.fci
+pwm_dac/idx[8]_syn_88 pwm_dac/idx[8]_syn_130.fci
+pwm_dac/idx[8]_syn_90 pwm_dac/idx[8]_syn_133.fci
+pwm_dac/idx[8]_syn_92 pwm_dac/idx[8]_syn_136.fci
+pwm_dac/idx_b4[18] pwm_dac/reg3_syn_50.a[0]
+pwm_dac/idx_b4_n45 pwm_dac/idx[7]_syn_140.a[1]
+pwm_dac/idx[7]_syn_88 pwm_dac/idx[7]_syn_143.fci
+pwm_dac/idx[7]_syn_90 pwm_dac/idx[7]_syn_146.fci
+pwm_dac/idx[7]_syn_92 pwm_dac/idx[7]_syn_149.fci
+pwm_dac/idx[7]_syn_94 pwm_dac/idx[7]_syn_152.fci
+pwm_dac/idx_b4[17] pwm_dac/idx_b4_n403_syn_76.d[1]
+pwm_dac/idx_b4_n67 pwm_dac/idx[6]_syn_149.a[1]
+pwm_dac/idx[6]_syn_93 pwm_dac/idx[6]_syn_152.fci
+pwm_dac/idx[6]_syn_95 pwm_dac/idx[6]_syn_155.fci
+pwm_dac/idx[6]_syn_97 pwm_dac/idx[6]_syn_158.fci
+pwm_dac/idx[6]_syn_99 pwm_dac/idx[6]_syn_161.fci
+pwm_dac/idx_b4[16] pwm_dac/idx_b4_n402_syn_89.d[1]
+pwm_dac/idx_b4_n87 pwm_dac/idx[5]_syn_160.a[1]
+pwm_dac/idx[5]_syn_100 pwm_dac/idx[5]_syn_163.fci
+pwm_dac/idx[5]_syn_102 pwm_dac/idx[5]_syn_166.fci
+pwm_dac/idx[5]_syn_104 pwm_dac/idx[5]_syn_169.fci
+pwm_dac/idx_b4[15] pwm_dac/idx_b4_n405_syn_72.d[1]
+pwm_dac/idx_b4_n111 pwm_dac/idx[4]_syn_155.a[1]
+pwm_dac/idx[4]_syn_49 pwm_dac/idx[4]_syn_158.fci
+pwm_dac/idx[4]_syn_2[4] pwm_dac/idx_b4_n402_syn_85.b[0]
+pwm_dac/idx_b4_n130 pwm_dac/idx[3]_syn_168.a[0]
+pwm_dac/idx[3]_syn_2[6] pwm_dac/idx_b4_n402_syn_83.b[0]
+pwm_dac/idx_b4_n150 pwm_dac/idx[2]_syn_192.a[0]
+pwm_dac/idx[2]_syn_119 pwm_dac/idx[2]_syn_195.fci
+pwm_dac/idx_b4[12] pwm_dac/idx_b4_n402_syn_81.d[0]
+pwm_dac/idx_b4_n172 pwm_dac/idx[1]_syn_200.a[0]
+pwm_dac/idx[1]_syn_124 pwm_dac/idx[1]_syn_203.fci
+pwm_dac/idx_b4[11] pwm_dac/idx_b4_n409_syn_53.d[1]
+pwm_dac/idx_b4_n199 pwm_dac/add12_syn_87.a[1]
+pwm_dac/add12_syn_52 pwm_dac/add12_syn_90.fci
+pwm_dac/idx_b15[14] pwm_dac/idx_b4_n406_syn_61.b[0]
+pwm_dac/idx_b4_n218 differentiator/filter/FIR_OUT_b30[19]_syn_5566.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_1875 differentiator/filter/FIR_OUT_b30[19]_syn_5569.fci
+pwm_dac/idx_b16[17] pwm_dac/idx_b4_n403_syn_67.b[0]
+pwm_dac/idx_b4_n236 differentiator/filter/FIR_OUT_b30[19]_syn_5724.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2742 differentiator/filter/FIR_OUT_b30[19]_syn_5727.fci
+pwm_dac/idx_b4_n233 pwm_dac/idx_b4_n412_syn_29.d[0]
+pwm_dac/idx_b4_n266 differentiator/filter/FIR_OUT_b30[19]_syn_5733.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2810 differentiator/filter/FIR_OUT_b30[19]_syn_5736.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2812 differentiator/filter/FIR_OUT_b30[19]_syn_5739.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2814 differentiator/filter/FIR_OUT_b30[19]_syn_5742.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2816 differentiator/filter/FIR_OUT_b30[19]_syn_5745.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2818 differentiator/filter/FIR_OUT_b30[19]_syn_5748.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2820 differentiator/filter/FIR_OUT_b30[19]_syn_5750.fci
+pwm_dac/idx_b4_n254 pwm_dac/idx_b4_n414_syn_23.d[1]
+pwm_dac/idx_b4_n288 differentiator/filter/FIR_OUT_b30[19]_syn_5756.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2893 differentiator/filter/FIR_OUT_b30[19]_syn_5759.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2895 differentiator/filter/FIR_OUT_b30[19]_syn_5762.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2897 differentiator/filter/FIR_OUT_b30[19]_syn_5765.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2899 differentiator/filter/FIR_OUT_b30[19]_syn_5768.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2901 differentiator/filter/FIR_OUT_b30[19]_syn_5771.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2903 differentiator/filter/FIR_OUT_b30[19]_syn_5774.fci
+pwm_dac/idx_b4_n275 pwm_dac/idx_b4_n413_syn_28.d[1]
+pwm_dac/idx_b4_n308 differentiator/filter/FIR_OUT_b30[19]_syn_5783.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_2985 differentiator/filter/FIR_OUT_b30[19]_syn_5786.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2987 differentiator/filter/FIR_OUT_b30[19]_syn_5789.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2989 differentiator/filter/FIR_OUT_b30[19]_syn_5792.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2991 differentiator/filter/FIR_OUT_b30[19]_syn_5795.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2993 differentiator/filter/FIR_OUT_b30[19]_syn_5798.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_2995 differentiator/filter/FIR_OUT_b30[19]_syn_5800.fci
+pwm_dac/idx_b4_n296 pwm_dac/idx_b4_n414_syn_31.d[1]
+pwm_dac/idx_b4_n330 differentiator/filter/FIR_OUT_b30[19]_syn_5809.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3082 differentiator/filter/FIR_OUT_b30[19]_syn_5812.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3084 differentiator/filter/FIR_OUT_b30[19]_syn_5815.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3086 differentiator/filter/FIR_OUT_b30[19]_syn_5818.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3088 differentiator/filter/FIR_OUT_b30[19]_syn_5821.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3090 differentiator/filter/FIR_OUT_b30[19]_syn_5824.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3092 differentiator/filter/FIR_OUT_b30[19]_syn_5827.fci
+pwm_dac/idx_b4_n317 pwm_dac/idx_b4_n408_syn_40.d[0]
+pwm_dac/idx_b4_n354 differentiator/filter/FIR_OUT_b30[19]_syn_5023.a[1]
+differentiator/filter/FIR_OUT_b30[19]_syn_3184 differentiator/filter/FIR_OUT_b30[19]_syn_5024.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3188 differentiator/filter/FIR_OUT_b30[19]_syn_5025.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3192 differentiator/filter/FIR_OUT_b30[19]_syn_5026.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3196 differentiator/filter/FIR_OUT_b30[19]_syn_5027.fci
+pwm_dac/idx_b4_n338 pwm_dac/idx_b4_n408_syn_40.d[1]
+pwm_dac/idx_b4_n366 differentiator/filter/FIR_OUT_b30[19]_syn_5016.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3307 differentiator/filter/FIR_OUT_b30[19]_syn_5017.fci
+pwm_dac/idx_b4_n359 pwm_dac/idx_b4_n417_syn_15.d[1]
+pwm_dac/idx_b4_n396 differentiator/filter/FIR_OUT_b30[19]_syn_5003.a[0]
+differentiator/filter/FIR_OUT_b30[19]_syn_3417 differentiator/filter/FIR_OUT_b30[19]_syn_5004.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3421 differentiator/filter/FIR_OUT_b30[19]_syn_5005.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3425 differentiator/filter/FIR_OUT_b30[19]_syn_5006.fci
+differentiator/filter/FIR_OUT_b30[19]_syn_3429 differentiator/filter/FIR_OUT_b30[19]_syn_5007.fci
+pwm_dac/idx_b4_n380 pwm_dac/idx_b4_n419_syn_9.d[0]
+pwm_dac/idx_b4_n420 pwm_dac/lt22_syn_93.a[0]
+pwm_dac/lt22_syn_9 pwm_dac/lt22_syn_96.fci
+pwm_dac/lt22_syn_13 pwm_dac/lt22_syn_99.fci
+pwm_dac/lt22_syn_17 pwm_dac/lt22_syn_102.fci
+pwm_dac/lt22_syn_21 pwm_dac/lt22_syn_105.fci
+pwm_dac/lt22_syn_25 pwm_dac/lt22_syn_108.fci
+pwm_dac/lt22_syn_29 pwm_dac/lt22_syn_111.fci
+pwm_dac/lt22_syn_33 pwm_dac/lt22_syn_114.fci
+pwm_dac/lt22_syn_37 pwm_dac/lt22_syn_117.fci
+pwm_dac/lt22_syn_41 pwm_dac/lt22_syn_120.fci
+pwm_dac/idx_b4[0] pwm_dac/lt1_syn_90.a[1]
+pwm_dac/lt1_syn_5 pwm_dac/lt1_syn_93.fci
+pwm_dac/lt1_syn_9 pwm_dac/lt1_syn_96.fci
+pwm_dac/lt1_syn_13 pwm_dac/lt1_syn_99.fci
+pwm_dac/lt1_syn_17 pwm_dac/lt1_syn_102.fci
+pwm_dac/lt1_syn_21 pwm_dac/lt1_syn_105.fci
+pwm_dac/lt1_syn_25 pwm_dac/lt1_syn_108.fci
+pwm_dac/lt1_syn_29 pwm_dac/lt1_syn_111.fci
+pwm_dac/lt1_syn_33 pwm_dac/lt1_syn_114.fci
+pwm_dac/lt1_syn_37 pwm_dac/lt1_syn_117.fci
+pwm_dac/lt1_syn_41 pwm_dac/lt1_syn_120.fci
+pwm_dac/idx_b2_n pwm_dac/reg2_syn_62.a[1]
 
 
 
 Hold check
-4039 3
-Endpoint: i2c/DUT_FIFO_TX/ramread0_syn_15
-4041 0.183000 60 3
-Timing path: i2c/DUT_FIFO_TX/reg3_syn_51.clk->i2c/DUT_FIFO_TX/ramread0_syn_15
-i2c/DUT_FIFO_TX/reg3_syn_51.clk
-i2c/DUT_FIFO_TX/ramread0_syn_15
-4043 0.183000 2.096000 2.279000 1 1
-i2c/DUT_FIFO_TX/wr_ptr[3] i2c/DUT_FIFO_TX/ramread0_syn_15.d[0]
+3703 3
+Endpoint: RAM_DATA/ramread0_syn_66
+3705 0.133000 10 3
+Timing path: u_logic/Tivhu6_syn_311.clk->RAM_DATA/ramread0_syn_66
+u_logic/Tivhu6_syn_311.clk
+RAM_DATA/ramread0_syn_66
+3707 0.133000 2.246000 2.379000 1 1
+RAMDATA_Interface/addr_reg[3] RAM_DATA/ramread0_syn_66.addra[6]
 
-Timing path: u_logic/Iuohu6_syn_59.clk->i2c/DUT_FIFO_TX/ramread0_syn_15
-u_logic/Iuohu6_syn_59.clk
-i2c/DUT_FIFO_TX/ramread0_syn_15
-4077 4.324000 2.096000 6.420000 2 2
-u_logic/I8lax6 u_logic/Bfjpw6_reg_syn_3270.c[0]
-u_logic/HWDATA[3] i2c/DUT_FIFO_TX/ramread0_syn_15.d[1]
+Timing path: RAMDATA_Interface/reg0_syn_59.clk->RAM_DATA/ramread0_syn_66
+RAMDATA_Interface/reg0_syn_59.clk
+RAM_DATA/ramread0_syn_66
+3741 0.239000 2.246000 2.485000 1 1
+RAMDATA_Interface/addr_reg[9] RAM_DATA/ramread0_syn_66.addra[12]
 
-Timing path: u_logic/V3qhu6_syn_11.clk->i2c/DUT_FIFO_TX/ramread0_syn_15
-u_logic/V3qhu6_syn_11.clk
-i2c/DUT_FIFO_TX/ramread0_syn_15
-4113 4.340000 2.096000 6.436000 2 2
-u_logic/Wvgax6 u_logic/Bfjpw6_reg_syn_3270.d[0]
-u_logic/HWDATA[3] i2c/DUT_FIFO_TX/ramread0_syn_15.d[1]
+Timing path: ahb_to_apb/next_state[0]_syn_202.clk->RAM_DATA/ramread0_syn_66
+ahb_to_apb/next_state[0]_syn_202.clk
+RAM_DATA/ramread0_syn_66
+3775 0.302000 2.246000 2.548000 1 1
+RAMDATA_Interface/addr_reg[0] RAM_DATA/ramread0_syn_66.addra[3]
+
+
+Endpoint: i2c/DUT_FIFO_TX/ramread0_syn_57
+3809 0.176000 155 3
+Timing path: i2c/DUT_FIFO_TX/reg3_syn_54.clk->i2c/DUT_FIFO_TX/ramread0_syn_57
+i2c/DUT_FIFO_TX/reg3_syn_54.clk
+i2c/DUT_FIFO_TX/ramread0_syn_57
+3811 0.176000 2.096000 2.272000 1 1
+i2c/DUT_FIFO_TX/wr_ptr[2] i2c/DUT_FIFO_TX/ramread0_syn_57.c[0]
+
+Timing path: u_logic/Vpphu6_syn_11.clk->i2c/DUT_FIFO_TX/ramread0_syn_57
+u_logic/Vpphu6_syn_11.clk
+i2c/DUT_FIFO_TX/ramread0_syn_57
+3845 3.523000 2.096000 5.619000 3 3
+u_logic/Wvgax6 u_logic/J4xhu6_syn_756.d[0]
+u_logic/J4xhu6_syn_54 u_logic/Wmzax6_reg_syn_5.c[0]
+u_logic/HWDATA[14] i2c/DUT_FIFO_TX/ramread0_syn_57.c[1]
+
+Timing path: u_logic/Ufopw6_reg_syn_18.clk->i2c/DUT_FIFO_TX/ramread0_syn_57
+u_logic/Ufopw6_reg_syn_18.clk
+i2c/DUT_FIFO_TX/ramread0_syn_57
+3883 3.639000 2.096000 5.735000 4 4
+u_logic/Vzupw6_dup_2 u_logic/Glphu6_syn_4707.d[0]
+u_logic/W2vhu6_syn_28 u_logic/W2vhu6_syn_405.b[1]
+u_logic/Udxow6 u_logic/Wmzax6_reg_syn_5.d[0]
+u_logic/HWDATA[14] i2c/DUT_FIFO_TX/ramread0_syn_57.c[1]
 
 
 Endpoint: RAM_DATA/ramread0_syn_57
-4149 0.194000 10 3
-Timing path: u_logic/Tivhu6_syn_317.clk->RAM_DATA/ramread0_syn_57
-u_logic/Tivhu6_syn_317.clk
+3923 0.186000 10 3
+Timing path: RAMDATA_Interface/reg0_syn_59.clk->RAM_DATA/ramread0_syn_57
+RAMDATA_Interface/reg0_syn_59.clk
 RAM_DATA/ramread0_syn_57
-4151 0.194000 2.183000 2.377000 1 1
-RAMDATA_Interface/addr_reg[2] RAM_DATA/ramread0_syn_57.addra[5]
+3925 0.186000 2.183000 2.369000 1 1
+RAMDATA_Interface/addr_reg[9] RAM_DATA/ramread0_syn_57.addra[12]
 
-Timing path: u_logic/Tivhu6_syn_315.clk->RAM_DATA/ramread0_syn_57
-u_logic/Tivhu6_syn_315.clk
+Timing path: u_logic/Tivhu6_syn_311.clk->RAM_DATA/ramread0_syn_57
+u_logic/Tivhu6_syn_311.clk
 RAM_DATA/ramread0_syn_57
-4185 0.195000 2.183000 2.378000 1 1
+3959 0.196000 2.183000 2.379000 1 1
+RAMDATA_Interface/addr_reg[3] RAM_DATA/ramread0_syn_57.addra[6]
+
+Timing path: RAMDATA_Interface/reg0_syn_59.clk->RAM_DATA/ramread0_syn_57
+RAMDATA_Interface/reg0_syn_59.clk
+RAM_DATA/ramread0_syn_57
+3993 0.282000 2.183000 2.465000 1 1
 RAMDATA_Interface/addr_reg[6] RAM_DATA/ramread0_syn_57.addra[9]
-
-Timing path: RAMDATA_Interface/reg0_syn_63.clk->RAM_DATA/ramread0_syn_57
-RAMDATA_Interface/reg0_syn_63.clk
-RAM_DATA/ramread0_syn_57
-4219 0.203000 2.183000 2.386000 1 1
-RAMDATA_Interface/addr_reg[8] RAM_DATA/ramread0_syn_57.addra[11]
-
-
-Endpoint: i2c/DUT_FIFO_TX/ramread0_syn_15
-4253 0.199000 59 3
-Timing path: i2c/DUT_FIFO_TX/reg3_syn_51.clk->i2c/DUT_FIFO_TX/ramread0_syn_15
-i2c/DUT_FIFO_TX/reg3_syn_51.clk
-i2c/DUT_FIFO_TX/ramread0_syn_15
-4255 0.199000 2.096000 2.295000 1 1
-i2c/DUT_FIFO_TX/wr_ptr[1] i2c/DUT_FIFO_TX/ramread0_syn_15.b[0]
-
-Timing path: u_logic/Htmpw6_reg_syn_63.clk->i2c/DUT_FIFO_TX/ramread0_syn_15
-u_logic/Htmpw6_reg_syn_63.clk
-i2c/DUT_FIFO_TX/ramread0_syn_15
-4289 7.979000 2.096000 10.075000 3 3
-u_logic/Htmpw6 u_logic/Glphu6_syn_4274.d[1]
-u_logic/Glphu6_syn_473 u_logic/Bfjpw6_reg_syn_3093.c[0]
-RealTankSoCBusMtx/HWDATAS0[1] i2c/DUT_FIFO_TX/ramread0_syn_15.b[1]
-
-Timing path: u_logic/Mifpw6[1]_syn_5.clk->i2c/DUT_FIFO_TX/ramread0_syn_15
-u_logic/Mifpw6[1]_syn_5.clk
-i2c/DUT_FIFO_TX/ramread0_syn_15
-4327 8.264000 2.096000 10.360000 3 3
-u_logic/F3pax6 u_logic/Glphu6_syn_4274.c[1]
-u_logic/Glphu6_syn_473 u_logic/Bfjpw6_reg_syn_3093.c[0]
-RealTankSoCBusMtx/HWDATAS0[1] i2c/DUT_FIFO_TX/ramread0_syn_15.b[1]
 
 
 
 Recovery check
-4365 3
-Endpoint: Buzzer/TunePWM_BGM/reg0_syn_113
-4367 10.244000 114 3
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_113
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_113
-4369 10.244000 21.912000 11.668000 8 9
-Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/reg0_syn_159.b[0]
-Buzzer/BeatCnt_BGM/BeatCntParameter[12] Buzzer/BeatCnt_BGM/reg0_syn_152.b[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_113.sr
+4027 3
+Endpoint: Buzzer/TunePWM_BGM/reg0_syn_105
+4029 8.275000 114 3
+Timing path: Buzzer/reg0_syn_61.clk->Buzzer/TunePWM_BGM/reg0_syn_105
+Buzzer/reg0_syn_61.clk
+Buzzer/TunePWM_BGM/reg0_syn_105
+4031 8.275000 21.912000 13.637000 9 10
+Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/reg0_syn_162.b[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_105.sr
 
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_113
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_113
-4419 10.316000 21.912000 11.596000 9 10
-Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/rst_n_syn_158.b[1]
-Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_152.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_152.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_113.sr
+Timing path: Buzzer/reg0_syn_47.clk->Buzzer/TunePWM_BGM/reg0_syn_105
+Buzzer/reg0_syn_47.clk
+Buzzer/TunePWM_BGM/reg0_syn_105
+4083 8.292000 21.912000 13.620000 9 10
+Buzzer/BeatDecoder_BGM/beat[3] Buzzer/BeatCnt_BGM/reg0_syn_162.c[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_105.sr
 
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_113
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_113
-4471 10.399000 21.912000 11.513000 9 10
-Buzzer/BeatDecoder_BGM/beat[3] Buzzer/BeatCnt_BGM/rst_n_syn_158.c[1]
-Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_152.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_152.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_113.sr
-
-
-Endpoint: Buzzer/TunePWM_BGM/reg0_syn_104
-4523 10.244000 114 3
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_104
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_104
-4525 10.244000 21.912000 11.668000 8 9
-Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/reg0_syn_159.b[0]
-Buzzer/BeatCnt_BGM/BeatCntParameter[12] Buzzer/BeatCnt_BGM/reg0_syn_152.b[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_104.sr
-
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_104
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_104
-4575 10.316000 21.912000 11.596000 9 10
-Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/rst_n_syn_158.b[1]
-Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_152.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_152.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_104.sr
-
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_104
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_104
-4627 10.399000 21.912000 11.513000 9 10
-Buzzer/BeatDecoder_BGM/beat[3] Buzzer/BeatCnt_BGM/rst_n_syn_158.c[1]
-Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_152.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_152.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_104.sr
+Timing path: Buzzer/reg0_syn_59.clk->Buzzer/TunePWM_BGM/reg0_syn_105
+Buzzer/reg0_syn_59.clk
+Buzzer/TunePWM_BGM/reg0_syn_105
+4135 8.482000 21.912000 13.430000 9 10
+Buzzer/BeatDecoder_BGM/beat[0] Buzzer/BeatCnt_BGM/reg0_syn_162.d[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_105.sr
 
 
-Endpoint: Buzzer/TunePWM_BGM/reg0_syn_116
-4679 10.351000 114 3
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_116
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_116
-4681 10.351000 21.912000 11.561000 8 9
-Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/reg0_syn_159.b[0]
-Buzzer/BeatCnt_BGM/BeatCntParameter[12] Buzzer/BeatCnt_BGM/reg0_syn_152.b[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_116.sr
+Endpoint: Buzzer/TunePWM_BGM/reg0_syn_114
+4187 8.275000 114 3
+Timing path: Buzzer/reg0_syn_61.clk->Buzzer/TunePWM_BGM/reg0_syn_114
+Buzzer/reg0_syn_61.clk
+Buzzer/TunePWM_BGM/reg0_syn_114
+4189 8.275000 21.912000 13.637000 9 10
+Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/reg0_syn_162.b[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_114.sr
 
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_116
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_116
-4731 10.423000 21.912000 11.489000 9 10
-Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/rst_n_syn_158.b[1]
-Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_152.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_152.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_116.sr
+Timing path: Buzzer/reg0_syn_47.clk->Buzzer/TunePWM_BGM/reg0_syn_114
+Buzzer/reg0_syn_47.clk
+Buzzer/TunePWM_BGM/reg0_syn_114
+4241 8.292000 21.912000 13.620000 9 10
+Buzzer/BeatDecoder_BGM/beat[3] Buzzer/BeatCnt_BGM/reg0_syn_162.c[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_114.sr
 
-Timing path: Buzzer/reg0_syn_48.clk->Buzzer/TunePWM_BGM/reg0_syn_116
-Buzzer/reg0_syn_48.clk
-Buzzer/TunePWM_BGM/reg0_syn_116
-4783 10.506000 21.912000 11.406000 9 10
-Buzzer/BeatDecoder_BGM/beat[3] Buzzer/BeatCnt_BGM/rst_n_syn_158.c[1]
-Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_152.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_152.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/rst_n_syn_162.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_172.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_166.a[1]
-Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_176.a[0]
-Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg22_syn_47.a[0]
-Buzzer/BuzzerCtr_BGM/mux2_syn_13 Buzzer/BeatCnt_BGM/rst_n_syn_170.d[1]
-Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_116.sr
+Timing path: Buzzer/reg0_syn_59.clk->Buzzer/TunePWM_BGM/reg0_syn_114
+Buzzer/reg0_syn_59.clk
+Buzzer/TunePWM_BGM/reg0_syn_114
+4293 8.482000 21.912000 13.430000 9 10
+Buzzer/BeatDecoder_BGM/beat[0] Buzzer/BeatCnt_BGM/reg0_syn_162.d[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/reg0_syn_114.sr
+
+
+Endpoint: Buzzer/TunePWM_BGM/PWM_n1_syn_253
+4345 8.356000 114 3
+Timing path: Buzzer/reg0_syn_61.clk->Buzzer/TunePWM_BGM/PWM_n1_syn_253
+Buzzer/reg0_syn_61.clk
+Buzzer/TunePWM_BGM/PWM_n1_syn_253
+4347 8.356000 21.912000 13.556000 9 10
+Buzzer/BeatDecoder_BGM/beat[2] Buzzer/BeatCnt_BGM/reg0_syn_162.b[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/PWM_n1_syn_253.sr
+
+Timing path: Buzzer/reg0_syn_47.clk->Buzzer/TunePWM_BGM/PWM_n1_syn_253
+Buzzer/reg0_syn_47.clk
+Buzzer/TunePWM_BGM/PWM_n1_syn_253
+4399 8.373000 21.912000 13.539000 9 10
+Buzzer/BeatDecoder_BGM/beat[3] Buzzer/BeatCnt_BGM/reg0_syn_162.c[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/PWM_n1_syn_253.sr
+
+Timing path: Buzzer/reg0_syn_59.clk->Buzzer/TunePWM_BGM/PWM_n1_syn_253
+Buzzer/reg0_syn_59.clk
+Buzzer/TunePWM_BGM/PWM_n1_syn_253
+4451 8.563000 21.912000 13.349000 9 10
+Buzzer/BeatDecoder_BGM/beat[0] Buzzer/BeatCnt_BGM/reg0_syn_162.d[1]
+Buzzer/BeatCnt_BGM/BeatCntParameter[25] Buzzer/BeatCnt_BGM/reg0_syn_154.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_59 Buzzer/BeatCnt_BGM/reg0_syn_154.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_62 Buzzer/BeatCnt_BGM/reg0_syn_157.a[0]
+Buzzer/BeatCnt_BGM/rst_n_syn_68 Buzzer/BeatCnt_BGM/reg0_syn_151.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_73 Buzzer/BeatCnt_BGM/reg0_syn_171.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_78 Buzzer/BeatCnt_BGM/rst_n_syn_168.a[1]
+Buzzer/BeatCnt_BGM/rst_n_syn_108 differentiator/filter/reg24_syn_55.a[0]
+Buzzer/BuzzerCtr_BGM/mux2_syn_13 differentiator/filter/reg25_syn_44.d[0]
+Buzzer/BeatCnt_BGM/rst_n Buzzer/TunePWM_BGM/PWM_n1_syn_253.sr
 
 
 
 Removal check
-4835 3
-Endpoint: u_spi_master/u_txfifo/reg0_syn_1689
-4837 0.091000 1 1
-Timing path: u_logic/Qijpw6_reg_syn_429.clk->u_spi_master/u_txfifo/reg0_syn_1689
-u_logic/Qijpw6_reg_syn_429.clk
-u_spi_master/u_txfifo/reg0_syn_1689
-4839 0.091000 2.299000 2.390000 0 1
-LCD_RST_dup_69 u_spi_master/u_txfifo/reg0_syn_1689.sr
+4503 3
+Endpoint: u_spi_master/u_txfifo/reg1_syn_36
+4505 0.138000 1 1
+Timing path: cpuresetn_reg_syn_114.clk->u_spi_master/u_txfifo/reg1_syn_36
+cpuresetn_reg_syn_114.clk
+u_spi_master/u_txfifo/reg1_syn_36
+4507 0.138000 2.236000 2.374000 0 1
+LCD_RST_dup_74 u_spi_master/u_txfifo/reg1_syn_36.sr
 
 
-Endpoint: u_spi_master/u_axiregs/reg1_syn_182
-4873 0.091000 1 1
-Timing path: u_logic/Qijpw6_reg_syn_429.clk->u_spi_master/u_axiregs/reg1_syn_182
-u_logic/Qijpw6_reg_syn_429.clk
-u_spi_master/u_axiregs/reg1_syn_182
-4875 0.091000 2.299000 2.390000 0 1
-LCD_RST_dup_69 u_spi_master/u_axiregs/reg1_syn_182.sr
+Endpoint: u_spi_master/u_spictrl/u_txreg/data_int_next[4]_syn_45
+4541 0.138000 1 1
+Timing path: cpuresetn_reg_syn_114.clk->u_spi_master/u_spictrl/u_txreg/data_int_next[4]_syn_45
+cpuresetn_reg_syn_114.clk
+u_spi_master/u_spictrl/u_txreg/data_int_next[4]_syn_45
+4543 0.138000 2.236000 2.374000 0 1
+LCD_RST_dup_74 u_spi_master/u_spictrl/u_txreg/data_int_next[4]_syn_45.sr
 
 
-Endpoint: u_logic/Glphu6_syn_3964
-4909 0.091000 1 1
-Timing path: u_logic/Qijpw6_reg_syn_429.clk->u_logic/Glphu6_syn_3964
-u_logic/Qijpw6_reg_syn_429.clk
-u_logic/Glphu6_syn_3964
-4911 0.091000 2.299000 2.390000 0 1
-LCD_RST_dup_69 u_logic/Glphu6_syn_3964.sr
+Endpoint: u_logic/O5vhu6_syn_62
+4577 0.154000 1 1
+Timing path: u_logic/Qijpw6_reg_syn_431.clk->u_logic/O5vhu6_syn_62
+u_logic/Qijpw6_reg_syn_431.clk
+u_logic/O5vhu6_syn_62
+4579 0.154000 2.220000 2.374000 0 1
+LCD_RST_dup_69 u_logic/O5vhu6_syn_62.sr
 
 
 
 
 clock: rgmii_rxcl
-4945 8780 316 4
+4613 8880 312 4
 Setup check
-4955 3
-Endpoint: ethernet/Ethernet_TX_Inst/reg0_syn_54
-4955 -4.871000 3 3
-Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_54
+4623 3
+Endpoint: ethernet/Ethernet_TX_Inst/reg0_syn_49
+4623 -4.417000 6 3
+Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_49
 ethernet/fifo2/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_54
-4957 -4.871000 8.528000 13.399000 3 3
-ethernet/Ethernet_TX_Inst/rddata_fifo2[0] ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_37.a[1]
-ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_3 ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_39.a[1]
-ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_9 ethernet/Ethernet_TX_Inst/reg0_syn_54.a[0]
+ethernet/Ethernet_TX_Inst/reg0_syn_49
+4625 -4.417000 8.528000 12.945000 3 3
+ethernet/Ethernet_TX_Inst/rddata_fifo2[3] ethernet/Ethernet_TX_Inst/mux50_syn_912.a[1]
+ethernet/Ethernet_TX_Inst/mux50_syn_784 ethernet/Ethernet_TX_Inst/mux50_syn_915.a[1]
+ethernet/Ethernet_TX_Inst/mux50_syn_794 ethernet/Ethernet_TX_Inst/reg0_syn_49.d[1]
 
-Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_54
+Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_49
 ethernet/fifo2/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_54
-5005 -4.871000 8.528000 13.399000 3 3
-ethernet/Ethernet_TX_Inst/rddata_fifo2[0] ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_37.a[0]
-ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_3 ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_39.a[1]
-ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_9 ethernet/Ethernet_TX_Inst/reg0_syn_54.a[0]
+ethernet/Ethernet_TX_Inst/reg0_syn_49
+4673 -4.417000 8.528000 12.945000 3 3
+ethernet/Ethernet_TX_Inst/rddata_fifo2[3] ethernet/Ethernet_TX_Inst/mux50_syn_912.a[0]
+ethernet/Ethernet_TX_Inst/mux50_syn_784 ethernet/Ethernet_TX_Inst/mux50_syn_915.a[1]
+ethernet/Ethernet_TX_Inst/mux50_syn_794 ethernet/Ethernet_TX_Inst/reg0_syn_49.d[1]
 
-Timing path: ethernet/fifo1/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_54
+Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_49
+ethernet/fifo2/fifo_inst_syn_2.clkr
+ethernet/Ethernet_TX_Inst/reg0_syn_49
+4721 -4.417000 8.528000 12.945000 3 3
+ethernet/Ethernet_TX_Inst/rddata_fifo2[3] ethernet/Ethernet_TX_Inst/mux50_syn_912.a[1]
+ethernet/Ethernet_TX_Inst/mux50_syn_784 ethernet/Ethernet_TX_Inst/mux50_syn_915.a[0]
+ethernet/Ethernet_TX_Inst/mux50_syn_794 ethernet/Ethernet_TX_Inst/reg0_syn_49.d[1]
+
+
+Endpoint: ethernet/Ethernet_TX_Inst/reg0_syn_46
+4769 -4.389000 2 2
+Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_46
+ethernet/fifo2/fifo_inst_syn_2.clkr
+ethernet/Ethernet_TX_Inst/reg0_syn_46
+4771 -4.389000 8.528000 12.917000 3 3
+ethernet/Ethernet_TX_Inst/rddata_fifo2[1] ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_63.a[0]
+ethernet/Ethernet_TX_Inst/mux50_syn_765 ethernet/Ethernet_TX_Inst/mux50_syn_908.a[1]
+ethernet/Ethernet_TX_Inst/mux50_syn_769 ethernet/Ethernet_TX_Inst/reg0_syn_46.a[0]
+
+Timing path: ethernet/fifo1/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_46
 ethernet/fifo1/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_54
-5053 -3.616000 8.528000 12.144000 2 2
-ethernet/Ethernet_TX_Inst/rddata_fifo1[0] ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_39.b[1]
-ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_9 ethernet/Ethernet_TX_Inst/reg0_syn_54.a[0]
+ethernet/Ethernet_TX_Inst/reg0_syn_46
+4819 -3.136000 8.528000 11.664000 2 2
+ethernet/Ethernet_TX_Inst/rddata_fifo1[1] ethernet/Ethernet_TX_Inst/mux50_syn_908.c[1]
+ethernet/Ethernet_TX_Inst/mux50_syn_769 ethernet/Ethernet_TX_Inst/reg0_syn_46.a[0]
 
 
-Endpoint: ethernet/Ethernet_TX_Inst/reg0_syn_48
-5099 -4.465000 2 2
-Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_48
+Endpoint: ethernet/Ethernet_TX_Inst/reg0_syn_52
+4865 -4.382000 2 2
+Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_52
 ethernet/fifo2/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_48
-5101 -4.465000 8.528000 12.993000 3 3
-ethernet/Ethernet_TX_Inst/rddata_fifo2[1] ethernet/Ethernet_TX_Inst/mux50_syn_915.a[0]
-ethernet/Ethernet_TX_Inst/mux50_syn_765 ethernet/Ethernet_TX_Inst/reg0_syn_45.a[0]
-ethernet/Ethernet_TX_Inst/mux50_syn_769 ethernet/Ethernet_TX_Inst/reg0_syn_48.a[0]
+ethernet/Ethernet_TX_Inst/reg0_syn_52
+4867 -4.382000 8.528000 12.910000 3 3
+ethernet/Ethernet_TX_Inst/rddata_fifo2[6] ethernet/Ethernet_TX_Inst/mux50_syn_940.a[0]
+ethernet/Ethernet_TX_Inst/E_TXD_n[6]_syn_3 ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_39.a[0]
+ethernet/Ethernet_TX_Inst/E_TXD_n[6]_syn_9 ethernet/Ethernet_TX_Inst/reg0_syn_52.a[1]
 
-Timing path: ethernet/fifo1/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_48
+Timing path: ethernet/fifo1/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_52
 ethernet/fifo1/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_48
-5149 -3.359000 8.528000 11.887000 2 2
-ethernet/Ethernet_TX_Inst/rddata_fifo1[1] ethernet/Ethernet_TX_Inst/reg0_syn_45.c[0]
-ethernet/Ethernet_TX_Inst/mux50_syn_769 ethernet/Ethernet_TX_Inst/reg0_syn_48.a[0]
-
-
-Endpoint: ethernet/Ethernet_TX_Inst/reg0_syn_43
-5195 -4.415000 4 3
-Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_43
-ethernet/fifo2/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_43
-5197 -4.415000 8.528000 12.943000 3 3
-ethernet/Ethernet_TX_Inst/rddata_fifo2[7] ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_82.a[1]
-ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_10 ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_160.d[0]
-ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_17 ethernet/Ethernet_TX_Inst/reg0_syn_43.a[1]
-
-Timing path: ethernet/fifo2/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_43
-ethernet/fifo2/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_43
-5245 -4.415000 8.528000 12.943000 3 3
-ethernet/Ethernet_TX_Inst/rddata_fifo2[7] ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_82.a[1]
-ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_10 ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_160.d[0]
-ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_17 ethernet/Ethernet_TX_Inst/reg0_syn_43.a[0]
-
-Timing path: ethernet/fifo1/fifo_inst_syn_2.clkr->ethernet/Ethernet_TX_Inst/reg0_syn_43
-ethernet/fifo1/fifo_inst_syn_2.clkr
-ethernet/Ethernet_TX_Inst/reg0_syn_43
-5293 -3.300000 8.528000 11.828000 2 2
-ethernet/Ethernet_TX_Inst/rddata_fifo1[7] ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_82.d[0]
-ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_19 ethernet/Ethernet_TX_Inst/reg0_syn_43.b[1]
+ethernet/Ethernet_TX_Inst/reg0_syn_52
+4915 -3.351000 8.528000 11.879000 2 2
+ethernet/Ethernet_TX_Inst/rddata_fifo1[6] ethernet/Ethernet_TX_Inst/E_TXD_n[0]_syn_39.b[0]
+ethernet/Ethernet_TX_Inst/E_TXD_n[6]_syn_9 ethernet/Ethernet_TX_Inst/reg0_syn_52.a[1]
 
 
 
 Hold check
-5339 3
-Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_177
-5341 0.375000 9 3
-Timing path: ethernet/Ethernet_TX_Inst/reg3_syn_177.clk->ethernet/Ethernet_TX_Inst/reg3_syn_177
-ethernet/Ethernet_TX_Inst/reg3_syn_177.clk
-ethernet/Ethernet_TX_Inst/reg3_syn_177
-5343 0.375000 3.998000 4.373000 1 1
-ethernet/Ethernet_TX_Inst/crc[18] ethernet/Ethernet_TX_Inst/reg3_syn_177.d[1]
-
-Timing path: ethernet/Ethernet_TX_Inst/reg3_syn_173.clk->ethernet/Ethernet_TX_Inst/reg3_syn_177
-ethernet/Ethernet_TX_Inst/reg3_syn_173.clk
-ethernet/Ethernet_TX_Inst/reg3_syn_177
-5385 1.244000 3.998000 5.242000 2 2
-ethernet/Ethernet_TX_Inst/crc[24] ethernet/Ethernet_TX_Inst/mux50_syn_940.c[1]
-ethernet/Ethernet_TX_Inst/mux50_syn_750 ethernet/Ethernet_TX_Inst/reg3_syn_177.b[1]
-
-Timing path: ethernet/Ethernet_TX_Inst/reg0_syn_51.clk->ethernet/Ethernet_TX_Inst/reg3_syn_177
-ethernet/Ethernet_TX_Inst/reg0_syn_51.clk
-ethernet/Ethernet_TX_Inst/reg3_syn_177
-5429 1.274000 3.998000 5.272000 2 2
-ethernet/Ethernet_TX_Inst/E_TXD[3] ethernet/Ethernet_TX_Inst/mux50_syn_918.a[1]
-ethernet/Ethernet_TX_Inst/mux50_syn_756 ethernet/Ethernet_TX_Inst/reg3_syn_177.a[1]
+4961 3
+Endpoint: ethernet/u1/reg1_syn_26
+4963 0.436000 1 1
+Timing path: SNR_reader/filtered_sum[5]_syn_224.clk->ethernet/u1/reg1_syn_26
+SNR_reader/filtered_sum[5]_syn_224.clk
+ethernet/u1/reg1_syn_26
+4965 0.436000 4.046000 4.482000 0 1
+ethernet/u1/gmii_txd_r[7] ethernet/u1/reg1_syn_26.mi[0]
 
 
-Endpoint: SNR_reader/SNR_reg_b1_n299_syn_25
-5473 0.427000 1 1
-Timing path: pwm_dac/idx_b4_n412_syn_29.clk->SNR_reader/SNR_reg_b1_n299_syn_25
-pwm_dac/idx_b4_n412_syn_29.clk
-SNR_reader/SNR_reg_b1_n299_syn_25
-5475 0.427000 4.046000 4.473000 0 1
-ethernet/u1/gmii_txd_r[7] SNR_reader/SNR_reg_b1_n299_syn_25.mi[0]
+Endpoint: ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+5007 0.448000 13 3
+Timing path: ethernet/Ethernet_TX_Inst/newcrc[13]_syn_13.clk->ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+ethernet/Ethernet_TX_Inst/newcrc[13]_syn_13.clk
+ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+5009 0.448000 4.030000 4.478000 1 1
+ethernet/Ethernet_TX_Inst/crc[4] ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69.d[0]
+
+Timing path: ethernet/Ethernet_TX_Inst/reg3_syn_171.clk->ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+ethernet/Ethernet_TX_Inst/reg3_syn_171.clk
+ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+5051 1.472000 4.030000 5.502000 2 2
+ethernet/Ethernet_TX_Inst/crc[25] ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_162.c[1]
+ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_6 ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69.c[0]
+
+Timing path: ethernet/Ethernet_TX_Inst/reg0_syn_52.clk->ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+ethernet/Ethernet_TX_Inst/reg0_syn_52.clk
+ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69
+5095 1.685000 4.030000 5.715000 2 2
+ethernet/Ethernet_TX_Inst/E_TXD[6] ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_162.d[1]
+ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_6 ethernet/Ethernet_TX_Inst/E_TXD_n_b[7]_syn_69.c[0]
 
 
-Endpoint: SNR_reader/SNR_reg_b1_n292_syn_49
-5517 0.465000 1 1
-Timing path: pwm_dac/idx_b4_n404_syn_52.clk->SNR_reader/SNR_reg_b1_n292_syn_49
-pwm_dac/idx_b4_n404_syn_52.clk
-SNR_reader/SNR_reg_b1_n292_syn_49
-5519 0.465000 4.046000 4.511000 0 1
-ethernet/u1/gmii_tx_en_r SNR_reader/SNR_reg_b1_n292_syn_49.mi[0]
+Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_181
+5139 0.466000 7 3
+Timing path: ethernet/Ethernet_TX_Inst/reg3_syn_168.clk->ethernet/Ethernet_TX_Inst/reg3_syn_181
+ethernet/Ethernet_TX_Inst/reg3_syn_168.clk
+ethernet/Ethernet_TX_Inst/reg3_syn_181
+5141 0.466000 4.046000 4.512000 1 1
+ethernet/Ethernet_TX_Inst/crc[15] ethernet/Ethernet_TX_Inst/reg3_syn_181.c[1]
+
+Timing path: ethernet/Ethernet_TX_Inst/reg3_syn_171.clk->ethernet/Ethernet_TX_Inst/reg3_syn_181
+ethernet/Ethernet_TX_Inst/reg3_syn_171.clk
+ethernet/Ethernet_TX_Inst/reg3_syn_181
+5183 1.527000 4.046000 5.573000 2 2
+ethernet/Ethernet_TX_Inst/crc[25] ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_162.c[1]
+ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_6 ethernet/Ethernet_TX_Inst/reg3_syn_181.b[1]
+
+Timing path: ethernet/Ethernet_TX_Inst/reg0_syn_52.clk->ethernet/Ethernet_TX_Inst/reg3_syn_181
+ethernet/Ethernet_TX_Inst/reg0_syn_52.clk
+ethernet/Ethernet_TX_Inst/reg3_syn_181
+5227 1.740000 4.046000 5.786000 2 2
+ethernet/Ethernet_TX_Inst/E_TXD[6] ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_162.d[1]
+ethernet/Ethernet_TX_Inst/E_TXD_n[4]_syn_6 ethernet/Ethernet_TX_Inst/reg3_syn_181.b[1]
 
 
 
 Recovery check
-5561 3
-Endpoint: rgmii_td[2]_syn_2
-5563 2.940000 1 1
-Timing path: pwm_dac/idx_b4_n411_syn_31.clk->rgmii_td[2]_syn_2
-pwm_dac/idx_b4_n411_syn_31.clk
-rgmii_td[2]_syn_2
-5565 2.940000 9.643000 6.703000 0 1
-ethernet/u1/tx_reset_sync rgmii_td[2]_syn_2.rst
-
-
+5271 3
 Endpoint: rgmii_txc_syn_2
-5609 2.940000 1 1
-Timing path: pwm_dac/idx_b4_n411_syn_31.clk->rgmii_txc_syn_2
-pwm_dac/idx_b4_n411_syn_31.clk
+5273 2.800000 1 1
+Timing path: SNR_reader/SNR_reg_b1_n301_syn_19.clk->rgmii_txc_syn_2
+SNR_reader/SNR_reg_b1_n301_syn_19.clk
 rgmii_txc_syn_2
-5611 2.940000 9.643000 6.703000 0 1
+5275 2.800000 9.561000 6.761000 0 1
 ethernet/u1/tx_reset_sync rgmii_txc_syn_2.rst
 
 
+Endpoint: rgmii_td[2]_syn_2
+5319 2.800000 1 1
+Timing path: SNR_reader/SNR_reg_b1_n301_syn_19.clk->rgmii_td[2]_syn_2
+SNR_reader/SNR_reg_b1_n301_syn_19.clk
+rgmii_td[2]_syn_2
+5321 2.800000 9.561000 6.761000 0 1
+ethernet/u1/tx_reset_sync rgmii_td[2]_syn_2.rst
+
+
 Endpoint: rgmii_td[0]_syn_2
-5655 3.137000 1 1
-Timing path: pwm_dac/idx_b4_n411_syn_31.clk->rgmii_td[0]_syn_2
-pwm_dac/idx_b4_n411_syn_31.clk
+5365 2.996000 1 1
+Timing path: SNR_reader/SNR_reg_b1_n301_syn_19.clk->rgmii_td[0]_syn_2
+SNR_reader/SNR_reg_b1_n301_syn_19.clk
 rgmii_td[0]_syn_2
-5657 3.137000 9.643000 6.506000 0 1
+5367 2.996000 9.561000 6.565000 0 1
 ethernet/u1/tx_reset_sync rgmii_td[0]_syn_2.rst
 
 
 
 Removal check
-5701 3
-Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_188
-5703 0.369000 1 1
-Timing path: ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk->ethernet/Ethernet_TX_Inst/reg3_syn_188
+5411 3
+Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_174
+5413 0.466000 1 1
+Timing path: ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk->ethernet/Ethernet_TX_Inst/reg3_syn_174
 ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk
-ethernet/Ethernet_TX_Inst/reg3_syn_188
-5705 0.369000 4.238000 4.607000 0 1
-ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_188.sr
+ethernet/Ethernet_TX_Inst/reg3_syn_174
+5415 0.466000 4.238000 4.704000 0 1
+ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_174.sr
 
 
-Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_168
-5747 0.369000 1 1
-Timing path: ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk->ethernet/Ethernet_TX_Inst/reg3_syn_168
+Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_171
+5457 0.466000 1 1
+Timing path: ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk->ethernet/Ethernet_TX_Inst/reg3_syn_171
 ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk
-ethernet/Ethernet_TX_Inst/reg3_syn_168
-5749 0.369000 4.238000 4.607000 0 1
-ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_168.sr
+ethernet/Ethernet_TX_Inst/reg3_syn_171
+5459 0.466000 4.238000 4.704000 0 1
+ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_171.sr
 
 
-Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_182
-5791 0.369000 1 1
-Timing path: ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk->ethernet/Ethernet_TX_Inst/reg3_syn_182
+Endpoint: ethernet/Ethernet_TX_Inst/reg3_syn_184
+5501 0.466000 1 1
+Timing path: ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk->ethernet/Ethernet_TX_Inst/reg3_syn_184
 ethernet/Ethernet_TX_Inst/crc_en_reg_syn_5.clk
-ethernet/Ethernet_TX_Inst/reg3_syn_182
-5793 0.369000 4.238000 4.607000 0 1
-ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_182.sr
+ethernet/Ethernet_TX_Inst/reg3_syn_184
+5503 0.466000 4.238000 4.704000 0 1
+ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_184.sr
 
 
 
@@ -2072,10 +1943,10 @@ ethernet/Ethernet_TX_Inst/crc_rst ethernet/Ethernet_TX_Inst/reg3_syn_182.sr
 Timing group statistics: 
 	Clock constraints: 
 	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
-	  clk (50.0MHz)                                 58.327ns      17.145MHz        0.326ns      2342     -661.437ns
-	  filter_clkl (500.0KHz)                         1.947us     513.483KHz        0.326ns       318        0.000ns
-	  rgmii_rxcl (125.0MHz)                         17.742ns      56.363MHz        1.500ns        73      -34.127ns
-	  adc_clkl (16.0MHz)                             2.230ns     448.430MHz        0.326ns        19        0.000ns
+	  clk (50.0MHz)                                 58.714ns      17.032MHz        0.326ns      2314     -838.669ns
+	  filter_clkl (500.0KHz)                         1.945us     514.000KHz        0.326ns       323        0.000ns
+	  rgmii_rxcl (125.0MHz)                         16.834ns      59.404MHz        1.409ns        72      -33.118ns
+	  adc_clkl (16.0MHz)                             1.820ns     549.451MHz        0.326ns        15        0.000ns
 	Minimum input arrival time before clock: no constraint path
 	Maximum output required time after clock: no constraint path
 	Maximum combinational path delay: no constraint path
@@ -2096,7 +1967,7 @@ Warning: No clock constraint on 10 clock net(s):
 		----------------------------------------------------------------------------------------------------
 		       Path Num     Constraint                                                                      
 		              0     set_false_path -from [ get_clocks {adc_clkl} ] -to [ get_clocks {clk} ]         
-		             19     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {adc_clkl} ]         
+		             15     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {adc_clkl} ]         
 		              2     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {filter_clkl} ]      
 		             11     set_false_path -from [ get_clocks {filter_clkl} ] -to [ get_clocks {clk} ]      
 		             72     set_false_path -from [ get_clocks {filter_clkl} ] -to [ get_clocks {rgmii_rxcl} ]
@@ -2105,7 +1976,7 @@ Warning: No clock constraint on 10 clock net(s):
 		----------------------------------------------------------------------------------------------------
 		       Path Num     Constraint                                                                      
 		              0     set_false_path -from [ get_clocks {adc_clkl} ] -to [ get_clocks {clk} ]         
-		             19     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {adc_clkl} ]         
+		             15     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {adc_clkl} ]         
 		              2     set_false_path -from [ get_clocks {clk} ] -to [ get_clocks {filter_clkl} ]      
 		             11     set_false_path -from [ get_clocks {filter_clkl} ] -to [ get_clocks {clk} ]      
 		             72     set_false_path -from [ get_clocks {filter_clkl} ] -to [ get_clocks {rgmii_rxcl} ]

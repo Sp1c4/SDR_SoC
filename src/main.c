@@ -15,6 +15,7 @@
 #include"data.h"
 
 QN8027_FrequencyStr fst_8027;
+SysStatus Sys;
 uint32_t Fin_001,vol;
 uint32_t Fin_8027;
 uint32_t Pout_8027;
@@ -25,7 +26,8 @@ uint32_t SNR_now,RSSI_now,station_now,search_number,search_result[50];
 
 
 int main()
-{
+ {
+    uint32_t report_counter;
     uint32_t SNR_all,SNR_max,SNR_c;
     NVIC_CTRL_ADDR = 1;
     MSI001_FrequencyStr fst_001;
@@ -51,7 +53,7 @@ int main()
 	SPI_Sent(0x00FA03,24);
     TubeShow(Fin_001);
     
-    
+    UART_Init();
     LCD_init();
 
     SNR_all=0;
@@ -94,7 +96,7 @@ int main()
             if(search_flag==0)                      //�?搜索，进行搜�?
             {
                 station_now = 1;
-                for(uint16_t i=0;i<20;i++)
+                for(uint16_t i=0;i<21;i++)
                 {
                     search_result[i]=0;
                 }
@@ -182,12 +184,31 @@ int main()
             TubeShow(Fin_8027);
         }
         else if(mode==5)
-        {
-            
+        {  
         }
          else if(mode==6)
         {
         }
+    report_counter += 1;
+    if(report_counter == 100000)
+    {
+        for(uint16_t i=0;i<1000;i++)
+        {
+            SNR_now=SNR;
+            Delay(50);
+            SNR_all=SNR_all+SNR_now;
+        }
+        Sys.freqRx = Fin_001;
+        Sys.ampRx = 30-vol;
+        Sys.freqTx = Fin_8027;
+        Sys.staNum = search_number;
+        Sys.stations = search_result;
+        Sys.SNRnow = SNR_all;
+        UART_putStatus(Sys);
+        SNR_all=0;
+        SNR_now=0;
+				report_counter = 0;
+    }
     }
     return 0;
 }
@@ -258,11 +279,11 @@ void KEY()
         }
         else if(temp&(1<<2))
         {
-            vol -= 1;      
+            vol += 1;      
         }
         else if(temp&(1<<6))
         {
-            vol += 1;
+            vol -= 1;
         }
         
         MSI001_Frequency_calc(&Fin_001,&fst_001);
@@ -289,11 +310,11 @@ void KEY()
         }
         else if(temp&(1<<2))
         {
-            vol -= 1;      
+            vol += 1;      
         }
         else if(temp&(1<<6))
         {
-            vol += 1;
+            vol -= 1;
         }
         MSI001_Frequency_calc(&Fin_001,&fst_001);
         SPI_Sent(0x043420,24);
@@ -346,11 +367,11 @@ void KEY()
         
         else if(temp&(1<<2))
         {
-            vol -= 1;      
+            vol += 1;
         }
         else if(temp&(1<<6))
         {
-            vol += 1;
+            vol -= 1;
         }
         
         MSI001_Frequency_calc(&Fin_001,&fst_001);
@@ -436,26 +457,6 @@ void KEY()
         {
             LEDWATER(0);
         }
-        else if(temp&(1<<2))
-        {
-            vol -= 1;      
-        }
-        else if(temp&(1<<6))
-        {
-            vol += 1;
-        }
-        MSI001_Frequency_calc(&Fin_001,&fst_001);
-        SPI_Sent(0x043420,24);
-	    Delay(300);
-	    SPI_Sent(0x28bb85,24);
-	    Delay(300);
-        SPI_Sent(((fst_001.INT<<16)+(fst_001.FRAC<<4)+2),24);
-	    Delay(300);
-	    SPI_Sent(0x00c001+(vol<<4),24);
-	    Delay(300);
-	    SPI_Sent(0x200016,24);
-	    Delay(300);
-	    SPI_Sent(0x00FA03,24);
     }
 }
 void Timer_IRQ()

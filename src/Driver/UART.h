@@ -2,6 +2,7 @@
 #define _UART_H_
 
 #include<stdint.h>
+#include"code_def.h"
 
 typedef struct
 {
@@ -17,6 +18,9 @@ typedef struct
 
 void UART_Init(void);
 void UART_putc(char txchar);
+void UART_puth(uint16_t hword);
+void UART_putw(uint32_t word);
 char UART_getc(void);
+void UART_putStatus(SysStatus systemStatus);
 
 #endif

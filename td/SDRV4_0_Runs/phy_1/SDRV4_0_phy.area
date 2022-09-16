@@ -8,12 +8,12 @@ IO Statistics
   #inout                    3
 
 Utilization Statistics
-#lut                    11664   out of  19600   59.51%
-#reg                     3821   out of  19600   19.49%
-#le                     11904
-  #lut only              8083   out of  11904   67.90%
-  #reg only               240   out of  11904    2.02%
-  #lut&reg               3581   out of  11904   30.08%
+#lut                    11678   out of  19600   59.58%
+#reg                     3824   out of  19600   19.51%
+#le                     11883
+  #lut only              8059   out of  11883   67.82%
+  #reg only               205   out of  11883    1.73%
+  #lut&reg               3619   out of  11883   30.46%
 #dsp                       29   out of     29  100.00%
 #bram                       6   out of     64    9.38%
   #bram9k                   4
@@ -28,22 +28,22 @@ Utilization Statistics
 #gclk                      14   out of     16   87.50%
 
 Clock Resource Statistics
-Index     ClockNet                                   Type               DriverType         Driver                                       Fanout
-#1        u_logic/SCLK                               GCLK               pll                PLL/pll_inst.clkc3                           2342
-#2        differentiator/filter/CLK                  GCLK               mslice             differentiator/filter_clk_r_reg_syn_10.q0    318
-#3        SWCLK_dup_1                                GCLK               io                 SWCLK_syn_2.di                               78
-#4        rgmii_rxc_dup_1                            GCLK               io                 rgmii_rxc_syn_2.di                           65
-#5        differentiator/clk                         GCLK               pll                PLL/pll_inst.clkc1                           19
-#6        APB_Keyboard/KeyToCol/rowcnt[1]            GCLK               mslice             APB_Keyboard/KeyToCol/reg7_syn_14.q0         16
-#7        ledwater/light_clk                         GCLK               lslice             ledwater/light_clk_reg_syn_9.q0              12
-#8        ethernet/u1/gmii_rx_clk_in                 GCLK               mslice             ethernet/u1/gmii_rx_clk_in_syn_7.f0          8
-#9        APB_Keyboard/KeyToCol/sa_clk               GCLK               mslice             APB_Keyboard/KeyToCol/sa_clk_reg_syn_9.q1    7
-#10       u_spi_master/u_spictrl/u_clkgen/spi_clk    GCLK               lslice             u_logic/N9uhu6_syn_8.q0                      4
-#11       APBTube/ClkDiv/div_clk                     GCLK               mslice             APBTube/ClkDiv/div_clk_reg_syn_9.q1          2
-#12       i2c/DUT_FIFO_TX/w_counter_n                GCLK               mslice             differentiator/filter/reg26_syn_43.f1        2
-#13       clk_in_dup_1                               GeneralRouting     io                 clk_in_syn_2.di                              1
-#14       PLL/clk0_buf                               GCLK               pll                PLL/pll_inst.clkc0                           0
-#15       QN8027_clk_dup_1                           GCLK               pll                PLL/pll_inst.clkc2                           0
+Index     ClockNet                                   Type               DriverType         Driver                                            Fanout
+#1        u_logic/SCLK                               GCLK               pll                PLL/pll_inst.clkc3                                2314
+#2        differentiator/filter/CLK                  GCLK               lslice             differentiator/filter_clk_r_reg_syn_10.q0         323
+#3        SWCLK_dup_1                                GCLK               io                 SWCLK_syn_2.di                                    77
+#4        rgmii_rxc_dup_1                            GCLK               io                 rgmii_rxc_syn_2.di                                64
+#5        APB_Keyboard/KeyToCol/rowcnt[1]            GCLK               lslice             APB_Keyboard/KeyToCol/reg7_syn_14.q0              16
+#6        differentiator/clk                         GCLK               pll                PLL/pll_inst.clkc1                                15
+#7        ledwater/light_clk                         GCLK               mslice             ledwater/light_clk_reg_syn_9.q1                   12
+#8        ethernet/u1/gmii_rx_clk_in                 GCLK               lslice             ethernet/u1/gmii_rx_clk_in_syn_7.f1               8
+#9        APB_Keyboard/KeyToCol/sa_clk               GCLK               mslice             APB_Keyboard/KeyToCol/sa_clk_reg_syn_9.q1         5
+#10       u_spi_master/u_spictrl/u_clkgen/spi_clk    GCLK               mslice             u_spi_master/u_txfifo/elements_b[3]_syn_203.q0    4
+#11       i2c/DUT_FIFO_TX/w_counter_n                GCLK               lslice             differentiator/filter/reg22_syn_38.f0             2
+#12       APBTube/ClkDiv/div_clk                     GCLK               mslice             APBTube/ClkDiv/div_clk_reg_syn_9.q0               1
+#13       clk_in_dup_1                               GeneralRouting     io                 clk_in_syn_2.di                                   1
+#14       PLL/clk0_buf                               GCLK               pll                PLL/pll_inst.clkc0                                0
+#15       QN8027_clk_dup_1                           GCLK               pll                PLL/pll_inst.clkc2                                0
 
 
 Detailed IO Report
@@ -51,7 +51,7 @@ Detailed IO Report
       Name        Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
      BGM_sw         INPUT        A10        LVCMOS33          N/A          PULLUP      NONE    
       RSTn          INPUT         A9        LVCMOS33          N/A          PULLUP      NONE    
-      RXD           INPUT        F13        LVCMOS33          N/A          PULLUP      NONE    
+      RXD           INPUT        F12        LVCMOS33          N/A          PULLUP      NONE    
      SWCLK          INPUT         R2        LVCMOS33          N/A          PULLUP      NONE    
      clk_in         INPUT         R7        LVCMOS33          N/A          PULLUP      NONE    
      col[3]         INPUT        F10        LVCMOS33          N/A          PULLUP      NONE    
@@ -111,7 +111,7 @@ Detailed IO Report
     SPI_CLK        OUTPUT         M9        LVCMOS33           8            NONE       NONE    
     SPI_CS_0       OUTPUT         P9        LVCMOS33           8          PULLDOWN     NONE    
    SPI_SDO_0       OUTPUT         N9        LVCMOS33           8          PULLDOWN     NONE    
-      TXD          OUTPUT        F15        LVCMOS33           8            NONE       NONE    
+      TXD          OUTPUT        D12        LVCMOS33           8            NONE       NONE    
   rgmii_td[3]      OUTPUT         G5        LVCMOS33           8            NONE      ODDRX1   
   rgmii_td[2]      OUTPUT         H4        LVCMOS33           8            NONE      ODDRX1   
   rgmii_td[1]      OUTPUT         G6        LVCMOS33           8            NONE      ODDRX1   
@@ -132,100 +132,103 @@ Report Hierarchy Area:
 +------------------------------------------------------------------------------------------------------------------------------+
 |Instance                                |Module                          |le     |lut     |ripple  |seq     |bram    |dsp     |
 +------------------------------------------------------------------------------------------------------------------------------+
-|top                                     |SDR_Pad                         |11904  |10549   |1115    |3827    |14      |29      |
+|top                                     |SDR_Pad                         |11883  |10563   |1115    |3830    |14      |29      |
 |  ADC                                   |ADC                             |0      |0       |0       |0       |0       |0       |
-|  AHB_FIFO_Interface                    |AHB_FIFO_Interface              |6      |6       |0       |3       |0       |0       |
-|  APBTube                               |APBTube                         |94     |79      |10      |66      |0       |0       |
+|  AHB_FIFO_Interface                    |AHB_FIFO_Interface              |11     |11      |0       |4       |0       |0       |
+|  APBTube                               |APBTube                         |91     |79      |10      |64      |0       |0       |
 |    ClkDiv                              |ClkDiv                          |29     |19      |10      |9       |0       |0       |
-|    SSeg                                |SSeg                            |8      |8       |0       |2       |0       |0       |
-|  APB_Keyboard                          |APB_Keyboard                    |100    |79      |15      |64      |0       |0       |
-|    KeyToCol                            |KeyToCol                        |85     |64      |15      |49      |0       |0       |
-|  Buzzer                                |Buzzer                          |607    |540     |44      |309     |0       |0       |
-|    APB_BDMAC                           |APB_BDMAC                       |56     |43      |0       |49      |0       |0       |
-|    AddrCnt_BGM                         |AddrCnt                         |60     |52      |8       |33      |0       |0       |
-|    AddrCnt_Sound                       |AddrCnt                         |64     |56      |8       |27      |0       |0       |
-|    BDMA_BGM                            |BDMA                            |35     |35      |0       |35      |0       |0       |
-|    BDMA_Sound                          |BDMA                            |42     |42      |0       |36      |0       |0       |
-|    BeatCnt_BGM                         |BeatCnt                         |53     |45      |8       |29      |0       |0       |
-|    BeatCnt_Sound                       |BeatCnt                         |60     |52      |8       |27      |0       |0       |
-|    BuzzerCtr_BGM                       |BuzzerCtr                       |5      |5       |0       |2       |0       |0       |
-|    BuzzerCtr_Sound                     |BuzzerCtr                       |7      |7       |0       |1       |0       |0       |
-|    TunePWM_BGM                         |TunePWM                         |103    |97      |6       |23      |0       |0       |
-|    TunePWM_Sound                       |TunePWM                         |98     |92      |6       |23      |0       |0       |
-|  Interface_9341                        |Interface_9341                  |4      |4       |0       |3       |0       |0       |
-|  Interface_9341_FIFO                   |FIFO_synq                       |127    |121     |6       |34      |0       |0       |
+|    DigSel                              |DigSel                          |2      |2       |0       |2       |0       |0       |
+|    SSeg                                |SSeg                            |6      |6       |0       |1       |0       |0       |
+|  APB_Keyboard                          |APB_Keyboard                    |117    |100     |15      |71      |0       |0       |
+|    KeyToCol                            |KeyToCol                        |99     |82      |15      |58      |0       |0       |
+|  Buzzer                                |Buzzer                          |604    |523     |44      |313     |0       |0       |
+|    APB_BDMAC                           |APB_BDMAC                       |61     |40      |0       |53      |0       |0       |
+|    AddrCnt_BGM                         |AddrCnt                         |65     |57      |8       |35      |0       |0       |
+|    AddrCnt_Sound                       |AddrCnt                         |56     |48      |8       |30      |0       |0       |
+|    BDMA_BGM                            |BDMA                            |38     |38      |0       |35      |0       |0       |
+|    BDMA_Sound                          |BDMA                            |36     |36      |0       |32      |0       |0       |
+|    BeatCnt_BGM                         |BeatCnt                         |50     |42      |8       |28      |0       |0       |
+|    BeatCnt_Sound                       |BeatCnt                         |51     |43      |8       |29      |0       |0       |
+|    BuzzerCtr_BGM                       |BuzzerCtr                       |7      |7       |0       |3       |0       |0       |
+|    BuzzerCtr_Sound                     |BuzzerCtr                       |6      |6       |0       |2       |0       |0       |
+|    TunePWM_BGM                         |TunePWM                         |103    |97      |6       |22      |0       |0       |
+|    TunePWM_Sound                       |TunePWM                         |108    |102     |6       |22      |0       |0       |
+|  Interface_9341                        |Interface_9341                  |6      |6       |0       |3       |0       |0       |
+|  Interface_9341_FIFO                   |FIFO_synq                       |129    |123     |6       |34      |0       |0       |
 |  PLL                                   |PLL                             |0      |0       |0       |0       |0       |0       |
-|  PTFIFO                                |FIFO_synq                       |114    |106     |8       |12      |0       |0       |
-|  Printer                               |Printer                         |331    |299     |26      |144     |0       |0       |
-|    LCD_ini                             |LCD_ini                         |65     |50      |9       |20      |0       |0       |
-|      Block_ROM_init_data               |Block_ROM_init_data             |24     |24      |0       |0       |0       |0       |
+|  PTFIFO                                |FIFO_synq                       |112    |104     |8       |12      |0       |0       |
+|  Printer                               |Printer                         |311    |283     |26      |140     |0       |0       |
+|    LCD_ini                             |LCD_ini                         |70     |59      |9       |17      |0       |0       |
+|      Block_ROM_init_data               |Block_ROM_init_data             |32     |32      |0       |0       |0       |0       |
 |      Block_ROM_init_sign               |Block_ROM_init_sign             |4      |4       |0       |0       |0       |0       |
-|    Printer_ctr                         |Printer_ctr                     |59     |59      |0       |33      |0       |0       |
-|  RAMCODE_Interface                     |AHBlite_Block_RAM               |88     |87      |0       |36      |0       |0       |
-|  RAMDATA_Interface                     |AHBlite_Block_RAM               |33     |33      |0       |13      |0       |0       |
-|  RAM_CODE                              |Block_RAM                       |4      |4       |0       |1       |8       |0       |
-|  RAM_DATA                              |Block_RAM                       |8      |8       |0       |2       |4       |0       |
-|  RSSI_reader                           |RSSI_reader                     |21     |17      |4       |9       |0       |0       |
-|  RealTankSoCBusMtx                     |RealTankSoCBusMtx               |152    |142     |0       |87      |0       |0       |
-|    u_RealTankSoCBusIn_0                |RealTankSoCBusIn                |29     |29      |0       |16      |0       |0       |
-|    u_RealTankSoCBusIn_1                |RealTankSoCBusIn                |14     |11      |0       |13      |0       |0       |
-|    u_RealTankSoCBusIn_2                |RealTankSoCBusIn                |18     |16      |0       |17      |0       |0       |
-|    u_RealTankSoCBusIn_3                |RealTankSoCBusIn                |15     |10      |0       |15      |0       |0       |
-|    u_realtanksocbusdecs0               |RealTankSoCBusDecS0             |6      |6       |0       |4       |0       |0       |
-|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |2      |2       |0       |1       |0       |0       |
-|    u_realtanksocbusdecs2               |RealTankSoCBusDecS2             |2      |2       |0       |2       |0       |0       |
-|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |2      |2       |0       |2       |0       |0       |
+|    Printer_ctr                         |Printer_ctr                     |53     |53      |0       |36      |0       |0       |
+|  RAMCODE_Interface                     |AHBlite_Block_RAM               |72     |72      |0       |25      |0       |0       |
+|  RAMDATA_Interface                     |AHBlite_Block_RAM               |36     |36      |0       |13      |0       |0       |
+|  RAM_CODE                              |Block_RAM                       |4      |4       |0       |0       |8       |0       |
+|  RAM_DATA                              |Block_RAM                       |7      |7       |0       |1       |4       |0       |
+|  RSSI_reader                           |RSSI_reader                     |20     |16      |4       |9       |0       |0       |
+|  RealTankSoCBusMtx                     |RealTankSoCBusMtx               |152    |145     |0       |90      |0       |0       |
+|    u_RealTankSoCBusIn_0                |RealTankSoCBusIn                |28     |28      |0       |17      |0       |0       |
+|    u_RealTankSoCBusIn_1                |RealTankSoCBusIn                |13     |13      |0       |12      |0       |0       |
+|    u_RealTankSoCBusIn_2                |RealTankSoCBusIn                |19     |19      |0       |19      |0       |0       |
+|    u_RealTankSoCBusIn_3                |RealTankSoCBusIn                |20     |14      |0       |19      |0       |0       |
+|    u_realtanksocbusdecs0               |RealTankSoCBusDecS0             |6      |6       |0       |1       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |4      |4       |0       |1       |0       |0       |
+|    u_realtanksocbusdecs1               |RealTankSoCBusDecS1             |2      |2       |0       |2       |0       |0       |
+|    u_realtanksocbusdecs2               |RealTankSoCBusDecS2             |1      |1       |0       |1       |0       |0       |
+|      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |1      |1       |0       |1       |0       |0       |
 |    u_realtanksocbusdecs3               |RealTankSoCBusDecS3             |2      |2       |0       |2       |0       |0       |
 |      u_RealTankSoCBusMtx_default_slave |RealTankSoCBusMtx_default_slave |2      |2       |0       |2       |0       |0       |
-|    u_realtanksocbusoutm0_0             |RealTankSoCBusOutM0             |26     |26      |0       |10      |0       |0       |
-|      u_output_arb                      |RealTankSoCBusArbM0             |26     |26      |0       |10      |0       |0       |
-|    u_realtanksocbusoutm1_1             |RealTankSoCBusOutM1             |6      |6       |0       |2       |0       |0       |
-|      u_output_arb                      |RealTankSoCBusArbM1             |6      |6       |0       |2       |0       |0       |
-|    u_realtanksocbusoutm2_2             |RealTankSoCBusOutM2             |18     |18      |0       |4       |0       |0       |
+|    u_realtanksocbusoutm0_0             |RealTankSoCBusOutM0             |25     |24      |0       |9       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM0             |24     |24      |0       |8       |0       |0       |
+|    u_realtanksocbusoutm1_1             |RealTankSoCBusOutM1             |4      |4       |0       |1       |0       |0       |
+|      u_output_arb                      |RealTankSoCBusArbM1             |4      |4       |0       |1       |0       |0       |
+|    u_realtanksocbusoutm2_2             |RealTankSoCBusOutM2             |16     |16      |0       |3       |0       |0       |
 |      u_output_arb                      |RealTankSoCBusArbM2             |12     |12      |0       |1       |0       |0       |
-|    u_realtanksocbusoutm3_3             |RealTankSoCBusOutM3             |16     |16      |0       |2       |0       |0       |
+|    u_realtanksocbusoutm3_3             |RealTankSoCBusOutM3             |16     |16      |0       |4       |0       |0       |
 |      u_output_arb                      |RealTankSoCBusArbM3             |8      |8       |0       |1       |0       |0       |
-|  SNR_reader                            |SNR_reader                      |532    |345     |187     |59      |0       |0       |
-|  Timer                                 |Timer                           |41     |31      |10      |21      |0       |0       |
-|  UART                                  |cmsdk_apb_uart                  |185    |169     |12      |118     |0       |0       |
-|  ahb_to_apb                            |cmsdk_ahb_to_apb                |72     |72      |0       |19      |0       |0       |
-|  apb_ethernet                          |apb_ethernet                    |2      |2       |0       |1       |0       |0       |
-|  apb_ledwater                          |apb_ledwater                    |4      |4       |0       |2       |0       |0       |
-|  differentiator                        |differentiator                  |1145   |563     |425     |460     |0       |26      |
-|    filter                              |filter                          |1121   |545     |419     |451     |0       |24      |
-|  ethernet                              |ethernet                        |291    |253     |38      |72      |2       |0       |
-|    Ethernet_TX_Inst                    |Ethernet_TX                     |285    |247     |38      |67      |0       |0       |
+|  SNR_reader                            |SNR_reader                      |543    |356     |187     |52      |0       |0       |
+|  Timer                                 |Timer                           |43     |29      |10      |23      |0       |0       |
+|  UART                                  |cmsdk_apb_uart                  |180    |163     |12      |105     |0       |0       |
+|  ahb_to_apb                            |cmsdk_ahb_to_apb                |63     |63      |0       |16      |0       |0       |
+|  apb_ledwater                          |apb_ledwater                    |4      |4       |0       |1       |0       |0       |
+|  differentiator                        |differentiator                  |1158   |605     |425     |469     |0       |26      |
+|    filter                              |filter                          |1126   |594     |419     |450     |0       |24      |
+|  ethernet                              |ethernet                        |298    |260     |38      |84      |2       |0       |
+|    Ethernet_TX_Inst                    |Ethernet_TX                     |284    |246     |38      |72      |0       |0       |
+|    counter_fifo                        |counter_fifo                    |2      |2       |0       |2       |0       |0       |
 |    fifo1                               |fifo8in                         |0      |0       |0       |0       |1       |0       |
 |    fifo2                               |fifo8in                         |0      |0       |0       |0       |1       |0       |
-|    u1                                  |util_gmii_to_rgmii              |6      |6       |0       |5       |0       |0       |
-|  i2c                                   |i2c                             |400    |307     |92      |78      |0       |0       |
-|    DUT_APB                             |apb                             |18     |17      |0       |18      |0       |0       |
-|    DUT_FIFO_TX                         |i2c_fifo                        |51     |51      |0       |14      |0       |0       |
-|    DUT_I2C_INTERNAL_RX_TX              |module_i2c                      |331    |239     |92      |46      |0       |0       |
+|    u1                                  |util_gmii_to_rgmii              |12     |12      |0       |10      |0       |0       |
+|  i2c                                   |i2c                             |387    |294     |92      |83      |0       |0       |
+|    DUT_APB                             |apb                             |20     |19      |0       |20      |0       |0       |
+|    DUT_FIFO_TX                         |i2c_fifo                        |52     |52      |0       |14      |0       |0       |
+|    DUT_I2C_INTERNAL_RX_TX              |module_i2c                      |315    |223     |92      |49      |0       |0       |
 |  ledwater                              |ledwater                        |64     |57      |6       |39      |0       |0       |
-|  pwm_dac                               |pwm                             |499    |356     |132     |49      |0       |0       |
+|  pwm_dac                               |pwm                             |487    |355     |132     |41      |0       |0       |
+|  u_RSSI_APB                            |RSSI_APB_interface              |1      |1       |0       |1       |0       |0       |
 |  u_SNR_APB                             |SNR_APB_interface               |1      |1       |0       |1       |0       |0       |
-|  u_logic                               |cortexm0ds_logic                |5943   |5884    |59      |1508    |0       |3       |
-|  u_spi_master                          |apb_spi_master                  |992    |940     |41      |594     |0       |0       |
-|    u_axiregs                           |spi_master_apb_if               |132    |128     |0       |132     |0       |0       |
-|    u_rxfifo                            |spi_master_fifo                 |15     |15      |0       |9       |0       |0       |
-|    u_spictrl                           |spi_master_controller           |493    |452     |41      |162     |0       |0       |
-|      u_clkgen                          |spi_master_clkgen               |64     |59      |5       |23      |0       |0       |
-|      u_rxreg                           |spi_master_rx                   |70     |52      |18      |29      |0       |0       |
-|      u_txreg                           |spi_master_tx                   |332    |314     |18      |107     |0       |0       |
-|    u_txfifo                            |spi_master_fifo                 |352    |345     |0       |291     |0       |0       |
+|  u_logic                               |cortexm0ds_logic                |5958   |5895    |59      |1531    |0       |3       |
+|  u_spi_master                          |apb_spi_master                  |982    |938     |41      |578     |0       |0       |
+|    u_axiregs                           |spi_master_apb_if               |120    |118     |0       |120     |0       |0       |
+|    u_rxfifo                            |spi_master_fifo                 |16     |16      |0       |7       |0       |0       |
+|    u_spictrl                           |spi_master_controller           |523    |482     |41      |175     |0       |0       |
+|      u_clkgen                          |spi_master_clkgen               |55     |50      |5       |20      |0       |0       |
+|      u_rxreg                           |spi_master_rx                   |70     |52      |18      |32      |0       |0       |
+|      u_txreg                           |spi_master_tx                   |374    |356     |18      |122     |0       |0       |
+|    u_txfifo                            |spi_master_fifo                 |323    |322     |0       |276     |0       |0       |
 +------------------------------------------------------------------------------------------------------------------------------+
 
 
 DataNet Average Fanout:
 
-   Index     Fanout     Nets  
-    #1          1       7805  
-    #2          2       3108  
-    #3          3       1369  
-    #4          4       741   
-    #5        5-10      1086  
-    #6        11-50     754   
-    #7       51-100      22   
-    #8       101-500     1    
-  Average     3.20            
+   Index     Fanout    Nets  
+    #1         1       7782  
+    #2         2       3132  
+    #3         3       1367  
+    #4         4       740   
+    #5        5-10     1090  
+    #6       11-50     756   
+    #7       51-100     22   
+    #8        >500      1    
+  Average     3.20           

@@ -11,7 +11,6 @@ void QN8027_Frequency_calc(uint32_t *F_rf,uint32_t *P_out,uint32_t *F_offset,QN8
     uint32_t frequency_c;
     uint32_t powerout_c;
     uint32_t Foffset_c;
-    uint32_t f;
     frequency_c = (*F_rf - 760 ) * 2;
     if(*P_out > 117 || *P_out < 84){
         while(1);

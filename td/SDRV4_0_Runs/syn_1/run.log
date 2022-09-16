@@ -1,10 +1,10 @@
 ============================================================
    Tang Dynasty, V5.6.53426
    Copyright (c) 2012-2022 Anlogic
-   Executable = D:/anlogic/TD5.6.1/bin/td.exe
+   Executable = D:/Anlogic/TD5.6.1/bin/td.exe
    Built at =   19:26:25 Jun 10 2022
    Run by =     Spica
-   Run Date =   Fri Jul  8 10:22:10 2022
+   Run Date =   Fri Aug 19 22:27:03 2022
 
    Run on =     LAPTOP-1TLPN50G
 ============================================================
@@ -321,10 +321,10 @@ HDL-5007 WARNING: latch inferred for net 'w_counter[3]' in ../../../rtl/I2C/fifo
 HDL-1007 : elaborate module apb in ../../../rtl/I2C/apb.v(79)
 HDL-1007 : elaborate module module_i2c in ../../../rtl/I2C/module_i2c.v(80)
 HDL-1007 : elaborate module ADC in ../../../rtl/ip/ADC.v(14)
-HDL-1007 : elaborate module EG_PHY_ADC(CH4="ENABLE",CH6="ENABLE") in D:/anlogic/TD5.6.1/arch/eagle_macro.v(1073)
+HDL-1007 : elaborate module EG_PHY_ADC(CH4="ENABLE",CH6="ENABLE") in D:/Anlogic/TD5.6.1/arch/eagle_macro.v(1073)
 HDL-1007 : elaborate module PLL in ../../../rtl/ip/PLL.v(26)
-HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/anlogic/TD5.6.1/arch/eagle_macro.v(8)
-HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=4,CLKC0_DIV=6,CLKC1_DIV=75,CLKC2_DIV=50,CLKC3_DIV=24,CLKC4_DIV=100,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",CLKC0_CPHASE=5,CLKC1_CPHASE=74,CLKC2_CPHASE=49,CLKC3_CPHASE=23,CLKC4_CPHASE=99,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/anlogic/TD5.6.1/arch/eagle_macro.v(929)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:/Anlogic/TD5.6.1/arch/eagle_macro.v(8)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000",FBCLK_DIV=4,CLKC0_DIV=6,CLKC1_DIV=75,CLKC2_DIV=50,CLKC3_DIV=24,CLKC4_DIV=100,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",CLKC0_CPHASE=5,CLKC1_CPHASE=74,CLKC2_CPHASE=49,CLKC3_CPHASE=23,CLKC4_CPHASE=99,GMC_GAIN=4,ICP_CURRENT=13,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=4,SYNC_ENABLE="DISABLE") in D:/Anlogic/TD5.6.1/arch/eagle_macro.v(929)
 HDL-1007 : elaborate module pwm in ../../../rtl/PWM.v(1)
 HDL-1007 : elaborate module differentiator in ../../../rtl/differentiator01.v(1)
 HDL-1007 : elaborate module filter in ../../../rtl/filter.v(1)
@@ -333,13 +333,13 @@ HDL-1007 : elaborate module ethernet in ../../../rtl/ethernet/ethernet.v(1)
 HDL-1007 : elaborate module Ethernet_TX in ../../../rtl/ethernet/Ethernet_TX.v(1)
 HDL-1007 : elaborate module CRC32_D8 in ../../../rtl/ethernet/CRC32_D8.v(19)
 HDL-1007 : elaborate module fifo8in in ../../../rtl/ip/fifo8in.v(14)
-HDL-1007 : elaborate module EG_LOGIC_FIFO(DATA_WIDTH_W=8,DATA_WIDTH_R=8,DATA_DEPTH_W=512,DATA_DEPTH_R=512,AF=10,F=512,ENDIAN="BIG") in D:/anlogic/TD5.6.1/arch/eagle_macro.v(142)
+HDL-1007 : elaborate module EG_LOGIC_FIFO(DATA_WIDTH_W=8,DATA_WIDTH_R=8,DATA_DEPTH_W=512,DATA_DEPTH_R=512,AF=10,F=512,ENDIAN="BIG") in D:/Anlogic/TD5.6.1/arch/eagle_macro.v(142)
 HDL-1007 : elaborate module counter_fifo in ../../../rtl/ethernet/counter_test.v(1)
 HDL-1007 : elaborate module util_gmii_to_rgmii in ../../../rtl/ethernet/util_gmii_to_rgmii_new.v(2)
 HDL-1007 : elaborate module oddr in ../../../rtl/ip/oddr.v(14)
-HDL-1007 : elaborate module EG_LOGIC_ODDR in D:/anlogic/TD5.6.1/arch/eagle_macro.v(87)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:/Anlogic/TD5.6.1/arch/eagle_macro.v(87)
 HDL-1007 : elaborate module iddr in ../../../rtl/ip/iddr.v(14)
-HDL-1007 : elaborate module EG_LOGIC_IDDR in D:/anlogic/TD5.6.1/arch/eagle_macro.v(76)
+HDL-1007 : elaborate module EG_LOGIC_IDDR in D:/Anlogic/TD5.6.1/arch/eagle_macro.v(76)
 HDL-1007 : elaborate module apb_ledwater in ../../../rtl/led_water/apb_ledwater.v(1)
 HDL-1007 : elaborate module ledwater in ../../../rtl/led_water/ledwater.v(1)
 HDL-5007 WARNING: net 'BDMAC_PREADY' does not have a driver in ../../../rtl/SDR_Pad.v(487)
@@ -352,9 +352,9 @@ HDL-1200 : Current top model is SDR_Pad
 HDL-1100 : Inferred 7 RAMs.
 ARC-1002 : Mark IO location M12 as dedicate.
 ARC-1002 : Mark IO location P12 as dedicate.
-RUN-1003 : finish command "elaborate -top SDR_Pad" in  3.004846s wall, 2.734375s user + 0.234375s system = 2.968750s CPU (98.8%)
+RUN-1003 : finish command "elaborate -top SDR_Pad" in  3.372286s wall, 2.984375s user + 0.359375s system = 3.343750s CPU (99.2%)
 
-RUN-1004 : used memory is 261 MB, reserved memory is 238 MB, peak memory is 575 MB
+RUN-1004 : used memory is 263 MB, reserved memory is 240 MB, peak memory is 575 MB
 RUN-1002 : start command "export_db SDRV4_0_elaborate.db"
 RUN-1001 : Exported /
 RUN-1001 : Exported flow parameters
@@ -370,9 +370,9 @@ RUN-1001 : Exported congestions
 RUN-1001 : Exported violations
 RUN-1001 : Exported IO constraints
 RUN-1001 : Exported Inst constraints
-RUN-1003 : finish command "export_db SDRV4_0_elaborate.db" in  1.145998s wall, 1.640625s user + 0.062500s system = 1.703125s CPU (148.6%)
+RUN-1003 : finish command "export_db SDRV4_0_elaborate.db" in  1.174271s wall, 1.703125s user + 0.125000s system = 1.828125s CPU (155.7%)
 
-RUN-1004 : used memory is 268 MB, reserved memory is 252 MB, peak memory is 575 MB
+RUN-1004 : used memory is 269 MB, reserved memory is 253 MB, peak memory is 575 MB
 RUN-1002 : start command "read_adc ../../../pin/pin_anlogic.adc"
 RUN-1002 : start command "set_pin_assignment  clk_in   LOCATION = R7; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = A9; IOSTANDARD = LVCMOS33; "
@@ -409,8 +409,8 @@ RUN-1002 : start command "set_pin_assignment  LCD_DATA[15]   LOCATION = E3; IOST
 RUN-1002 : start command "set_pin_assignment  PWM_out   LOCATION = H11; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = P2; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = R2; IOSTANDARD = LVCMOS33; "
-RUN-1002 : start command "set_pin_assignment  RXD   LOCATION = F13; IOSTANDARD = LVCMOS33; "
-RUN-1002 : start command "set_pin_assignment  TXD   LOCATION = F15; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  RXD   LOCATION = F12; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  TXD   LOCATION = D12; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  BGM_sw   LOCATION = A10; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  SPI_CLK   LOCATION = M9; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  MSI001_clk   LOCATION = R15; IOSTANDARD = LVCMOS33; "
@@ -458,7 +458,7 @@ RUN-1002 : start command "set_pin_assignment  LED_Out[6]   LOCATION = E16; IOSTA
 RUN-1002 : start command "set_pin_assignment  LED_Out[7]   LOCATION = F16; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "set_pin_assignment  wren   LOCATION = J12; IOSTANDARD = LVCMOS33; "
 RUN-1002 : start command "optimize_rtl"
-RUN-1001 : Open license file D:/anlogic/TD5.6.1/license/Anlogic.lic
+RUN-1001 : Open license file D:/Anlogic/TD5.6.1/license/Anlogic.lic
 RUN-1001 : Print Global Property
 RUN-1001 : ---------------------------------------------------------------
 RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
@@ -728,9 +728,9 @@ SYN-1032 : 30287/43 useful/useless nets, 27829/45 useful/useless insts
 SYN-1015 : Optimize round 3, 47 better
 SYN-1014 : Optimize round 4
 SYN-1015 : Optimize round 4, 0 better
-RUN-1003 : finish command "optimize_rtl" in  17.004121s wall, 16.171875s user + 0.828125s system = 17.000000s CPU (100.0%)
+RUN-1003 : finish command "optimize_rtl" in  18.448221s wall, 17.218750s user + 1.109375s system = 18.328125s CPU (99.3%)
 
-RUN-1004 : used memory is 306 MB, reserved memory is 281 MB, peak memory is 575 MB
+RUN-1004 : used memory is 305 MB, reserved memory is 281 MB, peak memory is 575 MB
 RUN-1002 : start command "report_area -file SDRV4_0_rtl.area"
 RUN-1001 : standard
 ***Report Model: SDR_Pad Device: EG4S20BG256***
@@ -882,9 +882,9 @@ RUN-1001 : Exported congestions
 RUN-1001 : Exported violations
 RUN-1001 : Exported IO constraints
 RUN-1001 : Exported Inst constraints
-RUN-1003 : finish command "export_db SDRV4_0_rtl.db" in  1.312290s wall, 2.062500s user + 0.046875s system = 2.109375s CPU (160.7%)
+RUN-1003 : finish command "export_db SDRV4_0_rtl.db" in  1.417869s wall, 2.218750s user + 0.078125s system = 2.296875s CPU (162.0%)
 
-RUN-1004 : used memory is 321 MB, reserved memory is 298 MB, peak memory is 575 MB
+RUN-1004 : used memory is 305 MB, reserved memory is 282 MB, peak memory is 575 MB
 RUN-1002 : start command "read_sdc ../../../pin/timing_cons.sdc"
 USR-1009 : NO module with IP_SDC ...
 RUN-1002 : start command "get_nets  clk "
@@ -916,7 +916,7 @@ RUN-1002 : start command "get_clocks rgmii_rxcl"
 RUN-1002 : start command "set_false_path -from  -to "
 RUN-1104 : Import SDC file ../../../pin/timing_cons.sdc finished, there are 3 nets kept by constraints.
 RUN-1002 : start command "optimize_gate -maparea SDRV4_0_gate.area"
-RUN-1001 : Open license file D:/anlogic/TD5.6.1/license/Anlogic.lic
+RUN-1001 : Open license file D:/Anlogic/TD5.6.1/license/Anlogic.lic
 RUN-1001 : Print Global Property
 RUN-1001 : ---------------------------------------------------------------
 RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
@@ -1041,9 +1041,9 @@ TMR-2505 : Start building timing graph for model SDR_Pad.
 TMR-2506 : Build timing graph completely. Port num: 46, tpin num: 106245, tnet num: 35828, tinst num: 33350, tnode num: 116211, tedge num: 144482.
 TMR-2508 : Levelizing timing graph completed, there are 653 levels in total.
 TMR-2501 : Timing graph initialized successfully.
-RUN-1003 : finish command "start_timer -prepack" in  1.398528s wall, 1.359375s user + 0.046875s system = 1.406250s CPU (100.6%)
+RUN-1003 : finish command "start_timer -prepack" in  1.405823s wall, 1.359375s user + 0.046875s system = 1.406250s CPU (100.0%)
 
-RUN-1004 : used memory is 465 MB, reserved memory is 447 MB, peak memory is 575 MB
+RUN-1004 : used memory is 466 MB, reserved memory is 448 MB, peak memory is 575 MB
 TMR-2503 : Start to update net delay, extr mode = 2.
 TMR-2504 : Update delay of 35828 nets completely.
 TMR-2502 : Annotate delay completely, extr mode = 2.
@@ -1057,7 +1057,7 @@ SYN-3001 : Running gate level optimization.
 SYN-2581 : Mapping with K=5, #lut = 8408 (3.86), #lev = 20 (6.66)
 SYN-2551 : Post LUT mapping optimization.
 SYN-2581 : Mapping with K=5, #lut = 8495 (3.77), #lev = 19 (6.67)
-SYN-3001 : Logic optimization runtime opt =   1.83 sec, map =   0.00 sec
+SYN-3001 : Logic optimization runtime opt =   1.97 sec, map =   0.00 sec
 SYN-3001 : Mapper mapped 26607 instances into 8521 LUTs, name keeping = 38%.
 SYN-3001 : Mapper removed 2 lut buffers
 RUN-1002 : start command "report_area -file SDRV4_0_gate.area"
@@ -1203,9 +1203,9 @@ SYN-4007 : Packing 0 gate4 to BLE ...
 SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
 SYN-4012 : Packed 0 FxMUX
 SYN-4013 : Packed 27 DRAM and 17 SEQ.
-RUN-1003 : finish command "optimize_gate -maparea SDRV4_0_gate.area" in  23.434644s wall, 23.093750s user + 0.328125s system = 23.421875s CPU (99.9%)
+RUN-1003 : finish command "optimize_gate -maparea SDRV4_0_gate.area" in  24.508573s wall, 24.171875s user + 0.265625s system = 24.437500s CPU (99.7%)
 
-RUN-1004 : used memory is 422 MB, reserved memory is 420 MB, peak memory is 601 MB
+RUN-1004 : used memory is 378 MB, reserved memory is 375 MB, peak memory is 603 MB
 RUN-1002 : start command "legalize_phy_inst"
 SYN-1011 : Flatten model SDR_Pad
 RUN-1002 : start command "export_db SDRV4_0_gate.db"
@@ -1224,8 +1224,8 @@ RUN-1001 : Exported violations
 RUN-1001 : Exported timing constraints
 RUN-1001 : Exported IO constraints
 RUN-1001 : Exported Inst constraints
-RUN-1003 : finish command "export_db SDRV4_0_gate.db" in  1.723388s wall, 2.906250s user + 0.015625s system = 2.921875s CPU (169.5%)
+RUN-1003 : finish command "export_db SDRV4_0_gate.db" in  1.839639s wall, 3.062500s user + 0.062500s system = 3.125000s CPU (169.9%)
 
-RUN-1004 : used memory is 441 MB, reserved memory is 444 MB, peak memory is 601 MB
-RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20220708_102210.log"
+RUN-1004 : used memory is 390 MB, reserved memory is 374 MB, peak memory is 603 MB
+RUN-1002 : start command "backup_run_log run.log ../.logs/syn_1/td_20220819_222703.log"
 RUN-1001 : Backing up run's log file succeed.

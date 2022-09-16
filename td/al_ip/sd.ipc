@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SDRAMConfig>
+    <GeneralConfig>
+        <Type>EG_PHY_SDRAM</Type>
+        <Device>EG4</Device>
+        <create_VHDL>true</create_VHDL>
+        <inst>sd</inst>
+    </GeneralConfig>
+    <GeneratedFiles>
+        <Verilog Enable="true">sd.v</Verilog>
+        <VHDL Enable="false">sd.vhd</VHDL>
+    </GeneratedFiles>
+</SDRAMConfig>
